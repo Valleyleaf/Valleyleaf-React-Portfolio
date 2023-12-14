@@ -55,15 +55,27 @@ h3 {
   flex-direction: column;
 }
 
-/* Header Specials */
+/* Header/footer Specials */
+.header-Styling{
+  background-color: var(--metalic);
+  
+}
+
+.header-Text{
+  color: var(--white);
+}
+
+.header-divider{
+  background-color: var(--metalic);
+  padding: 8px;
+}
+
 
 /* NavBar */
-
+.nav-Button{
+  padding: 5px;
+}
 /* Project */
-
-/* Footer */
-
-
 
 /* Dropdown menu */
 

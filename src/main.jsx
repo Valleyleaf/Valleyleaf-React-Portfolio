@@ -7,7 +7,7 @@ import About from './components/AboutMe.jsx'
 import Portfolio from './components/ProjectCard.jsx'
 import Contact from './components/Contact.jsx'
 import Resume from './components/Resume.jsx'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 const router = createBrowserRouter([
   {
     path: '/',

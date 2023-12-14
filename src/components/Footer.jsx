@@ -3,8 +3,8 @@ import { useState } from "react";
 
 export default function Footer(){
     return (
-      <div className='flex-container center-content flex-container-columns'>
-        <p>Copyright Aston Andersson Dahllof 2023©</p>
+      <div className='flex-container center-content flex-container-columns header-Styling'>
+        <p className='header-Text'>Copyright Aston Andersson Dahllof 2023©</p>
         <div className='flex-container center-content flex-container-row' >
           
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">

@@ -6,8 +6,9 @@ export default function NavBar(){
   const currentPage = useLocation().pathname;
     // console.log('NavBar Activated')
     return (
-      <div>
-        <nav>
+      <div className='flex-container flex-container-columns'>
+        <nav className='flex-container flex-container-row'>
+          <div className='nav-Button'>
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
@@ -16,25 +17,35 @@ export default function NavBar(){
           About Me
           
         </Link>
+        </div>
+        <div className='nav-Button'>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
         </Link>
+        </div>
+        <div className='nav-Button'>
         <Link
           to="/Contact"
           className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </Link>
+        </div>
+        <div className='nav-Button'>
         <Link
           to="/Resume"
           className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </Link>
+        </div>
         </nav>
+        <div className='header-divider'>
+        
+        </div>
       </div>
     );
   }
