@@ -12,7 +12,6 @@ function App() {
     <div>
       <Header/>
       <NavBar/>
-      <Project/>
       <Outlet/>
       <Footer/>
     </div>

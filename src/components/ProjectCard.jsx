@@ -3,9 +3,9 @@ import { useState } from "react";
 export default function Portfolio(){
 
     return (
-      <div className="container text-center">
+      <div className='flex-container center-content flex-container-columns'>
         <div>
-          <img src="/src//assets/Placeholder Image.png" alt="PlaceholderImage" />
+          <p>portfolio</p>
             {/* <p>{summary}</p>
               <a href={'[LinkgoHere]'} target="[AddPathHere]" rel="">
               View Project
@@ -18,6 +18,6 @@ export default function Portfolio(){
   //This will contain my projects. I will be passing an item out of an array which will be kept in another component.
   //This lets me change what is being passed into my cards.
 
-  //This should use 
+  //This needs to use useState to ensure it keeps the project visable.
 
 
