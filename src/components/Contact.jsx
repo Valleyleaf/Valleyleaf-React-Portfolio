@@ -31,8 +31,15 @@ const Contact = () => {
 
   return (
     <div>
-      <div className='flex-container center-content flex-container-columns'>
-        <form onSubmit={handleSubmit}>
+      <div className='flex-container flex-container-row'>
+        <div>
+        <h2>Contact Me</h2>
+        <p>If you are interested in my work, please feel free <br />
+          to contact me using the form to the right.
+        </p>
+        </div>
+        <form className='contactMe'
+        onSubmit={handleSubmit}>
           <label>
             Name: 
             <input

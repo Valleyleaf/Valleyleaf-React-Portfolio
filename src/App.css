@@ -10,6 +10,7 @@
     --metalic: #272727;
     --white: #fcfcfc;
     --black: #000000;
+    --test: #ffcaca;
   
 }
 /* Main components */
@@ -35,7 +36,26 @@ h3 {
   font-size: 20px;
 }
 
+p{
+  padding: 8px;
+}
 
+Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+Label {
+  padding: 5px;
+  margin: 15px;
+  background-color: var(--test);
+}
+
+
+/* Flex & Directions */
 .flex-container {
   display: flex;
 }
@@ -55,10 +75,50 @@ h3 {
   flex-direction: column;
 }
 
+.keepLeft{
+  display: flex;
+  float: left;
+
+}
+
+.keepRight{
+  display: flex;
+  float: right;
+
+}
+
+.keepTop{
+  display: flex;
+  position: static;
+  float: inline-start;
+}
+
+.keepBottom{
+  display: flex;
+  position: static;
+  min-height: 100vh;
+}
+
 /* Header/footer Specials */
 .header-Styling{
   background-color: var(--metalic);
   
+}
+
+.noWrap{
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 450px;
+  min-width: 270px;
+}
+
+.footer-Bottom{
+  margin-top: auto;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:130px;
 }
 
 .header-Text{
@@ -70,11 +130,47 @@ h3 {
   padding: 8px;
 }
 
-
 /* NavBar */
+
 .nav-Button{
   padding: 5px;
 }
+
+.nav-active{
+  text-decoration: dashed;
+  background: var(--metalic);
+  padding: 10px;
+  color: var(--white);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* ContactMe */
+.contactMe{
+  background-color: var(--metalic);
+}
+
+/* Img */
+
+.profile-img{
+  width: 450px;
+  height: 450px;
+  border-radius: 35px;
+  padding: 15px;
+}
+
+.small-img{
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+}
+
+.small-img:hover{
+  width: 75px;
+  height: 75px;
+  padding: 8px;
+}
+
 /* Project */
 
 /* Dropdown menu */
