@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PortfolioContent from "./Portfolio";
+import { slideTitle, slideContent, slideImage } from "../utils/slideContent";
 
 
 export default function Portfolio(){
@@ -7,7 +8,6 @@ export default function Portfolio(){
     return (
       <div className='flex-container center-content flex-container-columns'>
         <div>
-          <p>portfolio</p>
           <PortfolioContent/>
         </div>
       </div>

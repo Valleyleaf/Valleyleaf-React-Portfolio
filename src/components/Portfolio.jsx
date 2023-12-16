@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { slideTitle, slideContent, slideImage } from "../utils/slideContent";
+import slider from "../utils/carouselFunction";
 
 const projectSlide = 0;
 
@@ -6,11 +8,16 @@ export default function PortfolioContent(){
 
     return (
       <div>
+        <div className="flex-container flex-container-row">
+        <button className="portfolio-Button-Previous">Previous</button>
         <div className='flex-container center-content flex-container-row flex-Carousel'>
-          <p>Left Arrow</p>
-          <img className='portfolio-img' src="/src//assets/Placeholder Image.png" alt="Placeholder"/>
-          <p>Right Arrow</p>
+          <h2>{slideTitle[projectSlide]}</h2>
+          <img className='portfolio-img' src= {slideImage[projectSlide]} alt="Placeholder"/>
+          <p>{slideContent[projectSlide]}</p>
         </div>
+        <button className="portfolio-Button-Next">Next</button>
+      </div>
+      <script src="../utils/carouselFunction"></script>
       </div>
     );
   }

@@ -9,7 +9,6 @@ export default function NavBar(){
       link.className.remove('nav-active');
     });
     event.target.className.add('nav-active');
-    console.log('WHY THIS NO WORK []')
   };
 // Divider
     return (
