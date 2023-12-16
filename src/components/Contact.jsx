@@ -31,11 +31,11 @@ const Contact = () => {
 
   return (
     <div>
-      <div className='flex-container flex-container-row'>
-        <div>
+      <div className='flex-container flex-container-columns'>
+        <div className='flex-container flex-container-columns center-content'>
         <h2>Contact Me</h2>
         <p>If you are interested in my work, please feel free <br />
-          to contact me using the form to the right.
+          to contact me using the form below.
         </p>
         </div>
         <form className='contactMe'

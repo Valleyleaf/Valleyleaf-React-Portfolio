@@ -1,18 +1,21 @@
 import { useState } from "react";
-import PortfolioContent from "./Portfolio";
 
+const projectSlide = 0;
 
-export default function Portfolio(){
+export default function PortfolioContent(){
 
     return (
-      <div className='flex-container center-content flex-container-columns'>
-        <div>
-          <p>portfolio</p>
-          <PortfolioContent/>
+      <div>
+        <div className='flex-container center-content flex-container-row flex-Carousel'>
+          <p>Left Arrow</p>
+          <img className='portfolio-img' src="/src//assets/Placeholder Image.png" alt="Placeholder"/>
+          <p>Right Arrow</p>
         </div>
       </div>
     );
   }
+
+
 
   //This will contain my projects. I will be passing an item out of an array which will be kept in another component.
   //This lets me change what is being passed into my cards.

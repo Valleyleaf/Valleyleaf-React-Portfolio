@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import { Document } from 'react-pdf'
+// import { Document } from 'react-pdf'
 
 export default function Resume(){
     return (

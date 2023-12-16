@@ -51,13 +51,18 @@ Form {
 Label {
   padding: 5px;
   margin: 15px;
-  background-color: var(--test);
+  color: var(--white);
 }
 
 
 /* Flex & Directions */
 .flex-container {
   display: flex;
+}
+
+.flex-Carousel{
+  display: flex;
+  flex: 3;
 }
 
 .center-content {
@@ -157,6 +162,12 @@ Label {
   height: 450px;
   border-radius: 35px;
   padding: 15px;
+}
+
+.portfolio-img{
+  width: 800x;
+  height: 1000px;
+  padding: 8px;
 }
 
 .small-img{

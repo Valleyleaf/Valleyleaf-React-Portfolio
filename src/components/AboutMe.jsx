@@ -8,14 +8,10 @@ export default function About(){
           <div className='flex-container  flex-container-columns center-content'>
           <h2>About me</h2>
           <div className='noWrap'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p>Hey there! Welcome to my corner of the internet. I'm a versatile professional juggling a mix of tech and creativity. Started out in IT sales and people management, and now I'm diving into the coding world through a bootcamp as it has always been a latient passion .</p>
+          <p>I dabble in multimedia creation – think photos, videos, and sounds. Don't hire me for sound editing, I am completely tone-deaf despite all my efforts to complete my editing trifecta.  When I'm not in front of my monitor, you'll find me lost in the world of art, painting, and creating things just for the fun of it.</p>
+          <p>Join me as I navigate the wild mix of creativity and code. It's a bit of a crazy ride, but it's my way of shaping the future with a touch of innovation and a whole lot of artistic expression.</p>
+
             </div>
           </div>
           <img className='profile-img' src="/src//assets/ProfilePicture.jpg" alt="PlaceholderImage" />
