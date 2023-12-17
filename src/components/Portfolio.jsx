@@ -5,19 +5,38 @@ import slider from "../utils/carouselFunction";
 const projectSlide = 0;
 
 export default function PortfolioContent(){
+  const [projectSlide, setProjectSlide] = useState(0);
+
+  const handlePreviousClick = () => {
+    slider('subtract', projectSlide, setProjectSlide);
+  };
+
+  const handleNextClick = () => {
+    slider('add', projectSlide, setProjectSlide);
+  };
+
 
     return (
       <div>
         <div className="flex-container flex-container-row">
-        <button className="portfolio-Button-Previous">Previous</button>
+        <button id="portfolio-Button-Previous" 
+        onClick={handlePreviousClick}>Previous
+        </button>
+
         <div className='flex-container center-content flex-container-row flex-Carousel'>
           <h2>{slideTitle[projectSlide]}</h2>
-          <img className='portfolio-img' src= {slideImage[projectSlide]} alt="Placeholder"/>
+
+        <img  className='portfolio-img' 
+              src= {slideImage[projectSlide]} 
+              alt="Placeholder"/>
+
           <p>{slideContent[projectSlide]}</p>
+          
         </div>
-        <button className="portfolio-Button-Next">Next</button>
+        <button id="portfolio-Button-Next"
+        onClick={handleNextClick}>Next
+        </button>
       </div>
-      <script src="../utils/carouselFunction"></script>
       </div>
     );
   }

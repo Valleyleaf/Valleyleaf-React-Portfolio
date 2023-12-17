@@ -14,7 +14,7 @@ export default function NavBar(){
     return (
       <div className='flex-container flex-container-columns'>
         <nav className='flex-container flex-container-row'>
-          <div className='nav-Button'>
+          <div className='nav-Button buttonRed'>
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-active' : 'nav-link'}
@@ -23,7 +23,7 @@ export default function NavBar(){
           About Me
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className='nav-Button buttonGreen'>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
@@ -32,7 +32,7 @@ export default function NavBar(){
           Portfolio
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className='nav-Button buttonBlue'>
         <Link
           to="/Contact"
           className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
@@ -41,7 +41,7 @@ export default function NavBar(){
           Contact
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className='nav-Button buttonYellow'>
         <Link
           to="/Resume"
           className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}

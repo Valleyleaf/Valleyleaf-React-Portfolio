@@ -6,23 +6,22 @@ const subtractButton = document.getElementById('portfolio-Button-Previous')
 const addButton = document.getElementById('portfolio-Button-Next')
 
 subtractButton.addEventListener('click', subtract);
+addButton.addEventListener('click', add);
+
+
 function subtract() {
-    console.log('Subtracting')
     slide = (slide - 1) < 0 ? 4 : slide - 1;
     updateNumber();
+    return slide;
 }
-
-addButton.addEventListener('click', add);
 function add() {
-    console.log('Adding')
     slide = (slide + 1) > 4 ? 1 : slide + 1;
     updateNumber();
+    return slide;
 }
-
-
 function updateNumber() {
     console.log(`Current slide: ${slide}`);
 }
 };
 
-export default {slider}
+export default slider

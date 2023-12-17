@@ -141,6 +141,28 @@ Label {
   padding: 5px;
 }
 
+/* .buttonRed{
+  background: #fd7272;
+  padding: 5px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.buttonGreen{
+  background: #78f88d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.buttonBlue{
+  background: #78ebfa;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.buttonYellow{
+  background: #faf87a;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+} */
+
 .nav-active{
   text-decoration: dashed;
   background: var(--metalic);
@@ -184,14 +206,14 @@ Label {
 }
 
 /* Buttons */
-.portfolio-Button-Next {
+#portfolio-Button-Next {
   display: flex;
   size: 20%;
   color: var(--white);
   background-color: var(--black);
 }
 
-.portfolio-Button-Previous {
+#portfolio-Button-Previous {
   display: flex;
   size: 20%;
   color: var(--white);
