@@ -1,6 +1,6 @@
 let slideImage = [
-   '../src/assets/ProfilePicture.jpg',
-   '../src/assets/ProfilePicture.jpg',
+   '../src/assets/moodMusicExample.png',
+   '../src/assets/Project1ExampleImage.PNG',
    '../src/assets/ProfilePicture.jpg',
    '../src/assets/ProfilePicture.jpg',
    '../src/assets/ProfilePicture.jpg'

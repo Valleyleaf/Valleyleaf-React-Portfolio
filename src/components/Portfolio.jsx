@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { slideTitle, slideContent, slideImage } from "../utils/slideContent";
-import slider from "../utils/carouselFunction";
 
 const projectSlide = 0;
 
@@ -8,32 +7,38 @@ export default function PortfolioContent(){
   const [projectSlide, setProjectSlide] = useState(0);
 
   const handlePreviousClick = () => {
-    slider('subtract', projectSlide, setProjectSlide);
+    setProjectSlide((prevSlide) => (prevSlide - 1 + slideImage.length) % slideImage.length);
+    console.log('subtracting -');
   };
 
   const handleNextClick = () => {
-    slider('add', projectSlide, setProjectSlide);
+    setProjectSlide((prevSlide) => (prevSlide + 1) % slideImage.length);
+    console.log('adding +');
+  };
+
+  const backgroundImageStyle = {
+    backgroundImage: `url(${slideImage[projectSlide]})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '1200px',
+    height: '800px',
   };
 
 
     return (
       <div>
-        <div className="flex-container flex-container-row">
-        <button id="portfolio-Button-Previous" 
+        <div style={backgroundImageStyle} className="flex-container flex-container-row Portfolio-framing flex-Carousel">
+        <button id="portfolio-Button-Previous" className="center-content" 
         onClick={handlePreviousClick}>Previous
         </button>
 
         <div className='flex-container center-content flex-container-row flex-Carousel'>
-          <h2>{slideTitle[projectSlide]}</h2>
-
-        <img  className='portfolio-img' 
-              src= {slideImage[projectSlide]} 
-              alt="Placeholder"/>
-
-          <p>{slideContent[projectSlide]}</p>
+          <h2 className="keepLeft">{slideTitle[projectSlide]}</h2>
+          
+          <p className="keepRight">{slideContent[projectSlide]}</p>
           
         </div>
-        <button id="portfolio-Button-Next"
+        <button id="portfolio-Button-Next" className="center-content" 
         onClick={handleNextClick}>Next
         </button>
       </div>

@@ -187,9 +187,8 @@ Label {
 }
 
 .portfolio-img{
-  size: 80%;
-  width: 800x;
-  height: 1000px;
+  width: 900px;
+  height: 500px;
   padding: 8px;
 }
 
@@ -209,6 +208,7 @@ Label {
 #portfolio-Button-Next {
   display: flex;
   size: 20%;
+  padding: 35px;
   color: var(--white);
   background-color: var(--black);
 }
@@ -219,6 +219,14 @@ Label {
   color: var(--white);
   background-color: var(--black);
 }
+
+/* Project Slides */
+
+.Portfolio-framing{
+  margin: 10px;
+  border: 5px;
+}
+
 
 /* Dropdown menu */
 
