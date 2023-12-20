@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { slideTitle, slideContent, slideImage } from "../utils/slideContent";
+import { slideTitle, slideContent, slideImage, slideLink } from "../utils/slideContent";
 
 const projectSlide = 0;
 
@@ -27,16 +27,21 @@ export default function PortfolioContent(){
 
     return (
       <div>
-        <div style={backgroundImageStyle} className="flex-container flex-container-row Portfolio-framing flex-Carousel">
+        <div style={backgroundImageStyle} className="flex-container flex-container-row Portfolio-framing flex-Carousel gradient-overlay">
         <button id="portfolio-Button-Previous" className="center-content" 
         onClick={handlePreviousClick}>Previous
         </button>
 
-        <div className='flex-container center-content flex-container-row flex-Carousel'>
-          <h2 className="keepLeft">{slideTitle[projectSlide]}</h2>
+        <div id="outerFrame" className='flex-container center-content flex-container-row flex-Carousel'>
+          <div id="innerFrameUpper">
+          <h2 className="keepLeft content-Text">{slideTitle[projectSlide]}</h2>
+          </div>
+
+          <div id="innerFrameBottom">
           
-          <p className="keepRight">{slideContent[projectSlide]}</p>
-          
+          <p className="keepRight content-Text noWrap">{slideContent[projectSlide]}</p>
+          <div id="innerFrameBottom" className="flex-container deploy-ButtonStyle"><a href={slideLink[projectSlide]} target="_blank">Go to Deployed Project</a></div>
+          </div>
         </div>
         <button id="portfolio-Button-Next" className="center-content" 
         onClick={handleNextClick}>Next

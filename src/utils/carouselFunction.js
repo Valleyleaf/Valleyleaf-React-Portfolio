@@ -1,3 +1,5 @@
+// NOT IN USE
+
 let slide = 0; 
 
 const slider = function(){
@@ -27,5 +29,6 @@ function updateNumber() {
 };
 
 export default slider
+
 
 // Saving for potential future use. This function currently on has one use-case in the protfolio carousel so it makes no sense for it to be its own file.
