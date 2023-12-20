@@ -89,12 +89,14 @@ Button{
 .keepLeft{
   display: flex;
   float: left;
+  text-decoration: underline;
 
 }
 
 .keepRight{
   display: flex;
   float: right;
+  padding: 50px;
 
 }
 
@@ -240,21 +242,19 @@ Button{
 }
 
 .deploy-ButtonStyle{
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--white);
   padding: 5px;
   margin: 5px;
-  border-radius: 25px;
-  border: 1px solid transparent; 
 }
 
 .deploy-ButtonStyle:hover{
-  background-color: var(--black);
-  border-color: var(--white) 15px;
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid blue;
   padding: 5px;
   margin: 5px;
-  border-radius: 25px;
 }
 
 .gradient-overlay {
@@ -292,6 +292,13 @@ Button{
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 10px; 
+}
+
+#innerFrameBottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   margin: 10px; 
 }
 
