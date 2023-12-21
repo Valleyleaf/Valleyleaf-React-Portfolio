@@ -8,12 +8,10 @@ export default function PortfolioContent(){
 
   const handlePreviousClick = () => {
     setProjectSlide((prevSlide) => (prevSlide - 1 + slideImage.length) % slideImage.length);
-    console.log('subtracting -');
   };
 
   const handleNextClick = () => {
     setProjectSlide((prevSlide) => (prevSlide + 1) % slideImage.length);
-    console.log('adding +');
   };
 
   const backgroundImageStyle = {
@@ -26,7 +24,7 @@ export default function PortfolioContent(){
 
 
     return (
-      <div>
+      <>
         <div style={backgroundImageStyle} className="flex-container flex-container-row Portfolio-framing flex-Carousel gradient-overlay">
         <button id="portfolio-Button-Previous" className="center-content" 
         onClick={handlePreviousClick}>Previous
@@ -46,7 +44,7 @@ export default function PortfolioContent(){
         onClick={handleNextClick}>Next
         </button>
       </div>
-      </div>
+      </>
     );
   }
 

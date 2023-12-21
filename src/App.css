@@ -90,6 +90,7 @@ Button{
   display: flex;
   float: left;
   text-decoration: underline;
+  padding: 15px;
 
 }
 
@@ -300,6 +301,15 @@ Button{
   bottom: 0;
   left: 0;
   margin: 10px; 
+}
+
+.hidden-element {
+  visibility: hidden;
+}
+
+.warningTextForm{
+  font-size: 15px;
+  color: red;
 }
 
 

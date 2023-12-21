@@ -1,19 +1,38 @@
 import React from 'react';
-import { useState } from "react";
-// import { Document } from 'react-pdf'
 
 export default function Resume(){
     return (
-      <div>
+      <>
         <div className='flex-container center-content flex-container-columns'>
           <h2>Resume</h2>
           <div>
-          <p>Feel free to download my resume below.</p>
-          <img className='small-img' src="/src//assets/pdfimage.png" alt="PlaceholderImage" />
-          <a href="https://drive.google.com/file/d/1s18svdfbGZAs4NlCMWq162Qr82qUfiOW/view?usp=sharing">Download</a>
+            <>
+              <h2>Front-End Stack</h2>
+                <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Handlebars</li>
+                <li>React</li>
+                <li>Redux</li>
+                </ul>
+            </>
+            <div className='float-left'>
+              <h2>Back-End Stack</h2>
+                <ul>
+                <li>express.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>MySQL</li>
+                <li>Sequelize</li>
+                </ul>
+            </div>
+          <p>Interested in hiring me? Find my full resume for download below</p>
           </div>
-
+          <a className='flex-container center-content' href="https://drive.google.com/file/d/1s18svdfbGZAs4NlCMWq162Qr82qUfiOW/view?usp=sharing">Download</a>
         </div>
-      </div>
+      </>
     );
   }
