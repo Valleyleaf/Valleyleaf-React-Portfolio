@@ -13,7 +13,7 @@ export default function About(){
           <p>Join me as I navigate the wild mix of creativity and code. It's a bit of a crazy ride, but it's my way of shaping the future with a touch of innovation and a whole lot of artistic expression.</p>
           </div>
           </div>
-          <img className='profile-img' src={profilePicture} alt="PlaceholderImage"/>
+          <img className='profile-img' src={profilePicture} alt="ProfileImage"/>
         </div>
       </div>
     );
