@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from "react";
+import profilePicture from "../assets/ProfilePicture.jpg"
 
 export default function About(){
     return (
@@ -13,7 +13,7 @@ export default function About(){
           <p>Join me as I navigate the wild mix of creativity and code. It's a bit of a crazy ride, but it's my way of shaping the future with a touch of innovation and a whole lot of artistic expression.</p>
           </div>
           </div>
-          <img className='profile-img' src="/src//assets/ProfilePicture.jpg" alt="PlaceholderImage" />
+          <img className='profile-img' src={profilePicture} alt="PlaceholderImage"/>
         </div>
       </div>
     );

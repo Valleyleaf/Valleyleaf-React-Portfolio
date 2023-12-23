@@ -51,10 +51,8 @@ export default function NavBar(){
         </Link>
         </div>
         </nav>
-        {/* <div className='header-divider'></div> */}
       </div>
     );
   }
 
   //Reminder, make nav-link active and nav-link stylings for later
-  //The function above does not work. It doesn't interupt anything atm, but fix in future.

@@ -19,7 +19,7 @@ let slideTitle = [
 let slideContent = [
     'Worked with a team of 4 to deploy moodMusic.com. A browser based application that allows you to generate a spotify playlist based on your location. This application runs off two seperate API\'s and was built using HTML, CSS and JavaScript.',
     'Compiled a Javascript Password Generator.',
-    'A 15 year endevor. Modded gamemode for Warcraft 3 running over 1000 custom scripts, 3 seperate gamemodes, 50+ custom characters and hundreds of custom spells + items. Tools used include WC3GUI & JASS. A show of dedication more than anything else.',
+    'A javascript password generator which allows the user to create a password to suit their needs.',
     'Worked with a team of 4 in deployed a catering storefront using Heroku. Application supported on both front and back-end',
     'Deployed a Note-taker app that uses local storage to allow the user to host notes in their browser cache.',
     'SVG logomaker created to better understand vector graphics',

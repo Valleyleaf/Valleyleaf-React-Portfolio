@@ -1,6 +1,4 @@
-import { useState } from "react";
 import PortfolioContent from "./Portfolio";
-import { slideTitle, slideContent, slideImage } from "../utils/slideContent";
 
 
 export default function Portfolio(){
