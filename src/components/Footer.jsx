@@ -1,7 +1,7 @@
 import React from 'react';
-import linkedinIcon from '../assets/LinkedinButton'
-import twitterButton from '../assets/TwitterButton'
-import gitHubButton from '../assets/GithubButton'
+import linkedinButton from '../assets/LinkedinButton.png'
+import twitterButton from '../assets/TwitterButton.png'
+import gitHubButton from '../assets/GithubButton.png'
 
 export default function Footer(){
     return (
@@ -10,7 +10,7 @@ export default function Footer(){
         <div className='flex-container center-content flex-container-row' >
           
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
-          <img className='small-img' src={linkedinIcon} alt="link to linkedin" />
+          <img className='small-img' src={linkedinButton} alt="link to linkedin" />
           </a>
 
           <a href="https://github.com/Valleyleaf" target="_blank">
