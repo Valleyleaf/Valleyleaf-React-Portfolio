@@ -369,7 +369,31 @@ Button{
 
 /* Mobile Options */
 @media screen and (max-width: 980px){
+  body {
+    background-color: lightgray;
+  }
 
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .profile-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .portfolio-img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px){

@@ -1,11 +1,12 @@
-let slideImage = [
-   '../src/assets/moodMusicExample.png',
-   '../src/assets/Project1ExampleImage.PNG',
-   '../src/assets/BodLoadingScreen2.0.png',
-   '../src/assets/FourCatering.jpg',
-   '../src/assets/NoteTaker.PNG',
-   '../src/assets/svg.PNG',
-]
+//let slideImage = [
+//   '../src/assets/moodMusicExample.png',
+//   '../src/assets/Project1ExampleImage.PNG',
+//   '../src/assets/BodLoadingScreen2.0.png',
+//   '../src/assets/FourCatering.jpg',
+//   '../src/assets/NoteTaker.PNG',
+//   '../src/assets/svg.PNG',
+//   
+//]
 
 let slideTitle = [
     'moodMusic.com',
@@ -46,4 +47,4 @@ let slideRepo = [
     'https://github.com/Valleyleaf/SVGLogoMaker',
 ]
 
-export {slideTitle, slideImage, slideContent, slideLink, slideRepo}
+export {slideTitle, slideContent, slideLink, slideRepo}
