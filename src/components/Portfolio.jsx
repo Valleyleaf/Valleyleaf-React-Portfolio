@@ -3,11 +3,11 @@ import React from 'react';
 import { slideTitle, slideContent, slideLink, slideRepo} from "../utils/slideContent";
 //Need to add array here with image imports related to slideImage.S
 import slide0 from '../assets/moodMusicExample.png';
-import slide1 from'../assets/Project1ExampleImage.png';
-import slide2 from'../assets/BodLoadingScreen2.0.png';
-import slide3 from'../assets/FourCatering.jpg';
-import slide4 from'../assets/NoteTaker.png';
-import slide5 from'../assets/svg.png';
+import slide1 from '/src/assets/Project1ExampleImage.png';
+import slide2 from '../assets/BodLoadingScreen2.0.png';
+import slide3 from '../assets/FourCatering.jpg';
+import slide4 from '../assets/NoteTaker.png';
+import slide5 from '../assets/svg.png';
 
 const slideImage = [
   slide0,
