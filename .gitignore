@@ -1,3 +1,4 @@
 .git
 IgnoreFolder
 node_modules
+dist
