@@ -1,10 +1,9 @@
 import { useState } from "react";
 import React from 'react';
 import { slideTitle, slideContent, slideLink, slideRepo} from "../utils/slideContent";
-//Need to add array here with image imports related to slideImage.S
 import slide0 from '../assets/moodMusicExample.png';
 import slide1 from '../assets/Project1ExampleImage.png';
-import slide2 from '../assets/BodLoadingScreen2.0.png';
+import slide2 from '../assets/javapswgenerator.png';
 import slide3 from '../assets/FourCatering.jpg';
 import slide4 from '../assets/NoteTaker.png';
 import slide5 from '../assets/svg.png';
@@ -35,31 +34,39 @@ export default function PortfolioContent(){
     backgroundImage: `url(${slideImage[projectSlide]})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    width: '1200px',
-    height: '800px',
+    width: '100%',
+    height: '100%',
   };
 
-
+//First div in this holds everything.
     return (
       <>
-        <div style={backgroundImageStyle} className="flex-container flex-container-row Portfolio-framing flex-Carousel gradient-overlay">
-        <button id="portfolio-Button-Previous" className="center-content" 
+        <div style={backgroundImageStyle} className="flex-container-row gradient-overlay">
+
+          <div className="flex-container-columns"> 
+        <button id="portfolio-Button-Previous" className="center-content "
         onClick={handlePreviousClick}>Previous
         </button>
+          <div id="innerFrameBottomLeft" className="flex-container deploy-ButtonStyle"><a href={slideRepo[projectSlide]} target="_blank">Go to Repo</a>
+          </div>
+        </div>
 
-        <div id="outerFrame" className='flex-container center-content flex-container-row flex-Carousel'>
+        <div id="outerFrame" className='center-content portfolio-Centering flex-container-row'>
           <div id="innerFrameUpper">
           <h2 className="keepLeft content-Text">{slideTitle[projectSlide]}</h2>
           </div>
+
           <div id="innerFrameBottom">
           <p className="keepRight content-Text noWrap">{slideContent[projectSlide]}</p>
-          <div id="innerFrameBottom" className="flex-container deploy-ButtonStyle"><a href={slideLink[projectSlide]} target="_blank">Go to Deployed Project</a></div>
           </div>
-          <div id="innerFrameBottomLeft" className="flex-container deploy-ButtonStyle"><a href={slideRepo[projectSlide]} target="_blank">Go to Repo</a></div>
         </div>
+          <div className="flex-container-columns"> 
         <button id="portfolio-Button-Next" className="center-content" 
         onClick={handleNextClick}>Next
         </button>
+        <div id="innerFrameBottom" className="flex-container deploy-ButtonStyle"><a href={slideLink[projectSlide]} target="_blank">Go to Deployed Project</a>
+          </div>
+        </div>
       </div>
       </>
     );

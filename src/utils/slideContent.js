@@ -19,7 +19,7 @@ let slideTitle = [
 
 let slideContent = [
     'Worked with a team of 4 to deploy moodMusic.com. A browser based application that allows you to generate a spotify playlist based on your location. This application runs off two seperate API\'s and was built using HTML, CSS and JavaScript.',
-    'Compiled a Javascript Password Generator.',
+    'My very first project. It ain\'t perfect but it does it\'s job of being a functional HTML based website.',
     'A javascript password generator which allows the user to create a password to suit their needs.',
     'Worked with a team of 4 in deployed a catering storefront using Heroku. Application supported on both front and back-end',
     'Deployed a Note-taker app that uses local storage to allow the user to host notes in their browser cache.',

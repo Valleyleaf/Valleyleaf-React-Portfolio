@@ -16,6 +16,10 @@
 /* Main components */
 body {
   background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
 }
 
 h1 {
@@ -64,8 +68,9 @@ Button{
 /* Flex & Directions */
 .flex-container {
   display: flex;
+  
 }
-
+/* Does flex-Carousel serve a purpose? */
 .flex-Carousel{
   display: flex;
   flex: 3;
@@ -119,6 +124,14 @@ Button{
   
 }
 
+.main-content-scaling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  padding-bottom: 130px; 
+}
+
 .noWrap{
   word-wrap: break-word;
   white-space: pre-wrap;
@@ -128,7 +141,6 @@ Button{
 }
 
 .footer-Bottom{
-  margin-top: auto;
   position:absolute;
   bottom:0;
   width:100%;
@@ -211,7 +223,8 @@ Button{
 .small-img{
   width: 80px;
   height: 80px;
-  padding: 8px;
+  border: 8px;
+  padding: 13px;
 }
 
 .small-img:hover{
@@ -220,28 +233,55 @@ Button{
   padding: 8px;
 }
 
+.mini-img{
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}
+
 /* Buttons */
 #portfolio-Button-Next {
   display: flex;
-  size: 20%;
-  padding: 35px;
+  margin-top: 69%;
+  border-radius: 25px 0px 0px 25px;
+  width: 50px;
+  height: 30px;
   color: var(--white);
   background-color: var(--black);
+  border: 1px solid #ffffff;
+}
+
+#portfolio-Button-Next:hover {
+  display: flex;
+  margin-top: 69%;
+  width: 50px;
+  height: 30px;
+  color: var(--black);
+  background-color: var(--white);
+  
 }
 
 #portfolio-Button-Previous {
   display: flex;
-  size: 20%;
+  margin-top: 50%;
+  border-radius: 0px 25px 25px 0px;
+  width: 70px;
+  height: 30px;
   color: var(--white);
   background-color: var(--black);
+  border: 1px solid #ffffff; 
+}
+
+#portfolio-Button-Previous:hover {
+  display: flex;
+  margin-top: 50%;
+  width: 70px;
+  height: 30px;
+  color: var(--black);
+  background-color: var(--white);
 }
 
 /* Project Slides */
-
-.Portfolio-framing{
-  margin: 10px;
-  border: 5px;
-}
 
 .deploy-ButtonStyle{
   background-color: var(--black);
@@ -278,30 +318,35 @@ Button{
 
 #outerFrame {
   position: relative;
+  padding-left: 650px;
+  padding-right: 250px;
   width: 300px; 
-  height: 800px; 
-  border: 1px solid #000; 
+  height: 650px; 
+  /* border: 1px solid #000;  */
 }
 
 #innerFrameUpper {
   position: absolute;
   top: 10;
   left: 0;
-  margin: 10px; 
+  margin: 10px;
+  /* border: 1px solid #04f218;   */
 }
 
 #innerFrameBottom {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 10px; 
+  margin: 10px;
+  /* border: 1px solid #3605f8;   */
 }
 
 #innerFrameBottomLeft {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 10px; 
+  margin: 10px;
+  /* border: 1px solid #f70808;   */
 }
 
 .hidden-element {
@@ -369,37 +414,19 @@ Button{
 
 /* Mobile Options */
 @media screen and (max-width: 980px){
-  body {
-    background-color: lightgray;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 16px;
-  }
-
-  .profile-img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .portfolio-img {
-    width: 100%;
-    height: auto;
+  .main-content-scaling {
+    transform: scale(0.70);
   }
 }
 
 @media screen and (max-width: 768px){
-
+  .main-content-scaling {
+    transform: scale(0.66);
+  }
 }
 
 @media screen and (max-width: 688px){
-
+  .main-content-scaling {
+    transform: scale(0.55);
+  }
 }

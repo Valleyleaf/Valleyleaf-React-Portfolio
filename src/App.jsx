@@ -5,12 +5,11 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
 function App() {
-  console.log('App has been launched')
   return (
     <div className='flex-container flex-container-columns'>
-      <div><Header/></div>
-      <div><NavBar/></div>
-      <div><Outlet/></div>
+      <><Header/></>
+      <><NavBar/></>
+      <div className='main-content-scaling'><Outlet/></div>
       <div className='footer-Bottom'><Footer/></div>
     </div>
   );
