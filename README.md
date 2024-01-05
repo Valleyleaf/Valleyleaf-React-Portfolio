@@ -19,7 +19,7 @@ In the navbar you will find a "About Me" section, a "Portfolio" section with a w
 Screenshot:
 ![Screenshot 2024-01-04 213010](https://github.com/Valleyleaf/Valleyleaf-React-Portfolio/assets/137734906/bdde9882-1f5b-4df5-9ba1-d2663e90a52f)
 
-Deployed Link via Netlify: (https://chic-phoenix-155b19.netlify.app/Portfolio)
+Deployed Link via Netlify: (https://chic-phoenix-155b19.netlify.app/)
 
 ## ✅Credits
 A large portion of the structure to this code was taken from resources provided by the UNB Coding Bootcamp.
