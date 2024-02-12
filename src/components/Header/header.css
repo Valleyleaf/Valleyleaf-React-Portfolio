@@ -1,0 +1,22 @@
+.Header-Top{
+    position:fixed;
+    width:100%;
+    z-index: 4;
+  }
+  
+  .header-Text{
+    color: var(--white);
+  }
+  
+  .content-Text{
+    color: var(--white);
+    text-shadow: #000000;
+    text-emphasis-color: #c70909;
+  }
+  
+  .header-divider{
+    background-color: var(--metalic);
+    padding: 8px;
+  }
+
+  

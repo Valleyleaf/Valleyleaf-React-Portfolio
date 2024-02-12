@@ -125,11 +125,19 @@ Button{
 }
 
 .main-content-scaling {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  margin-top: 50px;
   transition: transform 0.3s ease;
-  padding-bottom: 130px; 
+
+}
+
+.Outlet-Positioning{
+  position:relative;
+  width:100%;
+  height: 800px;
+  z-index: 0;
 }
 
 .noWrap{
@@ -140,65 +148,7 @@ Button{
   min-width: 270px;
 }
 
-.footer-Bottom{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:130px;
-  z-index: 4;
-}
 
-.header-Text{
-  color: var(--white);
-}
-
-.content-Text{
-  color: var(--white);
-  text-shadow: #000000;
-  text-emphasis-color: #c70909;
-}
-
-.header-divider{
-  background-color: var(--metalic);
-  padding: 8px;
-}
-
-/* NavBar */
-
-.nav-Button{
-  padding: 5px;
-}
-
-/* .buttonRed{
-  background: #fd7272;
-  padding: 5px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.buttonGreen{
-  background: #78f88d;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.buttonBlue{
-  background: #78ebfa;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.buttonYellow{
-  background: #faf87a;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-} */
-
-.nav-active{
-  text-decoration: dashed;
-  background: var(--metalic);
-  padding: 10px;
-  color: var(--white);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
 
 /* ContactMe */
 .contactMe{

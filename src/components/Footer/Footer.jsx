@@ -1,13 +1,15 @@
 import React from 'react';
-import linkedinButton from '../assets/LinkedinButton.png'
-import twitterButton from '../assets/TwitterButton.png'
-import gitHubButton from '../assets/GithubButton.png'
+import linkedinButton from '../../assets/linkedinButton.png'
+import twitterButton from '../../assets/TwitterButton.png'
+import gitHubButton from '../../assets/GithubButton.png'
+import './footer.css'
+
 
 export default function Footer(){
     return (
-      <div className='flex-container center-content flex-container-columns header-Styling'>
+      <div className='center-content flex-container-columns header-Styling'>
         
-        <div className='flex-container center-content flex-container-row' >
+        <div className='center-content flex-container-row' >
           
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
           <img className='small-img' src={linkedinButton} alt="link to linkedin" />

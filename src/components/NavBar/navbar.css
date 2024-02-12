@@ -1,0 +1,23 @@
+.navbar {
+    position: relative;
+    top: 3rem;
+    z-index: 3;
+  }
+  
+  .nav-Button{
+    padding: 5px;
+  }
+  
+  .nav-active{
+    text-decoration: dashed;
+    background: var(--metalic);
+    padding: 10px;
+    color: var(--white);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+.header-divider{
+    background-color: var(--metalic);
+    padding: 8px;
+  }
