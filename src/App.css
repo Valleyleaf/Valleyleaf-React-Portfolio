@@ -7,7 +7,9 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     --darkgrey: #333333;
-    --metalic: #272727;
+    --metalic: #27272727;
+    --typeLine: #242424;
+    --printerGray: #c3cad1;
     --white: #fcfcfc;
     --black: #000000;
     --test: #ffcaca;
@@ -15,7 +17,6 @@
 }
 /* Main components */
 body {
-  background-color: whitesmoke;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -306,60 +307,6 @@ Button{
 .warningTextForm{
   font-size: 15px;
   color: red;
-}
-
-
-/* Dropdown menu */
-
-.dropbtn {
-  background-color: #ec5700;
-  border-radius: 4px;
-  color: white;
-  padding: 16px;
-  margin: 10px;
-  /* font-size: 16px; */
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 215px;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content p:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #5d0cff;
 }
 
 /* Mobile Options */

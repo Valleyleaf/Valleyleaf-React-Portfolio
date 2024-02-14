@@ -10,8 +10,9 @@
   
   .nav-active{
     text-decoration: dashed;
-    background: var(--metalic);
-    padding: 10px;
+    font-weight: bold;
+    background: var(--black);
+    padding: 0px 10px 10px 10px;
     color: var(--white);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;

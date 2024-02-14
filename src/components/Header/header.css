@@ -1,6 +1,7 @@
 .Header-Top{
     position:fixed;
     width:100%;
+    border-bottom: 1px solid var(--typeLine);
     z-index: 4;
   }
   

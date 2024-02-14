@@ -23,7 +23,7 @@ export default function Footer(){
           <img className='small-img' src={twitterButton} alt="link to Twitter" />
           </a>
         </div>
-        <p className='header-Text'>Copyright Aston Andersson Dahllof 2023©</p>
+        <p>Copyright Aston Andersson Dahllof 2023©</p>
       </div>
     );
   }
