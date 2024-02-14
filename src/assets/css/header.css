@@ -1,0 +1,11 @@
+
+.header-Styling{
+    background-color: var(--metalic);
+    padding: 15px;
+  }
+
+  .header-Text{
+    display: flex;
+    justify-content: center;
+    color: var(--white); 
+  }
