@@ -1,0 +1,22 @@
+
+  .contactMe{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--metalic);
+    border-radius: 20px;
+    align-self: auto;
+  }
+
+  .wt{
+    color: var(--white);
+  }
+  
+  .detailbox{
+    display: flex;
+    justify-content: center;
+    width: 900;
+  }
+
