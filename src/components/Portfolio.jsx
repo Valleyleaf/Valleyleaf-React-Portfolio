@@ -1,12 +1,12 @@
 import { useState } from "react";
 import React from 'react';
 import { slideTitle, slideContent, slideLink, slideRepo} from "../utils/slideContent";
-import slide0 from '../assets/moodMusicExample.png';
-import slide1 from '../assets/Project1ExampleImage.png';
-import slide2 from '../assets/javapswgenerator.png';
-import slide3 from '../assets/FourCatering.jpg';
-import slide4 from '../assets/NoteTaker.png';
-import slide5 from '../assets/svg.png';
+import slide0 from '../assets/img/moodMusicExample.png';
+import slide1 from '../assets/img/Project1ExampleImage.png';
+import slide2 from '../assets/img/javapswgenerator.png';
+import slide3 from '../assets/img/FourCatering.jpg';
+import slide4 from '../assets/img/NoteTaker.png';
+import slide5 from '../assets/img/svg.png';
 
 const slideImage = [
   slide0,

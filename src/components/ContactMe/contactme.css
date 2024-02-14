@@ -1,0 +1,6 @@
+.contactMe{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--metalic);
+    width: 500px;
+  }
