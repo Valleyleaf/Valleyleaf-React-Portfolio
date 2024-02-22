@@ -13,9 +13,9 @@ export default function NavBar(){
   };
 // Divider
     return (
-      <div className='flex-container flex-container-columns'>
-        <nav className='flex-container flex-container-row'>
-          <div className='nav-Button buttonRed'>
+      <div className='flex-container-columns'>
+        <nav className='flex-container-row'>
+          <div className='nav-Button'>
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-active' : 'nav-link'}
@@ -24,7 +24,7 @@ export default function NavBar(){
           About Me
         </Link>
         </div>
-        <div className='nav-Button buttonGreen'>
+        <div className='nav-Button'>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
@@ -33,7 +33,7 @@ export default function NavBar(){
           Portfolio
         </Link>
         </div>
-        <div className='nav-Button buttonBlue'>
+        <div className='nav-Button'>
         <Link
           to="/Contact"
           className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
@@ -42,13 +42,22 @@ export default function NavBar(){
           Contact
         </Link>
         </div>
-        <div className='nav-Button buttonYellow'>
+        <div className='nav-Button'>
         <Link
           to="/Resume"
           className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}
           onClick={handleLinkClick}
         >
           Resume
+        </Link>
+        </div>
+        <div className='nav-Button'>
+        <Link
+          to="/Art"
+          className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
+          onClick={handleLinkClick}
+        >
+          Charity Projects
         </Link>
         </div>
         </nav>

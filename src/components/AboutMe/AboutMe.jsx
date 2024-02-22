@@ -1,44 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
+import aboutMeData from '../../assets/json/AboutMe.json'
 
-const AboutMe = () => {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('./AboutMe.json');
-        const jsonData = await response.json();
-        setData(jsonData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
+  export default function About(){
   return (
-    <div>
-      {data ? (
-        <div>
-          <div className='flex-container center-content'>
-          <div className='flex-container-columns '></div>
-            <h2 className='Howdy'>Howdy</h2>
-            <div className='noWrap'>
-            <p>{data.aboutMeP1}</p>
-            <p>{data.aboutMeP2}</p>
-            </div>
+    <>
+      {aboutMeData ? (
+        <div className='flex-container-row center-content'>
+          <>
+                <div className='noWrap'>
+                  <h2 className='Howdy'>Howdy</h2>
+                  <p>{aboutMeData.aboutMeP1}</p>
+                  <p>{aboutMeData.aboutMeP2}</p>
+                </div>
+            </>
+
             <img className='profile-img' src={profilePicture} alt="ProfileImage"/>
           </div>
-          </div>
-
       ) : (
         <p>Loading...</p>
       )}
-    </div>
+    </>
   );
 };
 
-export default AboutMe;
+//I was playing around with the idea of keeping my json file serverside, but it doesn't make much sense at this time. Keeping parts of the code as I might change my mind
+//In the future. Doesn't make things hard to read and works good for reference.
