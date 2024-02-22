@@ -5,7 +5,7 @@ import './index.css';
 // Renders App.jsx. Note that this is what will compile all of your components. App.css gives them style.
 import About from './components/AboutMe/AboutMe.jsx'
 import Portfolio from './components/ProjectCard.jsx'
-import Contact from './components/Contact.jsx'
+import Contact from './components/Contact/Contact.jsx'
 import Resume from './components/Resume.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 const router = createBrowserRouter([

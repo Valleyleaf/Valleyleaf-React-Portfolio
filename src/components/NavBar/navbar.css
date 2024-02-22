@@ -11,9 +11,9 @@
   .nav-active{
     text-decoration: dashed;
     font-weight: bold;
-    background: var(--black);
+    background: var(--metalic);
     padding: 0px 10px 10px 10px;
-    color: var(--white);
+    color: var(--black);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }

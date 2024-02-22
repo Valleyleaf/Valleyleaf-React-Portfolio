@@ -1,7 +1,7 @@
 import React from 'react';
-import linkedinButton from '../../assets/linkedinButton.png'
-import twitterButton from '../../assets/TwitterButton.png'
-import gitHubButton from '../../assets/GithubButton.png'
+import linkedinButton from '../../assets/img/linkedinButton.png'
+import twitterButton from '../../assets/img/TwitterButton.png'
+import gitHubButton from '../../assets/img/GithubButton.png'
 import './footer.css'
 
 
