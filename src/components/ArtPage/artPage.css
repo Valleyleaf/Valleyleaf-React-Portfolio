@@ -1,1 +1,17 @@
+/* Responsive Grid Class */
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width as needed */
+    gap: 16px; /* Adjust the gap between items as needed */
+  }
+  
 
+.gridItem{
+    background-color: var(--metalic);
+    width: 350px;
+    height: 450px;
+    color: var(--white);
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}

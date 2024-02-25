@@ -41,7 +41,7 @@ export default function PortfolioContent(){
 //First div in this holds everything.
     return (
       <>
-        <div style={backgroundImageStyle} className="flex-container-row gradient-overlay">
+        <div style={backgroundImageStyle} className="flex-container-row gradient-overlay fade-in">
 
           <div className="flex-container-columns"> 
         <button id="portfolio-Button-Previous" className="center-content "

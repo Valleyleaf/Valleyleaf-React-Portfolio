@@ -3,7 +3,7 @@ import pngimage from '../assets/img/pdfimage.png';
 export default function Resume(){
     return (
       <>
-        <div className='flex-container center-content flex-container-columns'>
+        <div className='flex-container center-content flex-container-columns fade-in'>
           <h2>Resume</h2>
           <div>
             <>

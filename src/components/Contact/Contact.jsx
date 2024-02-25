@@ -44,7 +44,7 @@ const Contact = () => {
   //I didn't include the if empty = give warning function and now I am struggling to add it.
   return (
     <div>
-      <div className='flex-container-columns center-content'>
+      <div className='flex-container-columns center-content fade-in'>
         <div className='flex-container-columns center-content '>
         <h2>Contact Me</h2>
         <p>If you are interested in my work, please feel free <br />
