@@ -6,7 +6,7 @@ import './index.css';
 import About from './components/AboutMe/AboutMe.jsx'
 import Portfolio from './components/ProjectCard.jsx'
 import Contact from './components/Contact/Contact.jsx'
-import Resume from './components/Resume.jsx'
+import Resume from './components/Resume/Resume.jsx'
 import Art from './components/ArtPage/ArtPage.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 const router = createBrowserRouter([

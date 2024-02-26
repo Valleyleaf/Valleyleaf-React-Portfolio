@@ -57,7 +57,7 @@ export default function NavBar(){
           className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
           onClick={handleLinkClick}
         >
-          Charity Projects
+          Art
         </Link>
         </div>
         </nav>

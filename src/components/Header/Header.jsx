@@ -5,7 +5,7 @@ export default function Header(){
     return (
       <div>
         <div className='flex-container center-content header-Styling'>
-          <h2>Aston Andersson Dahllof</h2>
+          <h2>ValleyLeaf</h2>
         </div>
       </div>
     );

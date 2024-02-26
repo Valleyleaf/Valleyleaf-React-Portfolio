@@ -1,5 +1,5 @@
 import React from 'react';
-import pngimage from '../assets/img/pdfimage.png';
+import pngimage from '../../assets/img/pdfimage.png';
 export default function Resume(){
     return (
       <>

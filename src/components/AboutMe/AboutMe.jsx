@@ -17,7 +17,7 @@ import aboutMeData from '../../assets/json/AboutMe.json'
                   <p>{aboutMeData.aboutMeP3}</p>
                   </div>
 
-                  <div className='flex-container-columns center-content'>
+                  <div className='flex-container-columns center-content fade-in'>
                   <p>{aboutMeData.aboutMeP4}</p>
 
                       <div className='contactMeButton'>

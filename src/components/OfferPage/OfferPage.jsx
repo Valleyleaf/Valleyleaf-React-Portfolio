@@ -51,7 +51,40 @@ const Contact = () => {
           to contact me using the form below.
         </p>
         </div>
-          <p></p>
+        <form className='contactMe'
+        onSubmit={handleSubmit}>
+          <label>
+            <input
+              type='text'
+              name='name'
+              value={formInput.name}
+              onChange={handleChange}
+              placeholder="Enter your name"
+              onBlur={handleBlurName}
+            />
+            <h4 id='warningTextNameID' className='warningTextForm hidden-element'>*Please insert a Name</h4>
+          </label>
+          <label>
+            <input
+              type='email'
+              name='email'
+              value={formInput.email}
+              onChange={handleChange}
+              placeholder="Enter your email"
+              onBlur={handleBlurEmail}
+            />
+              <h4 id='warningTextemailID' className='warningTextForm hidden-element'>*Please insert a email</h4>
+          </label>
+          <label>
+            <textarea
+              name='message'
+              value={formInput.message}
+              onChange={handleChange}
+              placeholder="Enter additional details"
+            />
+          </label>
+          <button type='submit'>Submit</button>
+        </form>
       </div>
     </div>
   );
