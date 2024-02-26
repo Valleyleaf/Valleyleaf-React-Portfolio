@@ -1,7 +1,7 @@
 import React from 'react';
-import linkedinButton from '../../assets/img/linkedinButton.png'
-import twitterButton from '../../assets/img/TwitterButton.png'
-import gitHubButton from '../../assets/img/GithubButton.png'
+import linkedinButton from '../../assets/img/linkedin-fill-svgrepo-com.svg'
+import twitterButton from '../../assets/img/twitter-fill-svgrepo-com.svg'
+import gitHubButton from '../../assets/img/github-fill-svgrepo-com.svg'
 import './footer.css'
 
 
@@ -23,7 +23,7 @@ export default function Footer(){
           <img className='small-img' src={twitterButton} alt="link to Twitter" />
           </a>
         </div>
-        <p>Copyright Aston Andersson Dahllof 2023©</p>
+        <p>Copyright Aston Andersson Dahllof 2024©</p>
       </div>
     );
   }
