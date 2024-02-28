@@ -1,5 +1,7 @@
 import React from 'react';
 import pngimage from '../../assets/img/pdf-document-svgrepo-com.svg';
+import './resume.css'
+
 export default function Resume(){
     return (
       <>
@@ -32,7 +34,7 @@ export default function Resume(){
           <p>Interested in hiring me? Find my full resume for download below</p>
           </div>
           <img className='mini-img' src={pngimage} alt="Download Resume" />
-          <a className='flex-container center-content deploy-ButtonStyle' href="https://drive.google.com/file/d/1s18svdfbGZAs4NlCMWq162Qr82qUfiOW/view?usp=sharing">Download</a>
+          <a className='flex-container center-content downloadButton' href="https://drive.google.com/file/d/1s18svdfbGZAs4NlCMWq162Qr82qUfiOW/view?usp=sharing">Download</a>
         </div>
       </>
     );

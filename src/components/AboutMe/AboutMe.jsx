@@ -16,17 +16,14 @@ import aboutMeData from '../../assets/json/AboutMe.json'
                   <p>{aboutMeData.aboutMeP2}</p>
                   <p>{aboutMeData.aboutMeP3}</p>
                   </div>
-
                   <div className='flex-container-columns center-content fade-in'>
                   <p>{aboutMeData.aboutMeP4}</p>
-
                       <div className='contactMeButton'>
                       <Link to="/Contact">
                         <button className='contactMeButton'>Contact me</button>
                       </Link>
                       </div>
                   </div>
-                  
                 </div>
             </>
             <img className='profile-img fade-in-from-right' src={profilePicture} alt="ProfileImage"/>

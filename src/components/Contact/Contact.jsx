@@ -10,14 +10,12 @@ export default function Contact(){
   return (
     <div>
       <div className='flex-container-columns center-content fade-in'>
-        <div className='flex-container-columns center-content '>
+        <div className='flex-container-columns center-content contactMe'>
         <h2>Contact Me</h2>
-        <a href="mailto:aston_dahllof@outlook.com?">
+        <a className='emailMeButton' href="mailto:aston_dahllof@outlook.com?">
           Email me!
         </a>
             <div className='flex-container-row'>
-
-            
             <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
               <img className='small-img' src={linkedinIcon} alt="link to linkedin" />
               </a>
@@ -30,8 +28,8 @@ export default function Contact(){
               <img className='small-img' src={twitterIcon} alt="link to Twitter" />
               </a>
             </div>
+            <p className=' flex-container'>Or find me on social media.</p>
         </div>
-          <p></p>
       </div>
     </div>
   );

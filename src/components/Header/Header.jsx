@@ -4,8 +4,8 @@ import './header.css'
 export default function Header(){
     return (
       <div>
-        <div className='flex-container center-content header-Styling'>
-          <h2>ValleyLeaf</h2>
+        <div className='flex-container center-content header-Styling '>
+          <h2>Aston Andersson Dahllöf</h2>
         </div>
       </div>
     );

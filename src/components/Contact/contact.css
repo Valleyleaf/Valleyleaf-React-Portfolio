@@ -1,5 +1,37 @@
 .contactMe{
     background-color: var(--metalic);
     width: 28%;
+    height: 540px;
     border-radius: 15px;
   }
+
+  .emailMeButton{
+    background-color: var(--black);
+    text-decoration: dashed;
+    color: var(--white);
+    padding: 5px 35px 5px 35px;
+    border-radius: 15px;
+  }
+
+  /* Code taken from https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriterClass {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 1.0s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
