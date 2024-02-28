@@ -5,7 +5,7 @@ import './resume.css'
 export default function Resume(){
     return (
       <>
-        <div className='flex-container center-content flex-container-columns fade-in'>
+        <div className='flex-container-columns center-content fade-in'>
           <h2>Resume</h2>
           <div>
             <>

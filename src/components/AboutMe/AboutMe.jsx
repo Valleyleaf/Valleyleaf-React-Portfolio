@@ -8,7 +8,7 @@ import aboutMeData from '../../assets/json/AboutMe.json'
   return (
     <>
       {aboutMeData ? (
-        <div className='flex-container-row center-content'>
+        <div className='aboutMe-flex-container-row center-content'>
           <>
                 <div className='noWrap'>
                   <h2 className='HeadTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>

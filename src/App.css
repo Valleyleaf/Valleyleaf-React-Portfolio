@@ -21,6 +21,7 @@ body {
   padding: 0;
   min-height: 100vh;
   position: relative;
+  
 }
 
 h1 {
@@ -34,12 +35,6 @@ h2{
   font-family: monospace;
   font-weight: bolder;
   z-index: 2;
-}
-
-h3 {
-  margin: auto;
-  color: rgb(66, 171, 231);
-  font-size: 20px;
 }
 
 p{
@@ -124,12 +119,13 @@ Button{
   background-color: var(--metalic);
   
 }
+/* Rename the above, its confusing. */
 
 .main-content-scaling {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   transition: transform 0.3s ease;
 
 }
@@ -137,7 +133,8 @@ Button{
 .Outlet-Positioning{
   position:relative;
   width:100%;
-  height: 800px;
+  height: 100%;
+  min-height: 850px;
   z-index: 0;
 }
 
@@ -237,6 +234,8 @@ Button{
   margin: 5px;
 }
 
+/* Redo the buttons, they are all ugly as sin. */
+
 .gradient-overlay {
   position: relative;
   width: 100%;
@@ -299,18 +298,37 @@ Button{
 /* Mobile Options */
 @media screen and (max-width: 980px){
   .main-content-scaling {
-    transform: scale(0.70);
+    transform: scale(0.90);
+
   }
+
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 890px){
   .main-content-scaling {
-    transform: scale(0.66);
+    transform: scale(0.82);
+
   }
 }
 
 @media screen and (max-width: 688px){
   .main-content-scaling {
+    transform: scale(0.75);
+
+  }
+}
+
+@media screen and (max-width: 375px){
+  .main-content-scaling {
     transform: scale(0.55);
   }
+
+.Outlet-Positioning{
+  position:relative;
+  width:100%;
+  height: 100%;
+  min-height: 250px;
+  z-index: 0;
+}
+
 }
