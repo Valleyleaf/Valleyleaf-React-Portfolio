@@ -4,4 +4,61 @@
     color: var(--white);
     padding: 5px 35px 5px 35px;
     border-radius: 15px;
+    transition: transform 0.3s ease;
   }
+
+  .downloadButton:hover{
+    background-color: var(--black);
+    text-decoration: dashed;
+    color: var(--white);
+    padding: 5px 35px 5px 35px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
+
+
+.resumeBox{
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.jobTitle{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.jobTimeFrame{
+  font-size: 12px;
+  font-style: italic;
+}
+
+.jobDescription{
+  font-size: 12px;
+}
+
+.divider-Bottom{
+  margin-bottom: 20px;
+}
+
+.divider-Right{
+  margin-right: 250px;
+}
+
+.softSkillFrame{
+  background-color: var(--mainGreen);
+  font-size: 12px;
+  border-radius: 15px;
+  margin-left: 10px;
+  box-shadow: 2px 5px 5px rgba(83, 148, 83, 0.5);
+  border: 1px solid #74c26b;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.softSkillFrame:hover{
+  background-color: var(--mainGreen);
+  font-size: 12px;
+  border-radius: 15px;
+  margin-left: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+}

@@ -6,7 +6,7 @@ import './artPage.css'
   return (
     <>
     <div>
-      
+      <h2>I also do some art</h2>
     </div>
     </>
   );
