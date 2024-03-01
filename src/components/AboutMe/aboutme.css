@@ -10,13 +10,15 @@
 }
 
 .contactMeButton{
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--mainGreen);
+    color: var(--black);
     border-radius: 15px;
+    border: 1px solid var(--offGreen);
     transition: transform 0.3s ease;
 }
 
 .contactMeButton:Hover{
+  border-color: var(--black);
   transform: scale(1.05);
 }
 
@@ -24,9 +26,11 @@
   width: 450px;
   height: 450px;
   border-radius: 35px;
-  padding: 15px;
+  margin: 15px;
+  box-shadow: 9px -9px 1px var(--mainGreen);
   transition: transform 0.3s ease;
 }
+
 
 /* .profile-img:Hover{
 transform: scale(1.01);

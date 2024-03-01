@@ -1,0 +1,62 @@
+.portfolio-img{
+    width: 900px;
+    height: 500px;
+    padding: 8px;
+  }
+
+  #portfolio-Button-Next {
+    display: flex;
+    margin-top: 69%;
+    border-radius: 25px 0px 0px 25px;
+    width: 50px;
+    height: 30px;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid #ffffff;
+  }
+  
+  #portfolio-Button-Next:hover {
+    display: flex;
+    margin-top: 69%;
+    width: 50px;
+    height: 30px;
+    color: var(--black);
+    background-color: var(--white);
+    
+  }
+  
+  #portfolio-Button-Previous {
+    display: flex;
+    margin-top: 50%;
+    border-radius: 0px 25px 25px 0px;
+    width: 70px;
+    height: 30px;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid #ffffff; 
+  }
+  
+  #portfolio-Button-Previous:hover {
+    display: flex;
+    margin-top: 50%;
+    width: 70px;
+    height: 30px;
+    color: var(--black);
+    background-color: var(--white);
+  }
+
+  .deploy-ButtonStyle{
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .deploy-ButtonStyle:hover{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+  }
