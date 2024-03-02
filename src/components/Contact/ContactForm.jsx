@@ -39,10 +39,11 @@ const ContactForm = () => {
   };
 
   return (
-        <form className='contactMe'
+    <div>
+        <form
         onSubmit={handleSubmit}>
           <label>
-            <input
+            <input className='textArea'
               type='text'
               name='name'
               value={formInput.name}
@@ -53,7 +54,7 @@ const ContactForm = () => {
             <h4 id='warningTextNameID' className='warningTextForm hidden-element'>*Please insert a Name</h4>
           </label>
           <label>
-            <input
+            <input className='textArea'
               type='email'
               name='email'
               value={formInput.email}
@@ -64,7 +65,7 @@ const ContactForm = () => {
               <h4 id='warningTextemailID' className='warningTextForm hidden-element'>*Please insert a email</h4>
           </label>
           <label>
-            <textarea
+            <textarea className='textArea'
               name='message'
               value={formInput.message}
               onChange={handleChange}
@@ -73,6 +74,7 @@ const ContactForm = () => {
           </label>
           <button className='emailMeButton' type='submit'>Submit</button>
         </form>
+        </div>
   );
 };
 
