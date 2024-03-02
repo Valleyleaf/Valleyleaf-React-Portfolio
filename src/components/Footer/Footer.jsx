@@ -7,7 +7,7 @@ import './footer.css'
 
 export default function Footer(){
     return (
-      <div className='center-content flex-container-columns header-Styling'>
+      <div className='center-content flex-container-columns mainColor'>
         
         <div className='center-content flex-container-row' >
           

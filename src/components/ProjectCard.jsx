@@ -1,4 +1,6 @@
+import React from 'react';
 import PortfolioContent from "./Portfolio";
+import '../App.css'
 
 
 export default function Portfolio(){
