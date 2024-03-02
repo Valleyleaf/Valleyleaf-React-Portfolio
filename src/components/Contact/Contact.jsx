@@ -4,6 +4,7 @@ import './contact.css'
 import linkedinIcon from '../../assets/img/linkedin-fill-svgrepo-com.svg'
 import twitterIcon from '../../assets/img/twitter-fill-svgrepo-com.svg'
 import gitHubIcon from '../../assets/img/github-fill-svgrepo-com.svg'
+import ContactForm from './ContactForm';
 
 //Note to self. Below can be used for shortened components. When including functions, export seperately.
 export default function Contact(){
@@ -12,9 +13,10 @@ export default function Contact(){
       <div className='flex-container-columns center-content fade-in'>
         <div className='flex-container-columns center-content contactMe'>
         <h2>Contact Me</h2>
-        <a className='emailMeButton' href="mailto:aston_dahllof@outlook.com?">
+        {/* <a className='emailMeButton' href="mailto:aston_dahllof@outlook.com?">
           Email me!
-        </a>
+        </a> */}
+        {ContactForm()}
             <div className='flex-container-row'>
             <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
               <img className='small-img' src={linkedinIcon} alt="link to linkedin" />
