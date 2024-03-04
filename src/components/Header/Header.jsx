@@ -12,7 +12,7 @@ export default function Header(){
             <h2>Aston Andersson Dahllöf</h2>
           </div>
 
-          <div className='keepRight'>
+          <div className='keepRight center-content'>
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
           <img className='small-img' src={linkedinButton} alt="link to linkedin" />
           </a>
