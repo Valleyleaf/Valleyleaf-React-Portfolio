@@ -1,12 +1,12 @@
-//let slideImage = [
-//   '../src/assets/moodMusicExample.png',
-//   '../src/assets/Project1ExampleImage.PNG',
-//   '../src/assets/BodLoadingScreen2.0.png',
-//   '../src/assets/FourCatering.jpg',
-//   '../src/assets/NoteTaker.PNG',
-//   '../src/assets/svg.PNG',
-//   
-//]
+// let slideImage = [
+//   '../src/assets/img/moodMusicExample.png',
+//   '../src/assets/img/Project1ExampleImage.PNG',
+//   '../src/assets/img/BodLoadingScreen2.0.png',
+//   '../src/assets/img/FourCatering.jpg',
+//   '../src/assets/img/NoteTaker.PNG',
+//   '../src/assets/img/svg.PNG',
+  
+// ]
 
 let slideTitle = [
     'moodMusic.com',

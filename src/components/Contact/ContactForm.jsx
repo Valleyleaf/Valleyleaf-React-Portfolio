@@ -41,6 +41,7 @@ const ContactForm = () => {
   return (
     <div>
         <form
+        name="contact" method="POST" data-netlify="true"
         onSubmit={handleSubmit}>
           <label>
             <input className='textArea'
@@ -53,6 +54,7 @@ const ContactForm = () => {
             />
             <h4 id='warningTextNameID' className='warningTextForm hidden-element'>*Please insert a Name</h4>
           </label>
+
           <label>
             <input className='textArea'
               type='email'
@@ -64,6 +66,17 @@ const ContactForm = () => {
             />
               <h4 id='warningTextemailID' className='warningTextForm hidden-element'>*Please insert a email</h4>
           </label>
+
+          <label>
+            <input className='textArea'
+              type='text'
+              name='phone'
+              value={formInput.email}
+              onChange={handleChange}
+              placeholder="Phone Number (Optional)"
+            />
+          </label>
+
           <label>
             <textarea className='textArea'
               name='message'

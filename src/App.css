@@ -14,24 +14,15 @@
     --black: #000000;
     --mainGreen: #b2fc8f;
     --offGreen: #70af53;
-    --test: #ffcaca;
-  
 }
 /* Main components */
-body {
+/* body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   position: relative;
   
-}
-
-h1 {
-  margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
-}
-
+} */
 h2{
   padding: 8px;
   font-family: monospace;
@@ -44,31 +35,16 @@ p{
   z-index: 2;
 }
 
-Form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 15px;
-}
-
-Label {
-  padding: 5px;
-  margin: 15px;
-  color: var(--white);
-}
-
 Button{
   z-index: 2;
 }
-
 
 /* Flex & Directions */
 .flex-container {
   display: flex;
   
 }
-/* Does flex-Carousel serve a purpose? */
+
 .flex-Carousel{
   display: flex;
   flex: 3;
@@ -89,43 +65,12 @@ Button{
   flex-direction: column;
 }
 
-.keepLeft{
-  display: flex;
-  float: left;
-  text-decoration: underline;
-  padding: 15px;
-
-}
-
-.keepRight{
-  display: flex;
-  float: right;
-  padding: 50px;
-
-}
-
-.keepTop{
-  display: flex;
-  position: static;
-  float: inline-start;
-}
-
-.keepBottom{
-  display: flex;
-  position: static;
-  min-height: 100vh;
-}
-
 .mainColor{
   background-color: var(--metalic);
   
 }
 
 .main-content-scaling {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* margin-top: 50px; */
   transition: transform 0.3s ease;
 }
 
@@ -189,22 +134,18 @@ Button{
 @media screen and (max-width: 980px){
   .main-content-scaling {
     transform: scale(1.00);
-
   }
-
 }
 
 @media screen and (max-width: 890px){
   .main-content-scaling {
     transform: scale(0.82);
-
   }
 }
 
 @media screen and (max-width: 688px){
   .main-content-scaling {
     transform: scale(0.75);
-
   }
 }
 

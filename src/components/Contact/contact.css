@@ -46,6 +46,20 @@
     blink-caret .75s step-end infinite;
 }
 
+Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+Label {
+  padding: 5px;
+  margin: 15px;
+  color: var(--white);
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
