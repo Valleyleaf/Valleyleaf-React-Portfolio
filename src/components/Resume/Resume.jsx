@@ -21,7 +21,7 @@ export default function Resume(){
           <p>Interested in hiring me? Find my full resume for download below</p>
           </div>
           <img className='mini-img' src={pngimage} alt="Download Resume" />
-          <a className='flex-container center-content downloadButton' href="https://drive.google.com/file/d/1s18svdfbGZAs4NlCMWq162Qr82qUfiOW/view?usp=sharing">Download</a>
+          <a className='flex-container center-content downloadButton' href="https://docs.google.com/document/d/1GJXQi6wieBAQYmAYsAlOiB3DJx8fOeeh/edit?usp=sharing&ouid=105538413960465291853&rtpof=true&sd=true">Download</a>
         </div>
       </>
     );

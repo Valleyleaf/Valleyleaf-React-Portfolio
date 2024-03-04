@@ -12,22 +12,15 @@ import projectCounter from '../../utils/projectCounter'
 
 
 function Portfolio(){
-    const [counter, setCounter] = useState(0);
 
-  const increaseCounter = () => {
-    setCounter(counter + 1);
-  };
-    console.log(counter);
     return (
       <div className='flex-container-row center-content'>
         
         <div className='projectSlidePassive'>
-          <PortfolioItem onRender={increaseCounter}/>
+          <PortfolioItem/>
         </div>
 
-
-
-        {/* <div className='projectSlidePassive'>
+        <div className='projectSlidePassive'>
           <PortfolioProject2/>
         </div>
 
@@ -41,7 +34,7 @@ function Portfolio(){
 
         <div className='projectSlidePassive'>
           <PortfolioProject5/>
-        </div> */}
+        </div>
       </div>
     );
   }

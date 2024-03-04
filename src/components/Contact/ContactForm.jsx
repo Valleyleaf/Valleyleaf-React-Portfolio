@@ -44,7 +44,7 @@ const ContactForm = () => {
         name="contact" method="POST" data-netlify="true"
         onSubmit={handleSubmit}>
           <label>
-            <input className='textArea'
+            <input className='infoArea'
               type='text'
               name='name'
               value={formInput.name}
@@ -56,7 +56,7 @@ const ContactForm = () => {
           </label>
 
           <label>
-            <input className='textArea'
+            <input className='infoArea'
               type='email'
               name='email'
               value={formInput.email}
@@ -68,7 +68,7 @@ const ContactForm = () => {
           </label>
 
           <label>
-            <input className='textArea'
+            <input className='infoArea'
               type='text'
               name='phone'
               value={formInput.email}

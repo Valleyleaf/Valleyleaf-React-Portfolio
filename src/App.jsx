@@ -16,9 +16,7 @@ function App() {
         <Outlet/>
       </div>
 
-      <div className='footer-Bottom'>
-        <Footer/>
-        </div>
+
     </>
   );
 }
