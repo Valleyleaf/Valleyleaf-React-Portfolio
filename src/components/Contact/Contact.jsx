@@ -12,13 +12,10 @@ export default function Contact(){
       <h2>Contact Me</h2>
         <div className='contactMe flex-container-columns'>
           {ContactForm()}
-          {socialMedia()}
+          
         </div>
       </div>
     </div>
   );
 };
 
-{/* <a className='emailMeButton' href="mailto:aston_dahllof@outlook.com">
-Email me!
-</a> */}

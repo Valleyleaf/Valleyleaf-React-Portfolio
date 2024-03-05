@@ -1,17 +1,55 @@
 /* Responsive Grid Class */
 .responsive-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width as needed */
-    gap: 16px; /* Adjust the gap between items as needed */
+    grid-template-columns: repeat(1, 3fr);
+    gap: 15px; 
+    justify-content: center;
+    align-items: center; 
+    margin-right: 15px;
   }
   
 
-.gridItem{
-    background-color: var(--metalic);
-    width: 350px;
-    height: 450px;
-    color: var(--white);
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
+.displayImageSmall{
+  width: 600px;
+  height: 400px;
+  background-color: var(--metalic);
+  color: var(--white);
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.displayImageMedium{
+  width: 600px;
+  height: 300px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.displayImageLarge{
+  width: 600px;
+  height: 600px;
+  background-color: var(--offGreen);
+  color: var(--white);
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.displayImageSmall:hover{
+  transform: scale(1.05);
+}
+
+.displayImageMedium:hover{
+  transform: scale(1.05);
+}
+
+.displayImageLarge:hover{
+  transform: scale(1.05);
 }

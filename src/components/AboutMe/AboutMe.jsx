@@ -8,8 +8,7 @@ import aboutMeData from '../../assets/json/AboutMe.json'
   return (
     <>
       {aboutMeData ? (
-        <div className='aboutMe-flex-container-row center-content'>
-          <>
+          <div className='aboutMe-flex-container-row center-content'>
                 <div className='noWrap'>
                   <h2 className='HeadTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>
                   <div className='fade-in-from-left'>
@@ -25,9 +24,8 @@ import aboutMeData from '../../assets/json/AboutMe.json'
                       </div>
                   </div>
                 </div>
-            </>
-            <img className='profile-img fade-in-from-right' src={profilePicture} alt="ProfileImage"/>
-          </div>
+                <img className='profile-img fade-in-from-right' src={profilePicture} alt="ProfileImage"/>
+            </div>
       ) : (
         <p>Loading...</p>
       )}
