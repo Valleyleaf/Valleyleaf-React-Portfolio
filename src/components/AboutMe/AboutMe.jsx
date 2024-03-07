@@ -3,10 +3,12 @@ import { Link, useLocation } from 'react-router-dom';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
+import portFolio from '../portfolio/projectMain'
+import contact from '../Contact/Contact'
 
   export default function About(){
   return (
-    <>
+    <> 
       {aboutMeData ? (
           <div className='aboutMe-flex-container-row center-content'>
                 <div className='noWrap'>
@@ -29,6 +31,11 @@ import aboutMeData from '../../assets/json/AboutMe.json'
       ) : (
         <p>Loading...</p>
       )}
+      <div className='flex-container-columns center-content'>
+        <h2>Projects</h2>
+        {portFolio()}
+        {contact()}
+      </div>
     </>
   );
 };

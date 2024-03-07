@@ -8,6 +8,11 @@
     margin-right: 15px;
   }
   
+  .imgFit{
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+  }
 
 .displayImageSmall{
   width: 600px;
@@ -15,6 +20,7 @@
   background-color: var(--metalic);
   color: var(--white);
   border: 1px solid #ddd;
+  border-radius: 9px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -26,6 +32,7 @@
   background-color: var(--black);
   color: var(--white);
   border: 1px solid #ddd;
+  border-radius: 9px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -37,6 +44,7 @@
   background-color: var(--offGreen);
   color: var(--white);
   border: 1px solid #ddd;
+  border-radius: 9px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -44,12 +52,46 @@
 
 .displayImageSmall:hover{
   transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .displayImageMedium:hover{
   transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .displayImageLarge:hover{
   transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-from-top {
+  animation: fadeInFromTop 1s ease-in-out;
+}
+
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-from-bottom {
+  animation: fadeInFromBottom 1s ease-in-out;
 }
