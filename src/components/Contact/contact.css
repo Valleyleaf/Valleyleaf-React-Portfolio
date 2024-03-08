@@ -25,8 +25,6 @@
   resize: vertical, horizontal;
 }
 
-
-
   .emailMeButton{
     background-color: var(--mainGreen);
     text-decoration: dashed;

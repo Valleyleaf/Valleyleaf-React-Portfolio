@@ -25,7 +25,7 @@ export default function NavBar(){
         </Link>
         </div>
         
-        {/* <div className='nav-Button'>
+        <div className='nav-Button'>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
@@ -33,8 +33,8 @@ export default function NavBar(){
         >
           Portfolio
         </Link>
-        </div> */}
-        {/* <div className='nav-Button'>
+        </div>
+        <div className='nav-Button'>
         <Link
           to="/Contact"
           className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
@@ -42,7 +42,7 @@ export default function NavBar(){
         >
           Contact
         </Link>
-        </div> */}
+        </div>
         <div className='nav-Button'>
         <Link
           to="/Resume"

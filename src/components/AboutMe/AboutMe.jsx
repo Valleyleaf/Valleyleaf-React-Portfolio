@@ -10,14 +10,14 @@ import contact from '../Contact/Contact'
   return (
     <> 
       {aboutMeData ? (
-          <div className='aboutMe-flex-container-row center-content'>
+          <div className='aboutMe-flex-container-row center-content '>
                 <div className='noWrap'>
-                  <h2 className='HeadTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>
-                  <div className='fade-in-from-left'>
+                  <h2 className='HeadTextClass fade-in txtwhite'>{aboutMeData.aboutMeP1}</h2>
+                  <div className='fade-in-from-left txtwhite'>
                   <p>{aboutMeData.aboutMeP2}</p>
                   <p>{aboutMeData.aboutMeP3}</p>
                   </div>
-                  <div className='flex-container-columns center-content fade-in'>
+                  <div className='flex-container-columns center-content fade-in txtwhite'>
                   <p>{aboutMeData.aboutMeP4}</p>
                       <div>
                       <Link to="/Contact">
@@ -31,11 +31,14 @@ import contact from '../Contact/Contact'
       ) : (
         <p>Loading...</p>
       )}
-      <div className='flex-container-columns center-content'>
+      {/* <div className='flex-container-columns center-content fade-in '>
         <h2>Projects</h2>
         {portFolio()}
-        {contact()}
       </div>
+      <div className='flex-container-columns center-content fade-in '>
+      <h2>Contact Me</h2>
+      {contact()}
+      </div> */}
     </>
   );
 };

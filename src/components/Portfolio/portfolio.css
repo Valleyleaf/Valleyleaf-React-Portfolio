@@ -25,6 +25,7 @@
 .projectSlidePassive{
     width: 150px;
     margin-right: 15px;
+    overflow: hidden;  
     /* z-index: 1; */
     transition: width 1.3s ease;
 }

@@ -14,6 +14,8 @@ import projectCounter from '../../utils/projectCounter'
 function Portfolio(){
 
     return (
+      <div className='flex-container-columns center-content'>
+        <h2 className='HeadTextClass fade-in txtwhite'>Projects</h2>
       <div className='flex-container-row center-content'>
         
         <div className='projectSlidePassive'>
@@ -36,6 +38,7 @@ function Portfolio(){
           <PortfolioProject5/>
         </div>
       </div>
+    </div>
     );
   }
 

@@ -5,15 +5,16 @@
   }
   
   .nav-Button{
+    color: var(--white);
     padding: 8px 5px 5px 5px;
   }
   
   .nav-active{
     text-decoration: dashed;
+    color: var(--white);
     font-weight: bold;
     background: var(--metalic);
     padding: 8px 10px 10px 10px;
-    color: var(--black);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
