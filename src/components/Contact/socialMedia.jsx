@@ -9,7 +9,7 @@ export default function socialMedia(){
     return (
       <div>
         <div className='flex-container-columns center-content fade-in'>
-          <div>
+          <div className='flex-container-columns center-content'>
               <div className='flex-container-row'>
               <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
                 <img className='small-img' src={linkedinIcon} alt="link to linkedin" />
