@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
-import portFolio from '../portfolio/projectMain'
+import portFolio from '../Portfolio/ProjectMain'
 import contact from '../Contact/Contact'
 
   export default function About(){
