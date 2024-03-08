@@ -41,6 +41,7 @@
 
 .profile-img:Hover{
 transform: scale(1.01);
+
 }
 
 @keyframes fadeInFromRight {
