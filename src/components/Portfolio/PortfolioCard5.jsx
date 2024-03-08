@@ -5,7 +5,7 @@ import slide from '../../assets/img/NoteTaker.png';
 import deployIcon from '../../assets/img/link-alt-1-svgrepo-com.svg';
 import repoIcon from '../../assets/img/inbox-alt-1-svgrepo-com.svg';
 
-import './Portfolio.css'
+import './portfolio.css'
 
 const projectSlide = 4;
 
