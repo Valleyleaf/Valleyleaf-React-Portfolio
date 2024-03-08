@@ -15,7 +15,7 @@ function Portfolio(){
 
     return (
       <div className='flex-container-columns center-content'>
-        <h2 className='HeadTextClass fade-in txtwhite'>Projects</h2>
+        <h2 className='HeadTextClass fade-in'>Projects</h2>
       <div className='flex-container-row center-content'>
         
         <div className='projectSlidePassive'>

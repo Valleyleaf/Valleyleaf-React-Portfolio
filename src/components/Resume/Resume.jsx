@@ -11,7 +11,7 @@ export default function Resume(){
     return (
       <>
         <div className='flex-container-columns center-content fade-in'>
-          <h2 className='txtwhite'>Resume</h2>
+          <h2>Resume</h2>
           <div>
             <div>{skillsOne()}</div>
             <div>{jobOne()}</div>

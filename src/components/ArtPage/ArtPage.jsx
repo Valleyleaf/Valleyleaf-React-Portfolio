@@ -29,7 +29,7 @@ const gallery = [
     <>
     <div className='flex-container-columns center-content main-content-scaling'>
 
-      <h2 className='flex-container-row center-content txtwhite'>Art & Design</h2>
+      <h2 className='flex-container-row center-content'>Art & Design</h2>
       <p>This is how I spend my free time.</p>
         <div className='flex-container-row center-content'>
 

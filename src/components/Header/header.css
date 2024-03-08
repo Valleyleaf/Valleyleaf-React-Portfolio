@@ -3,7 +3,7 @@
     width:100%;
     border-bottom: 1px solid var(--typeLine);
     z-index: 4;
-    color: var(--white);
+    color: var(--black);
   }
   
   .header-Text{

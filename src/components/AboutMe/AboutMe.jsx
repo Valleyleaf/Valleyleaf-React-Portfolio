@@ -12,12 +12,12 @@ import contact from '../Contact/Contact'
       {aboutMeData ? (
           <div className='aboutMe-flex-container-row center-content '>
                 <div className='noWrap'>
-                  <h2 className='HeadTextClass fade-in txtwhite'>{aboutMeData.aboutMeP1}</h2>
-                  <div className='fade-in-from-left txtwhite'>
+                  <h2 className='HeadTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>
+                  <div className='fade-in-from-left'>
                   <p>{aboutMeData.aboutMeP2}</p>
                   <p>{aboutMeData.aboutMeP3}</p>
                   </div>
-                  <div className='flex-container-columns center-content fade-in txtwhite'>
+                  <div className='flex-container-columns center-content fade-in'>
                   <p>{aboutMeData.aboutMeP4}</p>
                       <div>
                       <Link to="/Contact">
