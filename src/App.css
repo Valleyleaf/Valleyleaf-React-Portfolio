@@ -23,7 +23,7 @@
 body {
   min-height: 100vh;
   position: relative;
-  background-image: url('./assets//img/mountains.svg');
+  background-image: url('./assets/img/mountains.svg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
