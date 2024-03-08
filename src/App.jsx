@@ -15,8 +15,6 @@ function App() {
       <div className='main-content-scaling Outlet-Positioning'>
         <Outlet/>
       </div>
-
-
     </>
   );
 }

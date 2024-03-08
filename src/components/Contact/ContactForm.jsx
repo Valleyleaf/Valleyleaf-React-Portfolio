@@ -71,7 +71,7 @@ const ContactForm = () => {
             <input className='infoArea'
               type='text'
               name='phone'
-              value={formInput.email}
+              value={formInput.phone}
               onChange={handleChange}
               placeholder="Phone Number (Optional)"
             />

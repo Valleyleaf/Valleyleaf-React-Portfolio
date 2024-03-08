@@ -1,6 +1,14 @@
 .aboutMe-flex-container-row{
   display: flex;
   flex-direction: row;
+  padding-bottom: 75px;
+}
+
+.aboutMe-flex-container-columns{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 155px;
 }
 
 .HeadTextClass{
@@ -10,10 +18,10 @@
 }
 
 .contactMeButton{
-    background-color: var(--mainGreen);
+    background-color: var(--Orange);
     color: var(--black);
     border-radius: 15px;
-    border: 1px solid var(--offGreen);
+    border: 3px solid var(--BorderOrange);
     transition: transform 0.3s ease;
 }
 
@@ -27,13 +35,14 @@
   height: 450px;
   border-radius: 35px;
   margin: 15px;
-  box-shadow: 9px -9px 1px var(--mainGreen);
+  box-shadow: 9px -9px 1px var(--Orange);
   transition: transform 0.3s ease;
 }
 
-/* .profile-img:Hover{
+.profile-img:Hover{
 transform: scale(1.01);
-} */
+
+}
 
 @keyframes fadeInFromRight {
     from {

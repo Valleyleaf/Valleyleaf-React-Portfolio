@@ -7,27 +7,36 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     --darkgrey: #333333;
-    --metalic: #ebebeb;
+    --metalic: #fba91b;
     --typeLine: #242424;
     --printerGray: #c3cad1;
     --white: #fcfcfc;
     --black: #000000;
     --mainGreen: #b2fc8f;
     --offGreen: #70af53;
+    --Orange: #fba91b;
+    --BorderOrange: #84580e;
+    --seaWeed: #23655f;
+    --iceBlue: #679197;
 }
 /* Main components */
-/* body {
-  margin: 0;
-  padding: 0;
+body {
   min-height: 100vh;
   position: relative;
-  
-} */
+  background-image: url('./assets//img/mountains.svg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 h2{
   padding: 8px;
-  font-family: monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
   z-index: 2;
+}
+
+.txtwhite{
+  color: var(--white);
 }
 
 p{
@@ -74,12 +83,17 @@ Button{
   transition: transform 0.3s ease;
 }
 
+.Outlet-Container {
+  min-height: 100%;
+  position: relative;
+}
+
 .Outlet-Positioning{
   position:relative;
-  margin-top: 50px;
+  padding-top: 50px;
   width:100%;
   height: 100%;
-  margin-bottom: 250px;
+  padding-bottom: 250px;
   z-index: 0;
 }
 

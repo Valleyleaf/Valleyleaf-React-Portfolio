@@ -24,6 +24,7 @@ export default function NavBar(){
           About Me
         </Link>
         </div>
+        
         <div className='nav-Button'>
         <Link
           to="/Portfolio"
@@ -57,7 +58,7 @@ export default function NavBar(){
           className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
           onClick={handleLinkClick}
         >
-          Art
+          Art & Design
         </Link>
         </div>
         </nav>
