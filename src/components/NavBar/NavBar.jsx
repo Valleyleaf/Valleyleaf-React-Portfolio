@@ -52,7 +52,7 @@ export default function NavBar(){
           Resume
         </Link>
         </div>
-        <div className='nav-Button'>
+        {/* <div className='nav-Button'>
         <Link
           to="/Art"
           className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
@@ -60,7 +60,7 @@ export default function NavBar(){
         >
           Art & Design
         </Link>
-        </div>
+        </div> */}
         </nav>
       </div>
     );

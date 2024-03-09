@@ -7,15 +7,13 @@ import PortfolioProject4 from "./PortfolioCard4";
 import PortfolioProject5 from "./PortfolioCard5";
 import '../../App.css'
 
-import projectCounter from '../../utils/projectCounter'
-
-
-
 function Portfolio(){
 
     return (
       <div className='flex-container-columns center-content'>
-        <h2 className='HeadTextClass typewriterClass fade-in'>Projects</h2>
+        <div className='flexBox3'>
+          <h2 className='headTextClass typewriterClass fade-in'>Projects</h2>
+        </div>
       <div className='flex-container-row center-content topDividerPortfolio'>
         
         <div className='projectSlidePassive'>

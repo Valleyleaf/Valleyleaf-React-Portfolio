@@ -9,15 +9,15 @@
     --darkgrey: #333333;
     --metalic: #fba91b;
     --typeLine: #242424;
-    --printerGray: #c3cad1;
+    --printerGray: #c3cad195;
     --white: #fcfcfc;
     --black: #000000;
     --mainGreen: #b2fc8f;
     --offGreen: #70af53;
     --Orange: #fba91b;
     --BorderOrange: #84580e;
-    --seaWeed: #23655f;
     --iceBlue: #679197;
+    --nullColor: #00000000;
 }
 /* Main components */
 body {

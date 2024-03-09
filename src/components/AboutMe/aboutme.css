@@ -11,10 +11,15 @@
   margin-bottom: 155px;
 }
 
-.HeadTextClass{
+.headTextClass{
     font-family:monospace;
     font-size: 38px;
     text-align:left;
+}
+
+.flexBox3{
+  display: flex;
+  flex: 0 0 auto;
 }
 
 .contactMeButton{

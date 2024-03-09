@@ -1,12 +1,20 @@
 .navbar {
     position: relative;
     top: 3rem;
+
     z-index: 3;
   }
   
   .nav-Button{
     color: var(--black);
-    padding: 8px 5px 5px 5px;
+    padding: 6px 6px 6px 6px;
+
+  }
+
+  .nav-Button:hover{
+    color: var(--white);
+    font-weight: bolder;
+    padding: 6px 5px 5px 5px;
   }
   
   .nav-active{
@@ -14,7 +22,7 @@
     color: var(--white);
     font-weight: bold;
     background: var(--metalic);
-    padding: 8px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }

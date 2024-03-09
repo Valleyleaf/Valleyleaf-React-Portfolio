@@ -9,7 +9,9 @@ export default function Contact(){
   return (
     <div>
       <div className='flex-container-columns center-content'>
-      <h2 className='HeadTextClass typewriterClassContact'>Contact Me</h2>
+        <div className='flexBox3'>
+          <h2 className='HeadTextClass typewriterClassContact'>Contact Me</h2>
+        </div>
         <div className='contactMe flex-container-columns fade-in'>
           {ContactForm()}
           {socialMedia()}

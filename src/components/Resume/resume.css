@@ -78,7 +78,7 @@
     /* The typing effect */
     @keyframes typing-Resume {
       from { width: 0 }
-      to { width: 14% }
+      to { width: 100% }
     }
     
     /* The typewriter cursor effect */

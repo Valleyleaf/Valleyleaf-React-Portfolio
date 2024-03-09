@@ -43,6 +43,7 @@ const ContactForm = () => {
         <form
         name="contact" method="POST" data-netlify="true"
         onSubmit={handleSubmit}>
+
           <label>
             <input className='infoArea'
               type='text'
