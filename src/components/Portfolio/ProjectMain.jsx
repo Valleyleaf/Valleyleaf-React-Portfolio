@@ -10,7 +10,7 @@ import '../../App.css'
 function Portfolio(){
 
     return (
-      <div className='flex-container-columns center-content'>
+      <div className='flex-container-columns center-content topDividerPortfolio'>
         <div className='flexBox3'>
           <h2 className='headTextClass typewriterClass fade-in'>Projects</h2>
         </div>

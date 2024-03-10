@@ -127,3 +127,11 @@
         transition: width 0.9s ease;
     }
   }
+
+  @media screen and (max-width: 688px){
+    .topDividerPortfolio{
+      padding-top: 0px;
+      align-items: center;
+      transform: scale(0.65);
+    }
+  }

@@ -41,6 +41,10 @@
   margin-bottom: 20px;
 }
 
+.divider-Top{
+  margin-top: 20px;
+}
+
 .divider-Right{
   margin-right: 250px;
 }
@@ -86,3 +90,22 @@
       from, to { border-color: transparent }
       50% { border-color: var(--black); }
     }
+
+    /* Mobile Options */
+@media screen and (max-width: 980px){
+  .resumeBox {
+    transform: scale(1.00);
+  }
+}
+
+@media screen and (max-width: 890px){
+  .resumeBox {
+    transform: scale(0.55);
+  }
+}
+
+@media screen and (max-width: 688px){
+  .resumeBox {
+    transform: scale(0.55);
+  }
+}

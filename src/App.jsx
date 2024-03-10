@@ -12,7 +12,7 @@ function App() {
 
       <div className='navbar'><NavBar/></div>
 
-      <div className='main-content-scaling Outlet-Positioning'>
+      <div className='Outlet-Positioning'>
         <Outlet/>
       </div>
     </>

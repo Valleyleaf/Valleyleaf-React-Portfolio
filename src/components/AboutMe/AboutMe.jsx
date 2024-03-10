@@ -3,14 +3,12 @@ import { Link, useLocation } from 'react-router-dom';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
-import portFolio from '../Portfolio/ProjectMain'
-import contact from '../Contact/Contact'
 
   export default function About(){
   return (
     <> 
       {aboutMeData ? (
-          <div className='aboutMe-flex-container-row center-content '>
+          <div className='aboutMe-flex-container-row center-content main-content-scaling'>
                 <div className='noWrap'>
                   <h2 className='headTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>
                   <div className='fade-in-from-left'>

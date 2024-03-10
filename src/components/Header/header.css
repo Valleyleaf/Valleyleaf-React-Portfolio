@@ -1,5 +1,6 @@
 .Header-Top{
     position:fixed;
+    height: 55px;
     width:100%;
     border-bottom: 1px solid var(--typeLine);
     z-index: 4;
@@ -7,10 +8,9 @@
   }
   
   .header-Text{
-    color: var(--white);
+    color: var(--black);
+    width: 55%;
   }
-  
-
   .header-divider{
     background-color: var(--metalic);
     padding: 8px;
@@ -20,4 +20,24 @@
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
+  }
+  
+  @media screen and (max-width: 375px){
+    .Header-Top{
+      position:fixed;
+      height: 90px;
+      width:100%;
+      border-bottom: 1px solid var(--typeLine);
+      z-index: 4;
+      color: var(--black);
+    }
+    .header-Text{
+      color: var(--black);
+      width: 55%;
+    }
+    .keepRight {
+      display: flex;
+      justify-content: flex-end;
+      margin-left: 5px;
+    }
   }

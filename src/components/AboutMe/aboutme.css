@@ -61,6 +61,7 @@ transform: scale(1.01);
   }
   
   .fade-in-from-right {
+    overflow: hidden;
     animation: fadeInFromRight 1s ease-in-out;
   }
 
@@ -76,6 +77,7 @@ transform: scale(1.01);
   }
   
   .fade-in-from-left {
+    overflow: hidden;
     animation: fadeInFromLeft 1s ease-in-out;
   }
 
@@ -89,40 +91,33 @@ transform: scale(1.01);
   }
   
   .fade-in {
+    overflow: hidden;
     animation: fadeIn 1s ease-in-out;
   }
 
   /* Screen warp */
 
-  @media screen and (max-width: 980px){
-    .profile-img{
-      transform: scale(0.82);
-    }
-  
+/* Mobile Options */
+@media screen and (max-width: 980px){
+  .main-content-scaling {
+    transform: scale(1.00);
   }
-  
-  @media screen and (max-width: 890px){
-    .profile-img{
-      transform: scale(0.82);
-    }
+}
+
+@media screen and (max-width: 890px){
+  .main-content-scaling {
+    transform: scale(0.90);
   }
-  
-  @media screen and (max-width: 688px){
-    .profile-img{
-      transform: scale(0.82);
-    }
+}
+
+@media screen and (max-width: 688px){
+  .aboutMe-flex-container-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  @media screen and (max-width: 435px){
-    .main-content-scaling {
-      transform: scale(0.85);
-    }
-    .aboutMe-flex-container-row{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .profile-img{
-      transform: scale(0.62);
-    }
+  .profile-img{
+    transform: scale(0.60);
   }
+}

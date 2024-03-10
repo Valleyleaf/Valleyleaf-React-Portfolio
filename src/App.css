@@ -153,19 +153,19 @@ Button{
 
 @media screen and (max-width: 890px){
   .main-content-scaling {
-    transform: scale(0.82);
+    transform: scale(0.90);
   }
 }
 
 @media screen and (max-width: 688px){
   .main-content-scaling {
-    transform: scale(0.75);
+    transform: scale(0.85);
   }
 }
 
 @media screen and (max-width: 375px){
   .main-content-scaling {
-    transform: scale(0.55);
+    transform: scale(0.85);
   }
   .Outlet-Positioning{
     position:relative;

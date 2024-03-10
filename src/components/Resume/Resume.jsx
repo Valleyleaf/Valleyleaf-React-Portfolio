@@ -14,7 +14,7 @@ export default function Resume(){
           <div className='flexBox3'>
             <h2 className='typewriterClassResume'>Resume</h2>
           </div>
-          <div>
+          <div className='divider-Top'>
             <div>{skillsOne()}</div>
             <div>{jobOne()}</div>
             <div>{jobTwo()}</div>

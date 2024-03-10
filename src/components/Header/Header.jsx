@@ -8,7 +8,7 @@ export default function Header(){
     return (
       <div>
         <div className='Header-Top flex-container-row mainColor'>
-          <div>
+          <div className='header-Text'>
             <h2>Aston Andersson Dahllöf</h2>
           </div>
 

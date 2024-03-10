@@ -1,7 +1,6 @@
 .navbar {
     position: relative;
     top: 3rem;
-
     z-index: 3;
   }
   
@@ -30,4 +29,12 @@
 .header-divider{
     background-color: var(--metalic);
     padding: 8px;
+  }
+
+  @media screen and (max-width: 375px){
+    .navbar {
+      position: relative;
+      top: 5rem;
+      z-index: 3;
+    }
   }
