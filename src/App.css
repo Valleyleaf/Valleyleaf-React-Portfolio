@@ -95,6 +95,7 @@ Button{
   height: 100%;
   padding-bottom: 250px;
   z-index: 0;
+  overflow: hidden;
 }
 
 .noWrap{

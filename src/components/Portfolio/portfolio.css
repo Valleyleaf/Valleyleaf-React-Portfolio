@@ -36,7 +36,7 @@
 }
 
 .projectSlidePassive:hover{
-    width: 850px;
+    width: 450px;
     margin-right: 9px;
     z-index: 0;
     transition: width 0.9s ease;

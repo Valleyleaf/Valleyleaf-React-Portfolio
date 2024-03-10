@@ -42,11 +42,11 @@
   margin: 15px;
   box-shadow: 9px -9px 1px var(--Orange);
   transition: transform 0.3s ease;
+  overflow: hidden;
 }
 
 .profile-img:Hover{
 transform: scale(1.01);
-
 }
 
 @keyframes fadeInFromRight {
@@ -95,7 +95,7 @@ transform: scale(1.01);
     animation: fadeIn 1s ease-in-out;
   }
 
-  /* Screen warp */
+
 
 /* Mobile Options */
 @media screen and (max-width: 980px){
