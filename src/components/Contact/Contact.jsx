@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import './contact.css'
 import ContactForm from './ContactForm';
-import socialMedia from './SocialMedia';
+import SocialMedia from './SocialMedia';
 
 //Note to self. Below can be used for shortened components. When including functions, export seperately.
 export default function Contact(){
@@ -14,7 +14,7 @@ export default function Contact(){
         </div>
         <div className='contactMe flex-container-columns fade-in'>
           {ContactForm()}
-          {socialMedia()}
+          {SocialMedia()}
         </div>
       </div>
     </div>
