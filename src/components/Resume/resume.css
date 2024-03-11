@@ -100,12 +100,13 @@
 
 @media screen and (max-width: 890px){
   .resumeBox {
-    transform: scale(0.55);
+    transform: scale(0.95);
   }
 }
 
 @media screen and (max-width: 688px){
   .resumeBox {
-    transform: scale(0.55);
+    transform: scale(0.85);
+    margin: -20px;
   }
 }

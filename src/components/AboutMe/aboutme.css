@@ -61,7 +61,6 @@ transform: scale(1.01);
   }
   
   .fade-in-from-right {
-    overflow: hidden;
     animation: fadeInFromRight 1s ease-in-out;
   }
 
@@ -77,7 +76,6 @@ transform: scale(1.01);
   }
   
   .fade-in-from-left {
-    overflow: hidden;
     animation: fadeInFromLeft 1s ease-in-out;
   }
 
@@ -91,7 +89,6 @@ transform: scale(1.01);
   }
   
   .fade-in {
-    overflow: hidden;
     animation: fadeIn 1s ease-in-out;
   }
 
