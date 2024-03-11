@@ -33,7 +33,6 @@
     }
     .header-Text{
       color: var(--black);
-      width: 55%;
     }
     .keepRight {
       display: flex;

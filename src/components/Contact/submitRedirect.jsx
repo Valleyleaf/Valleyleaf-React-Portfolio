@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.css'
+import './contact.css'
 
-export default function redirect(){
+export default function submitted(){
     return (
       <div>
         <div className='Header-Top flex-container-row mainColor'>

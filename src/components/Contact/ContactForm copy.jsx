@@ -8,7 +8,6 @@ const ContactForm = () => {
   const [formInput, setformInput] = useState({
     name: '',
     email: '',
-    phone: '',
     message: '',
   });
   
@@ -16,6 +15,10 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setformInput((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
   };
 
   const handleBlurName = () => {
@@ -39,12 +42,8 @@ const ContactForm = () => {
   return (
     <div>
         <form
-          name="contact" 
-          method="POST" 
-          data-netlify="true"
-          onSubmit="submit"
-        >
-          <input type="hidden" name="form-name" value="contact"/>
+        name="contact" method="POST" data-netlify="true" action="/submitted"
+        onSubmit={handleSubmit}>
 
           <label>
             <input className='infoArea'
