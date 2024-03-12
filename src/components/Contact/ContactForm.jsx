@@ -39,15 +39,15 @@ const ContactForm = () => {
   return (
     <div>
         <form
-          name="contact" 
-          method="POST" 
+          name="contact"
+          method="post" 
+          action="/contact"
           data-netlify="true"
-          onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact"/>
-
           <label>
             <input className='infoArea'
+              required
               type='text'
               name='name'
               value={formInput.name}
@@ -60,6 +60,7 @@ const ContactForm = () => {
 
           <label>
             <input className='infoArea'
+              required
               type='email'
               name='email'
               value={formInput.email}
