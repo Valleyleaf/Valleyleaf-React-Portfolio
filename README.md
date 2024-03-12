@@ -19,6 +19,7 @@ Main Page:
 ![image](https://github.com/Valleyleaf/Valleyleaf-React-Portfolio/assets/137734906/e741274c-1e37-4097-9901-cd57fb12a43e)
 
 Mobile Styling:
+
 ![image](https://github.com/Valleyleaf/Valleyleaf-React-Portfolio/assets/137734906/5fe9c999-3c07-4185-bf7d-73a73ae5dadf)
 
 
