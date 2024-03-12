@@ -46,9 +46,9 @@ const ContactForm = () => {
         name="contact" 
         method="POST" 
         data-netlify="true" 
-        action="/submitted"
-        onSubmit={handleSubmit}>
-        <input type="hidden" name="form-name" value="contact" />
+        onSubmit="submit">
+        <input type="hidden" name="form-name" value="contact"/>
+
           <label>
             <input className='infoArea'
               type='text'
@@ -98,3 +98,5 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+//Note to self. Remove the h4's and just use alerts instead in future version.
