@@ -20,8 +20,8 @@ export default function Resume(){
             <div>{jobTwo()}</div>
             <div>{jobThree()}</div>
             <div>{jobFour()}</div>
-          <p>Interested in hiring me? Find my full resume for download below</p>
           </div>
+          <p>Interested in hiring me? Find my full resume for download below</p>
           <img className='mini-img' src={pngimage} alt="Download Resume" />
           <a className='flex-container center-content downloadButton' href="https://drive.google.com/file/d/1_aUBoJIAii3fql7Fq8tXlXF49ZRR4hTJ/view?usp=sharing">Download</a>
         </div>
