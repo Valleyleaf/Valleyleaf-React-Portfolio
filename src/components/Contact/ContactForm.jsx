@@ -8,6 +8,7 @@ const ContactForm = () => {
   const [formInput, setformInput] = useState({
     name: '',
     email: '',
+    phone: '',
     message: '',
   });
   
@@ -53,7 +54,7 @@ const ContactForm = () => {
         <input type="hidden" name="form-name" value="contact"/>
 
         <div hidden>
-          <input name="bot-field" />
+          <input name="bot-field"/>
           </div>
 
           <label>

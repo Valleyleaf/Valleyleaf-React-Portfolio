@@ -8,8 +8,11 @@
   }
   
   .header-Text{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 42px;
     color: var(--black);
-    width: 55%;
+    margin-left: 5px;
   }
   .header-divider{
     background-color: var(--metalic);
@@ -21,8 +24,18 @@
     justify-content: flex-end;
     margin-left: auto;
   }
+
+  .titleAnimation{
+    transition: transform 0.3s ease;
+  }
   
-  @media screen and (max-width: 375px){
+  .titleAnimation:hover{
+    color: var(--white);
+    transition: transform 0.3s ease;
+    transform: scale(1.02);
+  }
+  
+  @media screen and (max-width: 390px){
     .Header-Top{
       position:fixed;
       height: 90px;
