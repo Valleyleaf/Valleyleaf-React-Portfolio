@@ -5,6 +5,7 @@
     border-bottom: 1px solid var(--typeLine);
     z-index: 4;
     color: var(--black);
+    background-color: var(--metalic);
   }
   
   .header-Text{

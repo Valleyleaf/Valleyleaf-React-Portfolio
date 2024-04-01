@@ -16,7 +16,7 @@ export default function Header(){
   };
     return (
       <div>
-        <div className='Header-Top flex-container-row mainColor'>
+        <div className='Header-Top flex-container-row'>
           
         <Link
           to="/"

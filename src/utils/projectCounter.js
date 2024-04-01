@@ -7,3 +7,5 @@ function projectCounter(){
 
 
 export default projectCounter;
+
+//Replace this with the slide generator from RatMaestro. This is bad code.

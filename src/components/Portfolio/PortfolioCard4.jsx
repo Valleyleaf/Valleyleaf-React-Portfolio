@@ -27,7 +27,7 @@ export default function PortfolioItem4(){
         <div className='center-content flex-container-row outerFrame'>
           <div>
             <h2 className="keepLeft content-Text">{slideTitle[projectSlide]}</h2>
-            <p className="keepRight content-Text noWrap">{slideContent[projectSlide]}</p>
+            <p className="keepRight content-Text">{slideContent[projectSlide]}</p>
           </div>
         </div>
         
