@@ -24,22 +24,24 @@
   color: var(--white);
   text-shadow: #000000;
   text-emphasis-color: #c70909;
+  max-width: 200px;
+
 }
 
 .projectSlidePassive{
-    width: 150px;
+    width: 10%;
     margin-right: 15px;
     overflow: hidden;  
-    /* z-index: 1; */
     transition: width 1.3s ease;
     box-shadow: 9px -9px 1px var(--Orange);
+    transition: width 0.9s ease;
 }
 
 .projectSlidePassive:hover{
-    width: 450px;
+    width: 20%;
     margin-right: 9px;
     z-index: 0;
-    transition: width 0.9s ease;
+    transition: width 0.3s ease;
 }
 
   .deploy-ButtonStyle{
@@ -66,21 +68,13 @@
     height: 100%;
   }
 
-  #outerFrame {
+  .outerFrame {
     position: relative;
     width: 300px; 
     height: 650px; 
   }
-
   
-#innerFrameUpper {
-    position: absolute;
-    top: 10;
-    left: 0;
-    margin: 10px;
-  }
-  
-  #innerFrameBottom {
+  .innerFrameBottom {
     position: absolute;
     bottom: 0;
     right: 0;

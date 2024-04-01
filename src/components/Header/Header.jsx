@@ -23,7 +23,10 @@ export default function Header(){
           className='header-Text titleAnimation'
           onClick={handleLinkClick}
         >
+          <div className='flex-container-column center-content'>
           <h2>Aston Andersson Dahllof</h2>
+          <h4 className='workTitle'>-Full-Stack Web Developer-</h4>
+          </div>
         </Link>
 
           <div className='keepRight center-content'>

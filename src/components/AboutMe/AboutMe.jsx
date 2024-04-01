@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
+import portFolio from '../Portfolio/ProjectMain'
 
   export default function About(){
   return (
@@ -35,14 +36,9 @@ import aboutMeData from '../../assets/json/AboutMe.json'
       ) : (
         <p>Loading...</p>
       )}
-      {/* <div className='flex-container-columns center-content fade-in '>
-        <h2>Projects</h2>
+      <div id='Portfolio' className='flex-container-columns center-content fade-in '>
         {portFolio()}
       </div>
-      <div className='flex-container-columns center-content fade-in '>
-      <h2>Contact Me</h2>
-      {contact()}
-      </div> */}
     </>
   );
 };
