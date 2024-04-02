@@ -1,6 +1,8 @@
 .Header-Top{
+    display: flex;
+    flex: 3;
     position:fixed;
-    height: 10%;
+    height: 5rem;
     width:100%;
     border-bottom: 1px solid var(--typeLine);
     z-index: 4;
@@ -9,11 +11,13 @@
   }
   
   .header-Text{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     text-decoration: none;
     font-size: 42px;
     color: var(--black);
-    margin-left: 5px;
+    margin-left: auto;
   }
 
   .workTitle{

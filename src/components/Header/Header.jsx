@@ -16,14 +16,14 @@ export default function Header(){
   };
     return (
       <div>
-        <div className='Header-Top flex-container-row'>
+        <div className='Header-Top'>
           
         <Link
           to="/"
           className='header-Text titleAnimation'
           onClick={handleLinkClick}
         >
-          <div className='flex-container-column center-content'>
+          <div className='flex-container-columns'>
           <h2>Aston Andersson Dahllof</h2>
           <h4 className='workTitle'>-Full-Stack Web Developer-</h4>
           </div>

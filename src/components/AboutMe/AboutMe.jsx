@@ -4,6 +4,7 @@ import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
 import portFolio from '../Portfolio/ProjectMain'
+import contact from '../Contact/Contact'
 
   export default function About(){
   return (
@@ -39,6 +40,7 @@ import portFolio from '../Portfolio/ProjectMain'
       <div id='Portfolio' className='flex-container-columns center-content fade-in '>
         {portFolio()}
       </div>
+      
     </>
   );
 };
