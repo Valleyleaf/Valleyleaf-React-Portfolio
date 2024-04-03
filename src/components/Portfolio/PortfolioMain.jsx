@@ -2,24 +2,24 @@ import React from 'react';
 import {projectTitle, projectText, projectImage, projectRepoLink, projectDeployLink} from '../../utils/projectContent'
 import './portfolio.css'
 
-
 function PortfolioMain() {
   const renderItems = () => {
-    return projectImage.map((image, index) => (
+    return projectImage.map((renderBG, index) => (
       <div 
       key={index} 
-      className='projectSlidePassive'
+      className='projectSlidePassive flex-container-columns center-content'
       style={{ 
-        backgroundImage: `url(${projectImage[index]})`,
-        backgroundSize: 'auto',
-        zIndex: '0'
+        backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(${renderBG})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        zIndex: '4'
       }}
       >
-        
-          <div className='flex-container-row center-content'>
-            <h2>{projectTitle[index]}</h2>
+          <h2 className='projectText'>{projectTitle[index]}</h2>
+          <div className='flexPortfolioWindow'>
+            <p className='projectText'>{projectText[index]}</p>
           </div>
-        <p>{projectText[index]}</p>
+
       </div>
     ));
   };

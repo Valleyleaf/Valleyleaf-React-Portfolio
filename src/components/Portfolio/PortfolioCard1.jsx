@@ -23,14 +23,14 @@ export default function PortfolioItem2(){
     return (
         <div style={backgroundImageStyle} className="flex-container-row gradient-overlay fade-in">
           
-        <div className='center-content flex-container-row outerFrame'>
+        <div id="outerFrame" className='center-content flex-container-row'>
           <div>
             <h2 className="keepLeft content-Text">{slideTitle[projectSlide]}</h2>
-            <p className="keepRight content-Text">{slideContent[projectSlide]}</p>
+            <p className="keepRight content-Text noWrap">{slideContent[projectSlide]}</p>
           </div>
         </div>
         
-          <div className="flex-container innerFrameBottom">
+          <div id="innerFrameBottom" className="flex-container">
             <a href={slideRepo[projectSlide]} target="_blank"><img className='deployandrepo' src={repoIcon} alt="Link to repo"/></a>
             <a href={slideLink[projectSlide]} target="_blank"><img className='deployandrepo' src={deployIcon} alt="Link to Deployed project" /></a>
           </div>
