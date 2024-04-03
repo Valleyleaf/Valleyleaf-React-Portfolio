@@ -17,7 +17,6 @@ export default function Header(){
     return (
       <div>
         <div className='Header-Top'>
-          
         <Link
           to="/"
           className='header-Text titleAnimation'

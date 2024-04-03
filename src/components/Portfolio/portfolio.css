@@ -31,6 +31,7 @@
 
 .projectSlidePassive{
     width: 10%;
+    height: 500px;
     margin-right: 15px;
     overflow: hidden;  
     transition: width 1.3s ease;
