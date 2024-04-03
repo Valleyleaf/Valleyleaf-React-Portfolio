@@ -50,6 +50,7 @@ Button{
 .flex-container-row{
   display: flex;
   flex-direction: row;
+  border: 2px solid var(--black);
 }
 
 .flex-container-columns{
