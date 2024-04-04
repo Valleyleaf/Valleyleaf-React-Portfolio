@@ -43,15 +43,15 @@ export default function NavBar(){
           Resume
         </Link>
         </div>
-        {/* <div className='nav-Button'>
+        <div className='nav-Button'>
         <Link
-          to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
+          to="/WIPs"
+          className={currentPage === '/WIPs' ? 'nav-active' : 'nav-link'}
           onClick={handleLinkClick}
         >
-          Side Projects
+          Works in Progress
         </Link>
-        </div> */}
+        </div>
         {/* <div className='nav-Button'>
         <Link
           to="/Art"

@@ -33,12 +33,12 @@ import solutionStack from '../SolutionStack/solutionStack'
       ) : (
         <p>Loading...</p>
       )}
-      {/* <div id='Portfolio' className='flex-container-columns center-content fade-in '>
+      <div id='Portfolio' className='flex-container-columns center-content fade-in '>
           <div className='flexBox3'>
           <h2 className='fade-in typewriterClass'>Solution Stack</h2>
           </div>
           {solutionStack()}
-      </div> */}
+      </div>
 
       <div id='Portfolio' className='flex-container-columns center-content fade-in '>
           <div className='flexBox3'>
