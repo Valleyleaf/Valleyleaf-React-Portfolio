@@ -33,8 +33,7 @@ function PortfolioMain() {
 
   return (
     <div className='flex-container-column'>
-        <h2 className='flex-container-row center-content'>Projects</h2>
-        <div className='flex-container-row center-content'>
+        <div className='flex-container-row center-content defaultSpacing'>
           {renderItems()}
         </div>
     </div>
