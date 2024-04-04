@@ -43,7 +43,7 @@ export default function NavBar(){
           Resume
         </Link>
         </div>
-        <div className='nav-Button'>
+        {/* <div className='nav-Button'>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
@@ -51,7 +51,7 @@ export default function NavBar(){
         >
           Side Projects
         </Link>
-        </div>
+        </div> */}
         {/* <div className='nav-Button'>
         <Link
           to="/Art"
