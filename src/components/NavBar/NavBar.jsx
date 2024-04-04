@@ -24,16 +24,7 @@ export default function NavBar(){
           About Me
         </Link>
         </div>
-        
-        {/* <div className='nav-Button'>
-        <Link
-          to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          Portfolio
-        </Link>
-        </div> */}
+      
         <div className='nav-Button'>
         <Link
           to="/Contact"
@@ -52,13 +43,22 @@ export default function NavBar(){
           Resume
         </Link>
         </div>
+        <div className='nav-Button'>
+        <Link
+          to="/Portfolio"
+          className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
+          onClick={handleLinkClick}
+        >
+          Side Projects
+        </Link>
+        </div>
         {/* <div className='nav-Button'>
         <Link
           to="/Art"
           className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
           onClick={handleLinkClick}
         >
-          Art & Design
+          Skills & Roadmap
         </Link>
         </div> */}
         </nav>

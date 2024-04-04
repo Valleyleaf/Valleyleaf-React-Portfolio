@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
 import portFolio from '../Portfolio/PortfolioMain'
-import contact from '../Contact/Contact'
+import solutionStack from '../SolutionStack/solutionStack'
 
   export default function About(){
   return (
@@ -33,6 +33,13 @@ import contact from '../Contact/Contact'
       ) : (
         <p>Loading...</p>
       )}
+      {/* <div id='Portfolio' className='flex-container-columns center-content fade-in '>
+          <div className='flexBox3'>
+          <h2 className='fade-in typewriterClass'>Solution Stack</h2>
+          </div>
+          {solutionStack()}
+      </div> */}
+
       <div id='Portfolio' className='flex-container-columns center-content fade-in '>
           <div className='flexBox3'>
           <h2 className='fade-in typewriterClass'>Projects</h2>
