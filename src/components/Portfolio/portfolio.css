@@ -1,3 +1,5 @@
+
+
 .deployandrepo{
     background-color: var(--white);
     border-radius: 5px;
@@ -24,22 +26,59 @@
   color: var(--white);
   text-shadow: #000000;
   text-emphasis-color: #c70909;
+  max-width: 350px;
+  min-width: 300px;
+}
+
+.projectContainer{
+  display: flex;
+  flex: 3;
+  height: auto;
+  width: auto;
+
+}
+
+.projectBox{
+  margin-top: 50px;
+  margin-left: 15px;
+  height: 200px;
+  width: 350px;
+
+}
+
+.repoBox{
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
 }
 
 .projectSlidePassive{
-    width: 150px;
-    margin-right: 15px;
+    display: flex;
+    justify-content: flex-start;
+    width: 5%;
+    height: 500px;
+    margin-left: 15px;
     overflow: hidden;  
-    /* z-index: 1; */
     transition: width 1.3s ease;
     box-shadow: 9px -9px 1px var(--Orange);
+    transition: width 0.9s ease;
+    color: var(--white);
 }
 
 .projectSlidePassive:hover{
-    width: 450px;
-    margin-right: 9px;
-    z-index: 0;
-    transition: width 0.9s ease;
+  display: flex;
+  justify-content: center;
+  width: 16%;
+  height: 500px;
+  margin-left: 15px;
+  overflow: hidden;  
+  transition: width 1.3s ease;
+  box-shadow: 9px -9px 1px var(--Orange);
+  transition: width 0.9s ease;
+  color: var(--white);
+  transition: width 0.3s ease;
 }
 
   .deploy-ButtonStyle{
@@ -59,32 +98,9 @@
     padding: 5px;
     margin: 5px;
   }
-
-  .gradient-overlay {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  #outerFrame {
-    position: relative;
-    width: 300px; 
-    height: 650px; 
-  }
-
-  
-#innerFrameUpper {
-    position: absolute;
-    top: 10;
-    left: 0;
-    margin: 10px;
-  }
-  
-  #innerFrameBottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 10px;
+ 
+  .defaultSpacing{
+    margin-top: 25px;
   }
   
     /* Code taken from https://css-tricks.com/snippets/css/typewriter-effect/ */

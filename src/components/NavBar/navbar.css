@@ -1,6 +1,6 @@
 .navbar {
     position: relative;
-    top: 3rem;
+    top: 4rem;
     z-index: 3;
   }
   
@@ -24,6 +24,7 @@
     padding: 15px 10px 10px 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: 1px solid var(--black);
   }
 
 .header-divider{

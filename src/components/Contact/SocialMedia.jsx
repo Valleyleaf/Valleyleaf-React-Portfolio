@@ -27,3 +27,5 @@ export default function socialMedia(){
       </div>
     );
   };
+
+  //Is having this in a seperate file justified? Don't care.

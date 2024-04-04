@@ -49,6 +49,10 @@
 transform: scale(1.01);
 }
 
+#Contact{
+  margin-top: 25px;
+}
+
 @keyframes fadeInFromRight {
     from {
       opacity: 0;

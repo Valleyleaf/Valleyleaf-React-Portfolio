@@ -1,19 +1,33 @@
 .Header-Top{
+    display: flex;
+    flex: 3;
     position:fixed;
-    height: 55px;
+    height: 5rem;
     width:100%;
     border-bottom: 1px solid var(--typeLine);
     z-index: 4;
     color: var(--black);
+    background-color: var(--metalic);
   }
   
   .header-Text{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     text-decoration: none;
     font-size: 42px;
     color: var(--black);
-    margin-left: 5px;
+    margin-left: auto;
   }
+
+  .workTitle{
+    display: flex;
+    margin-top: -15px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header-divider{
     background-color: var(--metalic);
     padding: 8px;
