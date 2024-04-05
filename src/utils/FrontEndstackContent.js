@@ -36,13 +36,6 @@ const FrontEndSkillData = [
     },
     {
         _id: '6',
-        icon:'https://cdn.discordapp.com/attachments/1058395094119620608/1225566817393577994/react-svgrepo-com.svg?ex=6621990b&is=660f240b&hm=a6a191e92bb3fb8948a47b83adb822a12d1f2ab899c63727f31e45b11e7bb8a9&',
-        title: 'React',
-        stackSkillLevel: '50',
-        alt: 'ReactIcon'
-    },
-    {
-        _id: '7',
         icon: 'https://cdn.discordapp.com/attachments/1058395094119620608/1225566222850981958/csharp-svgrepo-com.svg?ex=6621987d&is=660f237d&hm=ceb2a7bd761293e8b6479cd22573230ba0992cf114fd348a8034f2a1c009a67b&',
         title: 'C#',
         stackSkillLevel: '50',

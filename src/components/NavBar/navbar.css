@@ -1,6 +1,6 @@
-.navbar {
-    position: relative;
-    top: 4rem;
+.navbarClass {
+    position:fixed;
+    top: 5rem;
     z-index: 3;
   }
   

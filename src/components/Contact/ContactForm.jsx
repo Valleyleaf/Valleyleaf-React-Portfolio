@@ -83,7 +83,7 @@ const ContactForm = () => {
 
           <label>
             <input className='infoArea'
-              type='text'
+              type='tel'
               name='phone'
               value={formInput.phone}
               onChange={handleChange}
