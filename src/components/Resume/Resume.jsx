@@ -15,7 +15,7 @@ export default function Resume(){
             <h2 className='typewriterClassResume'>Resume</h2>
           </div>
           <div className='divider-Top'>
-            <div>{skillsOne()}</div>
+            {/* <div>{skillsOne()}</div> */}
             <div>{jobOne()}</div>
             <div>{jobTwo()}</div>
             <div>{jobThree()}</div>

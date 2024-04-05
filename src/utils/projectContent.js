@@ -47,3 +47,5 @@ let projectDeployLink = [
 ]
 
 export {projectImage, projectTitle, projectText, projectRepoLink, projectDeployLink}
+
+//This sucks, change to stackContent method going forward.

@@ -4,7 +4,8 @@ import profilePicture from "../../assets/img/ProfilePicture.jpg"
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
 import portFolio from '../Portfolio/PortfolioMain'
-import solutionStack from '../SolutionStack/solutionStack'
+import FrontsolutionStack from '../SolutionStack/FrontSolutionStack'
+import BacksolutionStack from '../SolutionStack/BackSolutionStack'
 
   export default function About(){
   return (
@@ -33,16 +34,20 @@ import solutionStack from '../SolutionStack/solutionStack'
       ) : (
         <p>Loading...</p>
       )}
-      {/* <div id='Portfolio' className='flex-container-columns center-content fade-in '>
+      <div id='Portfolio' className='flex-container-columns center-content fade-in '>
           <div className='flexBox3'>
-          <h2 className='fade-in typewriterClass'>Solution Stack</h2>
+          <h2 className='fade-in headTextSectioned'>Front-End Solution Stack</h2>
           </div>
-          {solutionStack()}
-      </div> */}
+          {FrontsolutionStack()}
+          <div className='flexBox3'>
+          <h2 className='fade-in headTextSectioned'>Back-End Solution Stack</h2>
+          </div>
+          {BacksolutionStack()}
+      </div>
 
       <div id='Portfolio' className='flex-container-columns center-content fade-in '>
           <div className='flexBox3'>
-          <h2 className='fade-in typewriterClass'>Projects</h2>
+          <h2 className='fade-in headTextSectioned'>Projects</h2>
           </div>
         {portFolio()}
       </div>

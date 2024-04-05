@@ -1,0 +1,30 @@
+.stackContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex: 1;
+    flex-basis: 30%;
+    background-color: var(--tintedGlass);
+    color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-right: 5px;
+}
+
+.stackContainer:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.stackImage{
+    width: 100px;
+    height: 100px;
+}
+
+.skillLevel{
+    font-size: 15px;
+}
