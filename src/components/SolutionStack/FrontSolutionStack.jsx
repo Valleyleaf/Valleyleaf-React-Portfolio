@@ -1,19 +1,16 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {stackImage, stackTitle, stackSkillLevel} from '../../utils/WIPsContent'
-
+import {FrontEndSkillData} from '../../utils/FrontEndstackContent'
+import './solutionstack.css'
 
 function solutionStack(){
         const renderItems = () => {
-          return stackImage.map((renderBG, index) => (
-            <div key={index} className=''>
-                <div className=''>
-                    <div className=''>
-                    <h2>{stackTitle[index]}</h2>
-                    <img src="" alt="" />
-                    <p>{stackSkillLevel[index]}</p>
-                    </div>
-              </div>
+
+          return FrontEndSkillData.map((skill, _id) => (
+            <div key={_id} className='stackContainer fade-in'>
+                <img className="stackImage" src={skill.icon} alt={skill.alt}/>
+                <h5>{skill.title}</h5>
+                {/* <h2 className='skillLevel'>{skill.stackSkillLevel}</h2> */}
             </div>
           ));
         };
