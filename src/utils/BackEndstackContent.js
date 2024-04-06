@@ -53,4 +53,4 @@ const BackEndSkillData = [
 
 export {BackEndSkillData}
 
-//Reminder to self. Do this for projectContent going forward. Waaaay better.
+//Do I add this to a single file? Seems like it would depend on preference.

@@ -41,3 +41,5 @@ function PortfolioMain() {
 }
 
 export default PortfolioMain;
+
+//Above isn't ideal. Should refactor to the structure that SolutionStack has in terms of data management. Though honestly, I will probably change all of this so I'm not gonna waste time on it.
