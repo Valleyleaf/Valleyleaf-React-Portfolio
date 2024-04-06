@@ -34,6 +34,13 @@ const BackEndSkillData = [
         stackSkillLevel: '50',
         alt: 'NextIcon'
     },
+    {
+        _id: '6',
+        icon:'https://cdn.discordapp.com/attachments/1058395094119620608/1225566817393577994/react-svgrepo-com.svg?ex=6621990b&is=660f240b&hm=a6a191e92bb3fb8948a47b83adb822a12d1f2ab899c63727f31e45b11e7bb8a9&',
+        title: 'React',
+        stackSkillLevel: '50',
+        alt: 'ReactIcon'
+    },
     // {
     //     _id: '6',
     //     icon: '',
@@ -46,4 +53,4 @@ const BackEndSkillData = [
 
 export {BackEndSkillData}
 
-//Reminder to self. Do this for projectContent going forward. Waaaay better.
+//Do I add this to a single file? Seems like it would depend on preference.
