@@ -1,4 +1,3 @@
-import { useState } from "react";
 import React from 'react';
 import { slideTitle, slideContent, slideLink, slideRepo} from '../../utils/slideContent';
 import slide from '../../assets/img/moodMusicExample.png';
@@ -9,7 +8,7 @@ import './portfolio.css'
 
 const projectSlide = 0;
 
-export default function PortfolioItem2(){
+export default function PortfolioItem(){
 
   const backgroundImageStyle = {
     backgroundImage: `url(${slide})`,

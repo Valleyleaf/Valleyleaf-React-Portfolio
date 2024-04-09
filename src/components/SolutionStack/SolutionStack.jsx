@@ -7,7 +7,9 @@ import './solutionstack.css'
 function solutionStack(){
   const renderItems = (data) => {
     return data.map((skill, _id) => (
-      <div key={_id} className='stackContainer fade-in'>
+      <div 
+      key={_id} 
+      className='stackContainer fade-in'>
         <img className="stackImage" src={skill.icon} alt={skill.alt}/>
         <h5>{skill.title}</h5>
         {/* <h2 className='skillLevel'>{skill.stackSkillLevel}</h2> */}
