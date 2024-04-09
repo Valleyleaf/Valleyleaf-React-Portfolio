@@ -1,7 +1,7 @@
 .navbarClass {
     position:fixed;
     top: 5rem;
-    height: 100px;
+    height: 70px;
     width: 100%;
     z-index: 3;
     background-image: linear-gradient(to top, #ffffff00, #ffb55b);
