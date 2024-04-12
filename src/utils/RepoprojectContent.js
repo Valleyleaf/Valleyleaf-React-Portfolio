@@ -31,7 +31,22 @@ const projectData = [
         repoLink: 'https://github.com/Valleyleaf/Note-Taker',
         deployLink: 'https://valleyleaf.github.io/Note-Taker/',
     },
-
+    {
+        _id: '5',
+        title: 'mySQL E-commerce Database',
+        image: 'https://cdn.discordapp.com/attachments/1058395094119620608/1227422681326944336/image.png?ex=66285973&is=6615e473&hm=d548414019a2e384c0039e2b0973dfddf188fd54d58c9f6740ef152f253f1424&',
+        textContent: 'Structured database through mySQL for a E-commerce. For learning purposes only.',
+        repoLink: 'https://github.com/Valleyleaf/Object-Relational-Mapping',
+        deployLink: 'https://github.com/Valleyleaf/Object-Relational-Mapping',
+    },
+    {
+        _id: '6',
+        title: 'Kaizen-Esque',
+        image: 'https://cdn.discordapp.com/attachments/1058395094119620608/1227423855564423241/image.png?ex=66285a8b&is=6615e58b&hm=85502c3ae78e0ea408b196daff78c7e324e015de3f2cf3bf673b8af5a278aed8&',
+        textContent: 'Worked with a team of 5 to deploy a eLearning platform "Kaizen-Esque" where users can create coding tutorials and partake in learning.',
+        repoLink: 'https://github.com/XenodiusAlpha/kaizen_esque',
+        deployLink: 'https://kaizen-esque.onrender.com/',
+    },
 ]
 
 export {projectData}
