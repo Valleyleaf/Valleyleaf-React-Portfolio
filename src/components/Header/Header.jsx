@@ -19,7 +19,7 @@ export default function Header(){
         <div className='Header-Top'>
         <Link
           to="/"
-          className='header-Text titleAnimation'
+          className='header-Text'
           onClick={handleLinkClick}
         >
           <div className='flex-container-columns'>
@@ -28,7 +28,7 @@ export default function Header(){
           </div>
         </Link>
 
-          <div className='keepRight center-content'>
+          <div className='headerIcons'>
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
           <img className='small-img' src={linkedinButton} alt="link to linkedin" />
           </a>

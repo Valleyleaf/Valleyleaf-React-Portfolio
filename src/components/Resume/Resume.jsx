@@ -11,7 +11,7 @@ export default function Resume(){
     return (
       <div className='resumeFull'>
         <div className='flex-container-columns center-content fade-in'>
-          <div className='flexBox3'>
+          <div>
             <h2 className='typewriterClassResume'>Resume</h2>
           </div>
           <div className='divider-Top'>

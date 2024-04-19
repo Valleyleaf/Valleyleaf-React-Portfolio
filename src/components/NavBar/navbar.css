@@ -1,17 +1,15 @@
 .navbarClass {
     position:fixed;
     top: 5rem;
-    height: 100px;
+    height: 70px;
     width: 100%;
     z-index: 3;
     background-image: linear-gradient(to top, #ffffff00, #ffb55b);
-
   }
   
   .nav-Button{
     color: var(--black);
     padding: 6px 6px 6px 6px;
-
   }
 
   .nav-Button:hover{
@@ -29,11 +27,6 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border: 1px solid var(--black);
-  }
-
-.header-divider{
-    background-color: var(--metalic);
-    padding: 8px;
   }
 
   @media screen and (max-width: 375px){

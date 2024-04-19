@@ -1,4 +1,22 @@
+.portfolioFlexRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+.portfolioFlexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.repoBox{
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
+}
 
 .deployandrepo{
     background-color: var(--white);
@@ -7,10 +25,6 @@
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease, background-color 0.5s ease;
-}
-
-.topDividerPortfolio{
-  padding-top: 25px;
 }
 
 .deployandrepo:hover{
@@ -22,20 +36,11 @@
     transition: transform 0.3s ease, background-color 1.0s ease;
 }
 
-.content-Text{
-  color: var(--white);
-  text-shadow: #000000;
-  text-emphasis-color: #c70909;
-  max-width: 350px;
-  min-width: 300px;
-}
-
 .projectContainer{
   display: flex;
   flex: 3;
   height: auto;
   width: auto;
-
 }
 
 .projectBox{
@@ -43,15 +48,6 @@
   margin-left: 15px;
   height: 200px;
   width: 350px;
-
-}
-
-.repoBox{
-  display: flex;
-  flex: auto;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 10px;
 }
 
 .projectSlidePassive{
@@ -70,7 +66,7 @@
 .projectSlidePassive:hover{
   display: flex;
   justify-content: center;
-  width: 16%;
+  width: 25%;
   height: 500px;
   margin-left: 15px;
   overflow: hidden;  
@@ -80,74 +76,3 @@
   color: var(--white);
   transition: width 0.3s ease;
 }
-
-  .deploy-ButtonStyle{
-    background-color: var(--black);
-    text-decoration: dashed;
-    color: var(--white);
-    border: 1px solid var(--white);
-    border-radius: 15px;
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .deploy-ButtonStyle:hover{
-    background-color: var(--white);
-    color: var(--black);
-    border: 1px solid blue;
-    padding: 5px;
-    margin: 5px;
-  }
- 
-  .defaultSpacing{
-    margin-top: 25px;
-  }
-  
-    /* Code taken from https://css-tricks.com/snippets/css/typewriter-effect/ */
-    .typewriterClass {
-      overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid var(--black); /* The typwriter cursor */
-      white-space: nowrap; /* Keeps the content on a single line */
-      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-      letter-spacing: 0.3em; /* Adjust as needed */
-      animation: 
-        typing-Project 0.8s steps(16, end),
-        blink-caret-Project .75s step-end infinite;
-    }
-  
-    /* The typing effect */
-    @keyframes typing-Project {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    
-    /* The typewriter cursor effect */
-    @keyframes blink-caret-Project {
-      from, to { border-color: transparent }
-      50% { border-color: var(--black); }
-    }
-  
-
-  @media screen and (max-width: 680px){
-    .projectSlidePassive{
-        width: 150px;
-        margin-right: 15px;
-        /* z-index: 1; */
-        transition: width 1.3s ease;
-    }
-    
-    .projectSlidePassive:hover{
-        width: 250px;
-        margin-right: 9px;
-        z-index: 0;
-        transition: width 0.9s ease;
-    }
-  }
-
-  @media screen and (max-width: 688px){
-    .topDividerPortfolio{
-      padding-top: 0px;
-      align-items: center;
-      transform: scale(0.65);
-    }
-  }
