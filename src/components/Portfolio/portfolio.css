@@ -76,3 +76,43 @@
   color: var(--white);
   transition: width 0.3s ease;
 }
+
+@media screen and (max-width: 980px){
+    .portfolioFlexRow{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .projectSlidePassive{
+      width: 95%;
+      margin-top: 15px;
+
+  }
+
+  .projectSlidePassive:hover{
+    width: 95%;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .portfolioFlexRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectSlidePassive{
+    width: 75%;
+    margin-top: 15px;
+
+}
+
+.projectSlidePassive:hover{
+  width: 75%;
+  margin-top: 15px;
+}
+}

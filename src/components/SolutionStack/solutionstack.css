@@ -33,3 +33,17 @@
     width: 100px;
     height: 100px;
 }
+
+@media screen and (max-width: 980px){
+    .solutionFlexRow{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stackContainer:hover{
+        transition: transform 0.3s ease;
+        transform: scale(1.0);
+    }
+  }
