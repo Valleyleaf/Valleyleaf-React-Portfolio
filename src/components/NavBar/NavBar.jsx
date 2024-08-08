@@ -14,7 +14,7 @@ export default function NavBar(){
 // Divider
     return (
       <div className='flex-container-columns'>
-        <nav className='flex-container-row'>
+        <nav className='flex-container-row center-content'>
           <div className='nav-Button'>
         <Link
           to="/"

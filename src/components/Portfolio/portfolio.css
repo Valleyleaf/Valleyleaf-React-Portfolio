@@ -59,7 +59,7 @@
     overflow: hidden;  
     transition: width 1.3s ease;
     box-shadow: 9px -9px 1px var(--Orange);
-    transition: width 0.9s ease;
+    transition: width 0.7s ease;
     color: var(--white);
 }
 
@@ -70,11 +70,11 @@
   height: 500px;
   margin-left: 15px;
   overflow: hidden;  
-  transition: width 1.3s ease;
+  transition: width 0.7s ease;
   box-shadow: 9px -9px 1px var(--Orange);
-  transition: width 0.9s ease;
+
   color: var(--white);
-  transition: width 0.3s ease;
+
 }
 
 @media screen and (max-width: 980px){
