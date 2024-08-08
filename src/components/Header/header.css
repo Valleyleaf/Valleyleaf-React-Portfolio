@@ -1,12 +1,11 @@
 .Header-Top{
     display: flex;
-    position:fixed;
+    justify-content: center;
     height: 5rem;
     width: 100%;
-    border-bottom: 1px solid var(--typeLine);
     z-index: 4;
     color: var(--black);
-    background-color: var(--metalic);
+    padding-bottom: 130px;
   }
   
   .header-Text{
@@ -14,10 +13,12 @@
     justify-content: center;
     font-weight: bold;
     text-decoration: none;
-    font-size: 42px;
     color: var(--black);
-    margin-left: auto;
     transition: transform 0.3s ease;
+  }
+
+  .header-Size{
+    font-size: 72px;
   }
 
   .header-Text:hover{

@@ -23,12 +23,12 @@ export default function Header(){
           onClick={handleLinkClick}
         >
           <div className='flex-container-columns'>
-          <h2>Aston Andersson Dahllof</h2>
+          <h2 className='header-Size'>Aston Andersson Dahllof</h2>
           <h4 className='workTitle'>-Full-Stack Web Developer-</h4>
           </div>
         </Link>
 
-          <div className='headerIcons'>
+          {/* <div className='headerIcons'>
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
           <img className='small-img' src={linkedinButton} alt="link to linkedin" />
           </a>
@@ -40,7 +40,7 @@ export default function Header(){
           <a href="https://twitter.com/ValleyleafSys" target="_blank">
           <img className='small-img' src={twitterButton} alt="link to Twitter" />
           </a>
-          </div>
+          </div> */}
         </div>
       </div>
     );
