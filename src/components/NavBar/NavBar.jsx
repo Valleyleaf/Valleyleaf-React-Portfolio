@@ -13,9 +13,9 @@ export default function NavBar(){
   };
 // Divider
     return (
-      <div className='flex-container-columns'>
-        <nav className='flex-container-row'>
-          <div className='nav-Button'>
+      <div className=''>
+        <nav className=''>
+          <div className=''>
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-active' : 'nav-link'}
@@ -25,7 +25,7 @@ export default function NavBar(){
         </Link>
         </div>
         
-        <div className='nav-Button'>
+        <div className=''>
         <Link
           to="/Portfolio"
           className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
@@ -34,7 +34,7 @@ export default function NavBar(){
           Portfolio
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className=''>
         <Link
           to="/Contact"
           className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
@@ -43,7 +43,7 @@ export default function NavBar(){
           Contact
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className=''>
         <Link
           to="/Resume"
           className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}
@@ -52,7 +52,7 @@ export default function NavBar(){
           Resume
         </Link>
         </div>
-        <div className='nav-Button'>
+        <div className=''>
         <Link
           to="/Art"
           className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
@@ -66,4 +66,4 @@ export default function NavBar(){
     );
   }
 
-  //Reminder, make nav-link active and nav-link stylings for later
+  //Make renderer function with map.

@@ -7,3 +7,5 @@ function projectCounter(){
 
 
 export default projectCounter;
+
+//Bruh, the hell is this man. Delete.

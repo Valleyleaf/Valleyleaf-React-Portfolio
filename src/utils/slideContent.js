@@ -1,12 +1,3 @@
-// let slideImage = [
-//   '../src/assets/img/moodMusicExample.png',
-//   '../src/assets/img/Project1ExampleImage.PNG',
-//   '../src/assets/img/BodLoadingScreen2.0.png',
-//   '../src/assets/img/FourCatering.jpg',
-//   '../src/assets/img/NoteTaker.PNG',
-//   '../src/assets/img/svg.PNG',
-  
-// ]
 
 let slideTitle = [
     'moodMusic.com',
@@ -48,3 +39,5 @@ let slideRepo = [
 ]
 
 export {slideTitle, slideContent, slideLink, slideRepo}
+
+//I mean sure, but I can do this better. Also host the images somewhere else. Like Imgur or something.

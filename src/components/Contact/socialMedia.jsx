@@ -27,3 +27,5 @@ export default function socialMedia(){
       </div>
     );
   };
+
+  //Make a repeating map render.

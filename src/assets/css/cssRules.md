@@ -1,0 +1,1 @@
+Reminder to self: Brother just keep all css in one folder for easy access. Stop with the keeping css in individual componenent folders it sucks.

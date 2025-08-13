@@ -44,7 +44,6 @@ function Portfolio(){
 
 export default Portfolio;
 
-//Consider. Instead of 5 project cards. Since they run off the utils js framework previously implementetd. Why not move the function of projectSlide into here and then do a for/each on the PortfolioProjects.
-//Then Import the provided number via react import to the Portfolio card. This will render one of each project and save space.
+//Again, just too much className. FIX.
 
 

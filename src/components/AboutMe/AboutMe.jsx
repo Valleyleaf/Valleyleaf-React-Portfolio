@@ -10,35 +10,27 @@ import contact from '../Contact/Contact'
   return (
     <> 
       {aboutMeData ? (
-          <div className='aboutMe-flex-container-row center-content '>
-                <div className='noWrap'>
-                  <h2 className='HeadTextClass fade-in'>{aboutMeData.aboutMeP1}</h2>
-                  <div className='fade-in-from-left'>
+          <div className=''>
+                <div className=''>
+                  <h2 className=''>{aboutMeData.aboutMeP1}</h2>
+                  <div className=''>
                   <p>{aboutMeData.aboutMeP2}</p>
                   <p>{aboutMeData.aboutMeP3}</p>
                   </div>
-                  <div className='flex-container-columns center-content fade-in'>
+                  <div className=''>
                   <p>{aboutMeData.aboutMeP4}</p>
                       <div>
                       <Link to="/Contact">
-                        <button className='contactMeButton'>Contact me</button>
+                        <button className=''>Contact me</button>
                       </Link>
                       </div>
                   </div>
                 </div>
-                <img className='profile-img fade-in-from-right' src={profilePicture} alt="ProfileImage"/>
+                <img className='' src={profilePicture} alt="ProfileImage"/>
             </div>
       ) : (
         <p>Loading...</p>
       )}
-      {/* <div className='flex-container-columns center-content fade-in '>
-        <h2>Projects</h2>
-        {portFolio()}
-      </div>
-      <div className='flex-container-columns center-content fade-in '>
-      <h2>Contact Me</h2>
-      {contact()}
-      </div> */}
     </>
   );
 };

@@ -44,14 +44,14 @@ const Contact = () => {
   //I didn't include the if empty = give warning function and now I am struggling to add it.
   return (
     <div>
-      <div className='flex-container-columns center-content fade-in'>
-        <div className='flex-container-columns center-content '>
+      <div className=''>
+        <div className=''>
         <h2>Contact Me</h2>
         <p>If you are interested in my work, please feel free <br />
           to contact me using the form below.
         </p>
         </div>
-        <form className='contactMe'
+        <form className=''
         onSubmit={handleSubmit}>
           <label>
             <input
@@ -62,7 +62,7 @@ const Contact = () => {
               placeholder="Enter your name"
               onBlur={handleBlurName}
             />
-            <h4 id='warningTextNameID' className='warningTextForm hidden-element'>*Please insert a Name</h4>
+            <h4 id='warningTextNameID' className=''>*Please insert a Name</h4>
           </label>
           <label>
             <input
@@ -73,7 +73,7 @@ const Contact = () => {
               placeholder="Enter your email"
               onBlur={handleBlurEmail}
             />
-              <h4 id='warningTextemailID' className='warningTextForm hidden-element'>*Please insert a email</h4>
+              <h4 id='warningTextemailID' className=''>*Please insert a email</h4>
           </label>
           <label>
             <textarea
@@ -91,3 +91,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+//Redo this, this looks terrible.

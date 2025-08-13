@@ -12,3 +12,5 @@ export default function redirect(){
       </div>
     );
   }
+
+  //Just make a function, I don't need a seperate doc for this.

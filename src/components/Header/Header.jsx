@@ -7,22 +7,22 @@ import './header.css'
 export default function Header(){
     return (
       <div>
-        <div className='Header-Top flex-container-row mainColor'>
+        <div className=''>
           <div>
             <h2>Aston Andersson Dahllöf</h2>
           </div>
 
-          <div className='keepRight center-content'>
+          <div className=''>
           <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
-          <img className='small-img' src={linkedinButton} alt="link to linkedin" />
+          <img className='' src={linkedinButton} alt="link to linkedin" />
           </a>
 
           <a href="https://github.com/Valleyleaf" target="_blank">
-          <img className='small-img' src={gitHubButton} alt="link to github" />
+          <img className='' src={gitHubButton} alt="link to github" />
           </a>
 
           <a href="https://twitter.com/ValleyleafSys" target="_blank">
-          <img className='small-img' src={twitterButton} alt="link to Twitter" />
+          <img className='' src={twitterButton} alt="link to Twitter" />
           </a>
           </div>
         </div>

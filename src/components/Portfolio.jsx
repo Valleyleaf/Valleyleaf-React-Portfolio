@@ -41,17 +41,17 @@ export default function PortfolioContent(){
 //First div in this holds everything.
     return (
       <>
-        <div style={backgroundImageStyle} className="flex-container-row gradient-overlay fade-in">
+        <div style={backgroundImageStyle} className="">
 
-          <div className="flex-container-columns"> 
-        <button id="portfolio-Button-Previous" className="center-content "
+          <div className=""> 
+        <button id="portfolio-Button-Previous" className=""
         onClick={handlePreviousClick}>Previous
         </button>
           <div id="innerFrameBottomLeft" className="flex-container deploy-ButtonStyle"><a href={slideRepo[projectSlide]} target="_blank">Go to Repo</a>
           </div>
         </div>
 
-        <div id="outerFrame" className='center-content portfolio-Centering flex-container-row'>
+        <div id="outerFrame" className=''>
           <div id="innerFrameUpper">
           <h2 className="keepLeft content-Text">{slideTitle[projectSlide]}</h2>
           </div>
@@ -74,9 +74,5 @@ export default function PortfolioContent(){
 
 
 
-  //This will contain my projects. I will be passing an item out of an array which will be kept in another component.
-  //This lets me change what is being passed into my cards.
-
-  //This needs to use useState to ensure it keeps the project visable.
-
+//Fun fact. I can just make inherent css instead of having a classname in everything. REDO.
 

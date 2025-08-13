@@ -8,9 +8,9 @@ import socialMedia from './socialMedia';
 export default function Contact(){
   return (
     <div>
-      <div className='flex-container-columns center-content'>
-      <h2 className='HeadTextClass typewriterClassContact'>Contact Me</h2>
-        <div className='contactMe flex-container-columns fade-in'>
+      <div className=''>
+      <h2 className=''>Contact Me</h2>
+        <div className=''>
           {ContactForm()}
           {socialMedia()}
         </div>
