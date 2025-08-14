@@ -2,7 +2,6 @@ import React from 'react';
 import linkedinIcon from '../../assets/img/linkedin-fill-svgrepo-com.svg'
 import twitterIcon from '../../assets/img/twitter-fill-svgrepo-com.svg'
 import gitHubIcon from '../../assets/img/github-fill-svgrepo-com.svg'
-import './contact.css'
 
 
 export default function socialMedia(){

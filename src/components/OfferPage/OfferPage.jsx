@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from "react";
-import './contact.css'
 
 const Contact = () => {
   // State to manage form input values

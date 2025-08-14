@@ -2,7 +2,6 @@ import React from 'react';
 import linkedinButton from '../../assets/img/linkedin-fill-svgrepo-com.svg'
 import twitterButton from '../../assets/img/twitter-fill-svgrepo-com.svg'
 import gitHubButton from '../../assets/img/github-fill-svgrepo-com.svg'
-import './header.css'
 
 export default function Header(){
     return (

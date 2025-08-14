@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from "react";
-import './contact.css'
 import ContactForm from './ContactForm';
 import socialMedia from './socialMedia';
 

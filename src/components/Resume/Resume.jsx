@@ -1,6 +1,4 @@
-import React from 'react';
 import pngimage from '../../assets/img/pdf-document-svgrepo-com.svg';
-import './resume.css'
 
 export default function Resume(){
     return (

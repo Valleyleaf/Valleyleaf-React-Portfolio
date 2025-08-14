@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './navbar.css';
 
 export default function NavBar(){
     const currentPage = useLocation().pathname;
