@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.headerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 44px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: var(--background);
+
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: auto;
+}
+
+.socialButtons{
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.socialButtons:hover{
+    height: 40px;
+    width: auto;
+    transform: scale(1.1);
+}

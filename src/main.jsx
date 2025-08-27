@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 // Renders App.jsx. Note that this is what will compile all of your components. App.css gives them style.
-import About from './components/AboutMe/AboutMe.jsx'
+import Master from './components/Master/Master.jsx'
 import Portfolio from './components/Portfolio/ProjectMain.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Resume from './components/Resume/Resume.jsx'
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <About />,
+        element: <Master />,
       },
       {
         path: 'portfolio',

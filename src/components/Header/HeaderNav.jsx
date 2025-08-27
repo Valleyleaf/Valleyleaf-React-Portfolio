@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import '../../assets/css/nav.css'
 
 export default function NavBar(){
     const currentPage = useLocation().pathname;
@@ -12,12 +13,12 @@ export default function NavBar(){
   };
 // Divider
     return (
-      <div className=''>
-        <nav className=''>
+      <div>
+        <nav className='navbar'>
           <div className=''>
         <Link
           to="/"
-          className={currentPage === '/' ? 'nav-active' : 'nav-link'}
+          className={currentPage === '/' ? 'nav-active' : 'navButton'}
           onClick={handleLinkClick}
         >
           About Me
@@ -27,7 +28,7 @@ export default function NavBar(){
         <div className=''>
         <Link
           to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-active' : 'navButton'}
           onClick={handleLinkClick}
         >
           Portfolio
@@ -36,7 +37,7 @@ export default function NavBar(){
         <div className=''>
         <Link
           to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
+          className={currentPage === '/Contact' ? 'nav-active' : 'navButton'}
           onClick={handleLinkClick}
         >
           Contact
@@ -45,19 +46,10 @@ export default function NavBar(){
         <div className=''>
         <Link
           to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}
+          className={currentPage === '/Resume' ? 'nav-active' : 'navButton'}
           onClick={handleLinkClick}
         >
           Resume
-        </Link>
-        </div>
-        <div className=''>
-        <Link
-          to="/Art"
-          className={currentPage === '/Art' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          Art & Design
         </Link>
         </div>
         </nav>
