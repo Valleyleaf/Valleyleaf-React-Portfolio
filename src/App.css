@@ -5,9 +5,9 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     --arcRed: #FF0000;
-    --arcYellow: #ffff00;
-    --arcGreen: #00FF00;
-    --arcBlue: #0000FF;
+    --arcYellow: #ffa600;
+    --arcGreen: #00ff40;
+    --arcBlue: #00fff2;
 }
 
 .App{

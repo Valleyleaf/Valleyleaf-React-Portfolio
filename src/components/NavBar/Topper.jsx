@@ -16,15 +16,17 @@ const nameClass = [
 ]
 
 export default function Topper(){
-
     return (
       <div className='Topper'>
-            {name.map((n, index) => (
-              <h2 key={index} className={nameClass[index]}>
-                {n}
-              </h2>
-            ))}
-        <p className="profession">Web Dev</p>
+        <div className="topper-lines" />
+        <div className="topper-names">
+          {name.map((n, index) => (
+            <h2 key={index} className={nameClass[index]}>
+              {n}
+            </h2>
+          ))}
+          <p className="profession">Web Dev</p>
+        </div>
       </div>
     );
-  }
+}

@@ -29,11 +29,83 @@
     color: var(--arcBlue);
 }
 
-.topper{
+.Topper {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 200px;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+.topper-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+.topper-lines::before, .topper-lines::after {
+    content: '';
+    position: absolute;
+    width: 140%;
+    height: 5px;
+    left: -20%;
+    transform: rotate(120deg);
+    border-radius: 3px;
+    opacity: 0.85;
+}
+.topper-lines::before {
+    background: linear-gradient(
+      to bottom,
+      var(--arcRed) 0%,
+      var(--arcRed) 25%,
+      var(--arcYellow) 25%,
+      var(--arcYellow) 50%,
+      var(--arcGreen) 50%,
+      var(--arcGreen) 75%,
+      var(--arcBlue) 75%,
+      var(--arcBlue) 100%
+    );
+    top: 20%;
+    height: 65%;
+}
+.topper-lines::after {
+    display: none;
+}
+.topper-names {
+    position: relative;
+    z-index: 2;
+}
+
+.topper-line {
+    position: absolute;
+    width: 140%;
+    height: 5px;
+    top: 10%;
+    left: -20%;
+    transform: rotate(120deg);
+    opacity: 0.85;
+    border-radius: 3px;
+}
+.topper-line.red {
+    background: var(--arcRed);
+    top: 20%;
+}
+.topper-line.yellow {
+    background: var(--arcYellow);
+    top: 40%;
+}
+.topper-line.green {
+    background: var(--arcGreen);
+    top: 60%;
+}
+.topper-line.blue {
+    background: var(--arcBlue);
+    top: 80%;
 }
 
 .cassette{
