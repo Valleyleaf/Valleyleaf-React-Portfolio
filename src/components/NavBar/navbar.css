@@ -1,13 +1,12 @@
-/* .navbarClass {
-    top: 5rem;
-    height: 20px;
-    width: 100%;
-    z-index: 3;
-    background-image: linear-gradient(to top, #ffffff00, #ffb55b);
-  } */
+  .navMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+  }
   
   .nav-Button{
-
     color: var(--black);
     padding: 10px;
     transition: ease 0.3;
@@ -37,12 +36,4 @@
     text-decoration: underline;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-  }
-
-  @media screen and (max-width: 375px){
-    .navbar {
-      position: relative;
-      top: 5rem;
-      z-index: 3;
-    }
   }

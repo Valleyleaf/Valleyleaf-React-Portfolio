@@ -4,56 +4,24 @@
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-    --darkgrey: #333333;
-    --metalic: #fba91b;
-    --typeLine: #242424;
-    --printerGray: #c3cad195;
-    --white: #fcfcfc;
-    --black: #000000;
-    --mainGreen: #b2fc8f;
-    --offGreen: #70af53;
-    --Orange: #fba91b;
-    --BorderOrange: #84580e;
-    --iceBlue: #679197;
-    --nullColor: #00000000;
-    --tintedGlass: #00000021;
+    --arcRed: #FF0000;
+    --arcYellow: #ffff00;
+    --arcGreen: #00FF00;
+    --arcBlue: #0000FF;
 }
-/* Main components */
-body {
+
+.App{
+  display: flex;
+  flex-direction: row;
   min-height: 100vh;
-  position: relative;
-  background-image: url('./assets/img/mountains.svg');
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-h2{
-  padding: 8px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bolder;
-  z-index: 2;
 }
 
-.txtwhite{
-  color: var(--white);
-}
-
-p{
-  padding: 8px;
-  z-index: 2;
-}
-
-Button{
-  z-index: 2;
-}
-
-/* Flex & Directions */
-.flex-container-row{
+.flexRow{
   display: flex;
   flex-direction: row;
 }
 
-.flex-container-columns{
+.flexColumn{
   display: flex;
   flex-direction: column;
 }
@@ -61,10 +29,6 @@ Button{
 .center-content {
   justify-content: center;
   align-items: center;
-}
-
-.main-content-scaling {
-  transition: transform 0.3s ease;
 }
 
 .Outlet-Container {
@@ -79,88 +43,4 @@ Button{
   padding-bottom: 250px;
   z-index: 0;
   overflow: hidden;
-}
-
-.noWrap{
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  word-break: break-word;
-  max-width: 450px;
-  min-width: 270px;
-}
-
-.small-img{
-  width: 40px;
-  height: 40px;
-  border: 8px;
-  padding: 9px;
-  transition: transform 0.3s ease;
-}
-
-.small-img:hover{
-  transition: transform 0.3s ease;
-  transform: scale(1.3);
-}
-
-.mini-img{
-  width: 60px;
-  height: 60px;
-  padding: 8px;
-}
-
-.gradient-overlay::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  pointer-events: none;
-}
-
-.hidden-element {
-  visibility: hidden;
-}
-
-.warningTextForm{
-  font-size: 15px;
-  color: red;
-}
-
-.fade-out {
-  opacity: 0;
-  transition: opacity 0.3s ease-out;
-}
-
-/* Mobile Options */
-@media screen and (max-width: 980px){
-  .main-content-scaling {
-    transform: scale(1.00);
-  }
-}
-
-@media screen and (max-width: 890px){
-  .main-content-scaling {
-    transform: scale(0.90);
-  }
-}
-
-@media screen and (max-width: 688px){
-  .main-content-scaling {
-    transform: scale(0.85);
-  }
-}
-
-@media screen and (max-width: 375px){
-  .main-content-scaling {
-    transform: scale(0.85);
-  }
-  .Outlet-Positioning{
-    position:relative;
-    width:100%;
-    height: 100%;
-    min-height: 250px;
-    z-index: 0;
-  }
 }
