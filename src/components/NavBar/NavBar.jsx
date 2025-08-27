@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Topper from './Topper.jsx';
+import Botter from './Botter.jsx'
 import Navigation from './Navigation.jsx';
 import './navbar.css';
 

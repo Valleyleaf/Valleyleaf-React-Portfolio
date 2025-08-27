@@ -4,33 +4,45 @@
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 5px;
+    font-size: 35px;
+    margin: -10px -5px 0px 40px;
     color: var(--arcRed);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
 }
 .middleName{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 7px;
+    font-size: 35px;
+    margin: -20px -5px -5px 50px;
     color: var(--arcYellow);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
+
 }
 .lastName{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 9px;
+    font-size: 35px;
+    margin: -20px -5px -5px 59px;
     color: var(--arcGreen);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+
 }
 .profession{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 11px;
+    font-size: 35px;
+    margin: -20px -5px -5px 67px;
     color: var(--arcBlue);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
 }
 
 .Topper {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -45,67 +57,47 @@
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none;
     z-index: 1;
 }
 .topper-lines::before, .topper-lines::after {
     content: '';
     position: absolute;
     width: 140%;
-    height: 5px;
-    left: -20%;
-    transform: rotate(120deg);
-    border-radius: 3px;
+    height: 5px;;
+    left: -55%;
+    transform: rotate(75deg);
+    border-radius: 0px;
     opacity: 0.85;
 }
 .topper-lines::before {
     background: linear-gradient(
-      to bottom,
-      var(--arcRed) 0%,
-      var(--arcRed) 25%,
-      var(--arcYellow) 25%,
-      var(--arcYellow) 50%,
-      var(--arcGreen) 50%,
-      var(--arcGreen) 75%,
-      var(--arcBlue) 75%,
-      var(--arcBlue) 100%
+    to bottom,
+    var(--arcRed) 0%,
+    var(--arcRed) 20%,
+    var(--arcBG) 20%,
+    var(--arcBG) 25%,
+    var(--arcYellow) 25%,
+    var(--arcYellow) 45%,
+    var(--arcBG) 45%,
+    var(--arcBG) 50%,
+    var(--arcGreen) 50%,
+    var(--arcGreen) 70%,
+    var(--arcBG) 70%,
+    var(--arcBG) 75%,
+    var(--arcBlue) 75%,
+    var(--arcBlue) 100%
     );
     top: 20%;
-    height: 65%;
+    height: 28%;
 }
+
 .topper-lines::after {
     display: none;
 }
+
 .topper-names {
     position: relative;
     z-index: 2;
-}
-
-.topper-line {
-    position: absolute;
-    width: 140%;
-    height: 5px;
-    top: 10%;
-    left: -20%;
-    transform: rotate(120deg);
-    opacity: 0.85;
-    border-radius: 3px;
-}
-.topper-line.red {
-    background: var(--arcRed);
-    top: 20%;
-}
-.topper-line.yellow {
-    background: var(--arcYellow);
-    top: 40%;
-}
-.topper-line.green {
-    background: var(--arcGreen);
-    top: 60%;
-}
-.topper-line.blue {
-    background: var(--arcBlue);
-    top: 80%;
 }
 
 .cassette{

@@ -25,7 +25,6 @@ export default function Topper(){
               {n}
             </h2>
           ))}
-          <p className="profession">Web Dev</p>
         </div>
       </div>
     );
