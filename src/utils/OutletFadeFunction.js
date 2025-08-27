@@ -16,3 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }
 
+//Oh lmao. This can probably be removed and replaced with a CSS transition.

@@ -17,6 +17,7 @@ export default function NavBar(){
       <aside className='navMain'>
         <Topper/>
         <Navigation/>
+        <Botter/>
       </aside>
     );
   }

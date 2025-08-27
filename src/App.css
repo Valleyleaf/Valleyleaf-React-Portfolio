@@ -8,12 +8,14 @@
     --arcYellow: #ffa600;
     --arcGreen: #00ff40;
     --arcBlue: #00fff2;
+    --arcBG: #ffeea4;
 }
 
 .App{
   display: flex;
   flex-direction: row;
   min-height: 100vh;
+  background-color: var(--arcBG);
 }
 
 .flexRow{
