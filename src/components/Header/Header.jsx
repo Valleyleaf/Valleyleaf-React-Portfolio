@@ -27,20 +27,6 @@ export default function Header(){
           <h4 className='workTitle'>-Full-Stack Web Developer-</h4>
           </div>
         </Link>
-
-          {/* <div className='headerIcons'>
-          <a href="https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/" target="_blank">
-          <img className='small-img' src={linkedinButton} alt="link to linkedin" />
-          </a>
-
-          <a href="https://github.com/Valleyleaf" target="_blank">
-          <img className='small-img' src={gitHubButton} alt="link to github" />
-          </a>
-
-          <a href="https://twitter.com/ValleyleafSys" target="_blank">
-          <img className='small-img' src={twitterButton} alt="link to Twitter" />
-          </a>
-          </div> */}
         </div>
       </div>
     );

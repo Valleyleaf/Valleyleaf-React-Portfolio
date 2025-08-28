@@ -35,13 +35,7 @@ export default function NavBar(){
         </Link>
         </div>
         <div className='nav-Button'>
-        <Link
-          to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          Resume
-        </Link>
+
         </div>
         </nav>
       </div>
