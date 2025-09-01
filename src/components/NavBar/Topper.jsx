@@ -2,10 +2,10 @@ import React from 'react';
 import './topper.css';
 
 const name= [
-    "Aston",
-    "Andersson",
-    "Dahllof",
-    "Web Dev"
+    "ASTON",
+    "ANDERSSON",
+    "DAHLLOF",
+    "WEB DEV"
 ]
 
 const nameClass = [
