@@ -1,31 +1,20 @@
 import React from 'react';
 import './topper.css';
 
-const name= [
-    "ASTON",
-    "ANDERSSON",
-    "DAHLLOF",
-    "WEB DEV"
-]
 
-const nameClass = [
-    "firstName",
-    "middleName",
-    "lastName",
-    "profession"
-]
 
 export default function Topper(){
     return (
-      <div className='Topper'>
-        <div className="topper-lines" />
-        <div className="topper-names">
-          {name.map((n, index) => (
-            <h2 key={index} className={nameClass[index]}>
-              {n}
-            </h2>
-          ))}
-        </div>
+      <div className='flexColumn center-content'>
+        <div className='flexRow center-content'>
+          <div className='topper'>
+            <div className='topper-lines-container'>
+              <div className='topper-lines'></div>
+            </div>
+          </div>
+            <h2 className='firstName'>ASTON ANDERSSON DAHLLOF</h2>
+        </div>  
+        <p className='title'>App Developer</p>
       </div>
     );
 }

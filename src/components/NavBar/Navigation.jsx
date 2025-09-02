@@ -3,10 +3,10 @@ import { useLocation, Link } from 'react-router-dom';
 import './navbar.css';
 
 const categoryBar = [
-  { name: 'about', path: '/about' },
-  { name: 'projects', path: '/projects' },
-  { name: 'stack', path: '/stack' },
-  { name: 'contact', path: '/contact' }
+  { name: 'About', path: '/about' },
+  { name: 'Projects', path: '/projects' },
+  { name: 'Stack', path: '/stack' },
+  { name: 'Contact', path: '/contact' }
 ];
 
 export default function Navigation() {

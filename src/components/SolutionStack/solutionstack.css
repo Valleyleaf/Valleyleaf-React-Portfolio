@@ -32,6 +32,9 @@
 .stackImage{
     width: 100px;
     height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 2px;
 }
 
 @media screen and (max-width: 980px){
