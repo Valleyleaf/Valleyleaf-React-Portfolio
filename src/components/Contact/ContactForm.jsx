@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
+import '../../App.css'
 
 
 
