@@ -25,12 +25,12 @@ function solutionStack(){
   };
 
         return (
-          <div className='flexColumn center-content'>
-              <h2 className='fade-in headTextSectioned'>Languages</h2>
+          <div className='solutionStackContainer'>
+              <h2 className='fade-in SolutionText'>Languages</h2>
               <div className='solutionFlexRow'>
                 {FErenderItems()}
               </div>
-              <h2 className='fade-in headTextSectioned'>Solutions & Frameworks</h2>
+              <h2 className='fade-in SolutionText'>Solutions & Frameworks</h2>
               <div className='solutionFlexRow'>
               {BErenderItems()}
               </div>

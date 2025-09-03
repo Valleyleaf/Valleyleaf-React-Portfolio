@@ -2,25 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './aboutme.css'
 import aboutMeData from '../../assets/json/AboutMe.json'
-import portFolio from '../Portfolio/PortfolioMain'
-import solutionStack from '../SolutionStack/SolutionStack'
-import AboutSection from './AboutSection'
-
+import profilePicture from '../../assets/img/ProfilePicture.jpg'
 
   export default function About(){
   return (
     <> 
       {aboutMeData ? (
-          <div className='aboutMe-flex-container-columns'>
-              {AboutSection()}
-            <div className='flex-container-columns center-content fade-in'>
-              {solutionStack()}
-            </div>
-            <div id='Portfolio' className='flexColumn center-content fade-in '>
-              <h2>Projects</h2>
-              {portFolio()}
-            </div>
+        <div className='AboutMeContainer'>
+          <div>
+            <h2>About me</h2>
+            <p>{aboutMeData.aboutMeP1}</p>
           </div>
+
+
+          <img className='profile-img' src={profilePicture} alt="ProfileImage"/>
+        </div>
       ) : (
         <p>Loading...</p>
       )}

@@ -7,10 +7,10 @@ function App() {
 
   return (
     <div className="App">
-      <nav className='navbarClass '>
+      <nav className='navbarClass'>
         <NavBar/>
       </nav>
-      <section className='topper-lines'>
+      <section>
         <Outlet/>
       </section>
     </div>

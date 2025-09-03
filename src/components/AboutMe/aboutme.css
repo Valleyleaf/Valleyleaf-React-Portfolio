@@ -1,4 +1,4 @@
-.aboutMe-flex-container-row{
+.AboutMeContainer{
   display: flex;
   flex-direction: row;
   padding-bottom: 75px;

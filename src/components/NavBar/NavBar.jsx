@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Topper from './Topper.jsx';
-import Botter from './Botter.jsx'
 import Navigation from './Navigation.jsx';
 import './navbar.css';
 
@@ -15,10 +14,9 @@ export default function NavBar(){
     event.target.className.add('nav-active');
   };
     return (
-      <aside className='navMain'>
-        {/* <Topper/>
+      <div className='navMain'>
+        <Topper/>
         <Navigation/>
-        <Botter/> */}
-      </aside>
+      </div>
     );
   }
