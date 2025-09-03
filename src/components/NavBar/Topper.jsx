@@ -2,10 +2,10 @@ import React from 'react';
 import './topper.css';
 
 const name= [
-    "Aston",
-    "Andersson",
-    "Dahllof",
-    "Web Dev"
+    "ASTON",
+    "ANDERSSON",
+    "DAHLLOF",
+    "WEB DEV"
 ]
 
 const nameClass = [
@@ -25,7 +25,6 @@ export default function Topper(){
               {n}
             </h2>
           ))}
-          <p className="profession">Web Dev</p>
         </div>
       </div>
     );

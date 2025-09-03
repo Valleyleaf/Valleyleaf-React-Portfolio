@@ -16,10 +16,8 @@ import AboutSection from './AboutSection'
             <div className='flex-container-columns center-content fade-in'>
               {solutionStack()}
             </div>
-            <div id='Portfolio' className='flex-container-columns center-content fade-in '>
-              <div className='flexBox3'>
-              <h2 className='fade-in headTextSectioned'>Projects</h2>
-              </div>
+            <div id='Portfolio' className='flexColumn center-content fade-in '>
+              <h2>Projects</h2>
               {portFolio()}
             </div>
           </div>

@@ -4,29 +4,39 @@
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 5px;
+    font-size: 35px;
+    margin: 15px -5px 0px 43px;
     color: var(--arcRed);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
 }
 .middleName{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 7px;
+    font-size: 35px;
+    margin: -20px -5px -5px 52px;
     color: var(--arcYellow);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
+
 }
 .lastName{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 9px;
+    font-size: 35px;
+    margin: -20px -5px -5px 62px;
     color: var(--arcGreen);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+
 }
 .profession{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 11px;
+    font-size: 35px;
+    margin: -20px -5px -5px 69px;
     color: var(--arcBlue);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 }
 
 .Topper {
@@ -45,49 +55,68 @@
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none;
-    z-index: 1;
+    z-index: 0;
+    animation: fadeInLeft 0.5s ease-in-out forwards;
 }
 .topper-lines::before, .topper-lines::after {
     content: '';
     position: absolute;
     width: 140%;
-    height: 5px;
-    left: -20%;
-    transform: rotate(120deg);
-    border-radius: 3px;
+    height: 5px;;
+    left: -55%;
+    transform: rotate(75deg);
+    border-radius: 0px;
     opacity: 0.85;
 }
 .topper-lines::before {
     background: linear-gradient(
-      to bottom,
-      var(--arcRed) 0%,
-      var(--arcRed) 25%,
-      var(--arcYellow) 25%,
-      var(--arcYellow) 50%,
-      var(--arcGreen) 50%,
-      var(--arcGreen) 75%,
-      var(--arcBlue) 75%,
-      var(--arcBlue) 100%
+    to bottom,
+    var(--arcRed) 0%,
+    var(--arcRed) 20%,
+    var(--arcBG) 20%,
+    var(--arcBG) 25%,
+    var(--arcYellow) 25%,
+    var(--arcYellow) 45%,
+    var(--arcBG) 45%,
+    var(--arcBG) 50%,
+    var(--arcGreen) 50%,
+    var(--arcGreen) 70%,
+    var(--arcBG) 70%,
+    var(--arcBG) 75%,
+    var(--arcBlue) 75%,
+    var(--arcBlue) 100%
     );
     top: 20%;
-    height: 65%;
+    height: 28%;
 }
+
 .topper-lines::after {
     display: none;
 }
+
 .topper-names {
     position: relative;
     z-index: 2;
 }
 
-.topper-line {
-    position: absolute;
-    width: 140%;
-    height: 5px;
-    top: 10%;
-    left: -20%;
-    transform: rotate(120deg);
-    opacity: 0.85;
-    border-radius: 3px;
+.cassette{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.fade-in-left{
+    animation: fadeInLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

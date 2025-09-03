@@ -4,11 +4,11 @@
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-    --arcRed: #FF0000;
-    --arcYellow: #ffa600;
-    --arcGreen: #00ff40;
-    --arcBlue: #00fff2;
-    --arcBG: #ffeea4;
+    --arcRed: #ff6262;
+    --arcYellow: #ffc65c;
+    --arcGreen: #77ff99;
+    --arcBlue: #7dfcf5;
+    --arcBG: #06040e;
 }
 
 .App{
