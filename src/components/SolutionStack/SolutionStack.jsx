@@ -23,7 +23,6 @@ function solutionStack(){
   const BErenderItems = () => {
     return renderItems(BackEndSkillData);
   };
-  //Above renders both FESD and BESD by passing data into function. data is then mapped out and broken down based on_id
 
         return (
           <div className='solutionFlexColumn'>

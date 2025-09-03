@@ -91,26 +91,3 @@
     opacity: 0.85;
     border-radius: 3px;
 }
-.topper-line.red {
-    background: var(--arcRed);
-    top: 20%;
-}
-.topper-line.yellow {
-    background: var(--arcYellow);
-    top: 40%;
-}
-.topper-line.green {
-    background: var(--arcGreen);
-    top: 60%;
-}
-.topper-line.blue {
-    background: var(--arcBlue);
-    top: 80%;
-}
-
-.cassette{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 200px;
-}
