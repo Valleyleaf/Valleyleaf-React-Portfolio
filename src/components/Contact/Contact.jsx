@@ -7,13 +7,12 @@ import ContactForm from './ContactForm';
 export default function Contact(){
   return (
     <div className='contactMe'>
-      <div className='flex-container-columns main-content-scaling'>
-        <div className='flexBox3'>
-          <h2 className='HeadTextClass typewriterClassContact'>Contact Me</h2>
+      <div className='flexColumn'>
+        <div>
+          <h2 className='typewriterClassContact'>Contact Me</h2>
         </div>
-        <div className='flex-container-columns fade-in'>
+        <div className='flexColumn fade-in'>
           {ContactForm()}
-          {SocialMedia()}
         </div>
       </div>
     </div>
