@@ -1,32 +1,10 @@
-.aboutMe-flex-container-row{
+.AboutMeContainer{
   display: flex;
   flex-direction: row;
-  padding-bottom: 75px;
-}
-
-.aboutMe-flex-container-columns{
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-bottom: 155px;
-}
-
-.headTextClass{
-    font-family:monospace;
-    font-size: 38px;
-    text-align:left;
-}
-
-.headTextSectioned{
-  font-family:monospace;
-  font-size: 28px;
-  text-align:left;
-  margin-top: 25px;
-}
-
-.flexBox3{
-  display: flex;
-  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--arcBG2);
+  color: black;
 }
 
 .contactMeButton{

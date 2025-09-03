@@ -33,6 +33,7 @@ function PortfolioMain() {
 
   return (
     <div className='portfolioFlexColumn'>
+      <h2 className='projectText'>Projects</h2>
         <div className='portfolioFlexRow'>
           {renderItems()}
         </div>
