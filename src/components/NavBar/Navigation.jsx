@@ -17,11 +17,7 @@ export default function Navigation() {
       {categoryBar.map((category, index) => {
         const isActive = location.pathname === category.path;
         return (
-          <Link
-            key={index}
-            to={category.path}
-            className={`nav-Button${isActive ? ' nav-active' : ''}`}
-          >
+          <Link key={index} to={category.path} className={`nav-Button${isActive ? ' nav-active' : ''}`}>
             {category.name}
           </Link>
         );

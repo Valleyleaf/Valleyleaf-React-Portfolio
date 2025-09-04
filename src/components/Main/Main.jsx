@@ -9,9 +9,9 @@ import AboutSection from '../AboutMe/AboutMe'
   return (
     <> 
       {aboutMeData ? (
-          <div className='aboutMe-flex-container-columns'>
+          <div>
               {AboutSection()}
-            <div className='flex-container-columns center-content fade-in'>
+            <div className='fade-in'>
               {solutionStack()}
             </div>
             <div id='Portfolio' className='flexColumn center-content fade-in '>
