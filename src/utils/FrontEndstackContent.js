@@ -27,20 +27,6 @@ const FrontEndSkillData = [
         stackSkillLevel: '50',
         alt: 'PythonIcon'
     },
-    {
-        _id: '5',
-        icon: 'https://www.svgrepo.com/show/452234/java.svg',
-        title: 'Java',
-        stackSkillLevel: '50',
-        alt: 'JavaIcon'
-    },
-    {
-        _id: '6',
-        icon: 'https://www.svgrepo.com/show/452184/csharp.svg',
-        title: 'C#',
-        stackSkillLevel: '50',
-        alt: 'CSharpIcon'
-    },
 ]
 
 

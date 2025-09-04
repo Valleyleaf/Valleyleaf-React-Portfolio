@@ -1,32 +1,18 @@
-.aboutMe-flex-container-row{
+.AboutMeContainer{
   display: flex;
   flex-direction: row;
-  padding-bottom: 75px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--arcBG2);
+  color: black;
+  padding: 20px;
+  /* margin: 0px 15px 0px 15px; */
 }
 
-.aboutMe-flex-container-columns{
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-bottom: 155px;
-}
-
-.headTextClass{
-    font-family:monospace;
-    font-size: 38px;
-    text-align:left;
-}
-
-.headTextSectioned{
-  font-family:monospace;
-  font-size: 28px;
-  text-align:left;
-  margin-top: 25px;
-}
-
-.flexBox3{
-  display: flex;
-  flex: 0 0 auto;
+.aboutMeTextContainer{
+  text-wrap: balance;
+  width: 600px;
+  padding: 2%;
 }
 
 .contactMeButton{
@@ -44,12 +30,10 @@
 }
 
 .profile-img{
-
   width: 250px;
   height: 250px;
   border-radius: 35px;
   margin: 15px;
-  box-shadow: 9px -9px 1px var(--Orange);
   transition: transform 0.3s ease;
   overflow: hidden;
 }
@@ -104,8 +88,6 @@ transform: scale(1.01);
   .fade-in {
     animation: fadeIn 1s ease-in-out;
   }
-
-
 
 /* Mobile Options */
 @media screen and (max-width: 980px){

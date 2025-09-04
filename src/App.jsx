@@ -1,25 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header'
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
 
   return (
-    <>
-      <div className='Header-Top'>
-        <Header/>
-      </div>
-
-      <div className='navbarClass'>
+    <div className="App">
+      <nav className='navbarClass'>
         <NavBar/>
-      </div>
-
-      <div className='Outlet-Positioning'>
+      </nav>
+      <section>
         <Outlet/>
-      </div>
-    </>
+      </section>
+      <footer>
+        <Footer/>
+      </footer>
+    </div>
   );
 }
 

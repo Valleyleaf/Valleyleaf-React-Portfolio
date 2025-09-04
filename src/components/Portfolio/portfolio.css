@@ -3,11 +3,27 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%; 
 }
 
 .portfolioFlexColumn{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 800px;
+}
+
+.projectText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  white-space: nowrap;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 44px;
+  color: rgb(0, 0, 0);
 }
 
 .repoBox{
@@ -19,7 +35,7 @@
 }
 
 .deployandrepo{
-    background-color: var(--white);
+    background-color: white;
     border-radius: 5px;
     margin-right: 5px;
     width: 30px;
@@ -28,7 +44,7 @@
 }
 
 .deployandrepo:hover{
-    background-color: var(--mainGreen);
+    background-color: var(--arcBG2);
     border-radius: 5px;
     margin-right: 5px;
     width: 30px;
@@ -66,7 +82,7 @@
 .projectSlidePassive:hover{
   display: flex;
   justify-content: center;
-  width: 25%;
+  width: 40%;
   height: 500px;
   margin-left: 15px;
   overflow: hidden;  

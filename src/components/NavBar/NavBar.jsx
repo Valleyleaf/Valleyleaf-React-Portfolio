@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Topper from './Topper.jsx';
+import Navigation from './Navigation.jsx';
 import './navbar.css';
 
 export default function NavBar(){
@@ -11,41 +13,10 @@ export default function NavBar(){
     });
     event.target.className.add('nav-active');
   };
-// Divider
     return (
-      <div className='flex-container-columns'>
-        <nav className='flex-container-row center-content'>
-          <div className='nav-Button'>
-        <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          About Me
-        </Link>
-        </div>
-      
-        <div className='nav-Button'>
-        <Link
-          to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          Contact
-        </Link>
-        </div>
-        <div className='nav-Button'>
-        <Link
-          to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-active' : 'nav-link'}
-          onClick={handleLinkClick}
-        >
-          Resume
-        </Link>
-        </div>
-        </nav>
+      <div className='navMain'>
+        <Topper/>
+        <Navigation/>
       </div>
     );
   }
-
-  //Reminder, make nav-link active and nav-link stylings for later
