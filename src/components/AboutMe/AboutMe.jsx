@@ -9,9 +9,10 @@ import profilePicture from '../../assets/img/ProfilePicture.jpg'
     <> 
       {aboutMeData ? (
         <div className='AboutMeContainer'>
-          <div>
-            <h2>About me</h2>
-            <p>{aboutMeData.aboutMeP1}</p>
+          <div className='aboutMeTextContainer fade-in'>
+            <h2>{aboutMeData.aboutMeP1}</h2>
+            <p>{aboutMeData.aboutMeP2}</p>
+            <p>{aboutMeData.aboutMeP3}</p>
           </div>
 
 

@@ -1,8 +1,11 @@
+
+
 .solutionStackContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--arcBG);
+    padding: 20px 0px 40px 0px;
 }
 
 .SolutionText{
@@ -22,6 +25,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .solutionFlexColumn{
@@ -32,26 +36,31 @@
 
 .stackContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
-    background-color: var(--tintedGlass);
-    color: var(--white);
+    background-color: var(--arcBG2);
+    color: var(--arcBG3);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
     border: 1px solid var(--black);
     transition: transform 0.3s ease;
     margin-right: 5px;
     border-radius: 9px;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.541) 0px 2px 4px 0px inset;
 }
 
 .stackContainer:hover{
     transition: transform 0.3s ease;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .stackImage{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
     border-radius: 15px;
     padding: 2px;
 }

@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-height: 800px;
 }
 
 .projectText{
@@ -34,7 +35,7 @@
 }
 
 .deployandrepo{
-    background-color: var(--white);
+    background-color: white;
     border-radius: 5px;
     margin-right: 5px;
     width: 30px;
@@ -43,7 +44,7 @@
 }
 
 .deployandrepo:hover{
-    background-color: var(--mainGreen);
+    background-color: var(--arcBG2);
     border-radius: 5px;
     margin-right: 5px;
     width: 30px;
@@ -81,7 +82,7 @@
 .projectSlidePassive:hover{
   display: flex;
   justify-content: center;
-  width: 25%;
+  width: 40%;
   height: 500px;
   margin-left: 15px;
   overflow: hidden;  

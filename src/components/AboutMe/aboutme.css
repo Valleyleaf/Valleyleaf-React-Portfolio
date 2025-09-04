@@ -5,6 +5,14 @@
   justify-content: center;
   background-color: var(--arcBG2);
   color: black;
+  padding: 20px;
+  /* margin: 0px 15px 0px 15px; */
+}
+
+.aboutMeTextContainer{
+  text-wrap: balance;
+  width: 600px;
+  padding: 2%;
 }
 
 .contactMeButton{
@@ -22,12 +30,10 @@
 }
 
 .profile-img{
-
   width: 250px;
   height: 250px;
   border-radius: 35px;
   margin: 15px;
-  box-shadow: 9px -9px 1px var(--Orange);
   transition: transform 0.3s ease;
   overflow: hidden;
 }
