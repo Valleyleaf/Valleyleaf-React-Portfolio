@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from "react";
 import './contact.css'
 import ContactForm from './ContactForm';
 
@@ -14,7 +13,7 @@ export default function Contact(){
         <div className='formContainer fade-in'>
           {ContactForm()}
         </div>
-          {SocialMedia()}
+          {/* {SocialMedia()} */}
       </div>
     </>
   );
