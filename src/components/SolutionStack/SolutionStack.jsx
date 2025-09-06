@@ -11,7 +11,7 @@ function solutionStack(){
       key={_id} 
       className='stackContainer fade-in'>
         <img className="stackImage" src={skill.icon} alt={skill.alt}/>
-        <h5>{skill.title}</h5>
+        <h5 className='skillText'>{skill.title}</h5>
       </div>
     ));
   };

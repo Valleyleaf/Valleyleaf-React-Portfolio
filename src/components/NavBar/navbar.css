@@ -7,14 +7,15 @@
   }
 
   .nav-Button{
-    color: var(--black);
+    font-family: "Bungee", sans-serif;
+    color: var(--arcYellow);
     padding: 10px;
     transition: ease 0.3;
     transform: scale(1.0)
   }
 
   .nav-Button:hover{
-    color: var(--white);
+    color: var(--arcGreen);
     padding: 10px;
     transition: ease 0.3;
     transform: scale(1.2)
@@ -22,7 +23,8 @@
   
   .nav-active{
     text-decoration: dashed;
-    color: var(--white);
+    font-family: "Bungee", sans-serif;
+    color: var(--arcRed);
     font-weight: bold;
     text-decoration: underline;
     border-bottom-left-radius: 15px;
@@ -31,7 +33,7 @@
 
   .nav-active:hover{
     text-decoration: dashed;
-    color: var(--white);
+    color: var(--arcBlue);
     font-weight: bold;
     text-decoration: underline;
     border-bottom-left-radius: 15px;

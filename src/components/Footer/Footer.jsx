@@ -4,7 +4,7 @@ import './footer.css';
   return (
     <> 
         <div className="Footer">
-            <p>© 2024 Aston Andersson Dahllof. All rights reserved.</p>
+            <p>© 2025 Aston Andersson Dahllof. All rights reserved.</p>
         </div>
     </>
   );
