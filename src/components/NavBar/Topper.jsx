@@ -1,13 +1,13 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './topper.css';
 
 
 
 export default function Topper(){
     return (
+      <Link className='topper-link' to="/">
       <div className='flexColumn center-content'>
         <div className='flexRow center-content'>
-
           <div className='topper'>
             <div className='topper-lines-container'>
               <div className='topper-lines'></div>
@@ -15,8 +15,9 @@ export default function Topper(){
           </div>
           {/* Above is the logo. I should probably just turn it into a SVG but here we are.  */}
             <h2 className='firstName'>ASTON ANDERSSON DAHLLOF</h2>
-        </div>  
+        </div>
         <p className='title'>App Developer</p>
       </div>
+      </Link>
     );
 }

@@ -1,11 +1,12 @@
 import './footer.css';
 
   export default function Footer(){
-  return (
-    <> 
+    const currentYear = new Date().getFullYear();
+    return (
+      <>
         <div className="Footer">
-            <p>© 2025 Aston Andersson Dahllof. All rights reserved.</p>
+          <p>© {currentYear} Aston Andersson Dahllof. All rights reserved.</p>
         </div>
-    </>
-  );
+      </>
+    );
 };

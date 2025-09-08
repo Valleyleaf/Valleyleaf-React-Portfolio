@@ -1,26 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './aboutme.css'
-import aboutMeData from '../../assets/json/AboutMe.json'
+
 import profilePicture from '../../assets/img/ProfilePicture.jpg'
+import aboutMeText from './aboutMeText.jsx'
+import './aboutme.css'
+
 
   export default function About(){
   return (
     <> 
-      {aboutMeData ? (
         <div className='AboutMeContainer'>
-          <div className='aboutMeTextContainer fade-in'>
-            <h2 className='aboutMetitle'>{aboutMeData.aboutMeP1}</h2>
-            <p>{aboutMeData.aboutMeP2}</p>
-            {/* <button>{aboutMeData.aboutMeP3}</button> */}
-          </div>
-
-
+          {aboutMeText()}
           <img className='profile-img' src={profilePicture} alt="ProfileImage"/>
         </div>
-      ) : (
-        <p>Loading...</p>
-      )}
     </>
   );
 };
