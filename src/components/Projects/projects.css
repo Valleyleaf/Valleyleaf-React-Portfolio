@@ -1,0 +1,38 @@
+.projectsMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.projectVisualContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    border-radius: 20px;
+    background-color: var(--arcBG3);
+}
+
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(0, 0, 0);
+    width: 800px;
+    height: 650px;
+    border-radius: 20px;
+    margin: 50px 50px 0px 50px;
+    overflow: hidden;
+}
+
+.projectController{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.tvBottom{
+    display: flex;
+    justify-content: center;
+}

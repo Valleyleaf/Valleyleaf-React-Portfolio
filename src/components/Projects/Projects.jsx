@@ -1,20 +1,24 @@
+import TVLoader from './TVLoader';
+import './projects.css';
 
 function Projects() {
+
+
   return (
-    <section className="portfolioFlexColumn">
-      <h2 className="projectText">Projects</h2>
-      <div className="portfolioFlexRow">
-        {/* {projectData.map((data, idx) => (
-          <ProjectCard
-            key={idx}
-            title={data.title}
-            textContent={data.textContent}
-            image={data.image}
-            repoLink={data.repoLink}
-            deployLink={data.deployLink}
-          />
-        ))} */}
-      </div>
+    <section className="projectsMain">
+      <div className='projectVisualContainer'>
+        <div className='projectContainer'>
+          <div className='tvLoaderWrapper'>
+            <TVLoader/>
+          </div>
+        </div>
+
+          <div className='tvBottom'>
+          </div>
+        <div className='projectController'>
+        </div>
+      </div>  
+
     </section>
   );
 }

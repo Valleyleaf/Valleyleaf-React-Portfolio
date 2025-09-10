@@ -34,12 +34,6 @@
   background-color: var(--arcBG);
 }
 
-.retroLogo{
-  width: 80px;
-  height: 80px;
-  margin-bottom: -15px;
-  transform: rotate(-20deg);
-}
 
 .infoArea{
   width: 400px;

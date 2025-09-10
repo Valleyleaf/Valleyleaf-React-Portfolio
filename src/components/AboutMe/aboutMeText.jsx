@@ -1,5 +1,6 @@
 import './aboutme.css'
 
+
   export default function aboutMeText(){
   return (
     <> 

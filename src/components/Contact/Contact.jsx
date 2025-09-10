@@ -10,7 +10,6 @@ export default function Contact(){
     <>
       <div className='contactMe'>
         <div className='flexRow'>
-          <img className='retroLogo' src={retroLogo} alt="logo" />
           <h2 className='contactText'>Contact Me</h2>
         </div>
         <div className='formContainer fade-in'>
