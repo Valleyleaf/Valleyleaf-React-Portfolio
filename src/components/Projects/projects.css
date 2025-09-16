@@ -7,27 +7,6 @@
     background-color: var(--arcBG2);
 }
 
-.projectVisualContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    width: 100%;
-    height: 800px;
-    border-radius: 20px;
-    background-color: var(--arcBG3);
-}
-
-.projectContainer{
-    display: flex;
-    flex-direction: column;
-    border: solid 3px rgb(0, 0, 0);
-    width: 800px;
-    height: 650px;
-    border-radius: 20px;
-    margin: 50px 50px 0px 50px;
-    overflow: hidden;
-}
-
 .projectController{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,9 +18,45 @@
     justify-content: center;
 }
 
+.project-item{
+    width: 900px;
+    min-width: 400px;
+}
+
 .project-item:nth-child(even) {
   background-color: var(--arcBG2);
 }
 .project-item:nth-child(odd) {
   background-color: var(--arcBG3);
+}
+
+.repoBox{
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.deployandrepo{
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, background-color 0.5s ease;
+}
+
+.projectTitle{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    font-style: normal;
+    color: var(--arcBG2);
+    margin-bottom: 20px;
+}
+
+.projectDisc{
+    margin: 0px 5px 20px 5px;
+    max-width: 500px;
 }

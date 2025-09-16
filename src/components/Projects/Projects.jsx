@@ -1,5 +1,7 @@
 
 import TVLoader from './TVLoader';
+import deployIcon from '../../assets/img/link-alt-1-svgrepo-com.svg';
+import repoIcon from '../../assets/img/inbox-alt-1-svgrepo-com.svg';
 import './projects.css';
 import projectsData from '../../assets/json/projects.json';
 
@@ -28,11 +30,12 @@ function Projects() {
               boxShadow: '0 4px 16px rgba(0,0,0,0.2)'
             }}
           >
-            <h2>{project.title}</h2>
-            <p>{project.textContent}</p>
+            <h2 className='projectTitle'>{project.title}</h2>
+            <p className='projectDisc'>{project.textContent}</p>
             <div>
-              <a href={project.repoLink} target="_blank" rel="noopener noreferrer" style={{color: '#fff', textDecoration: 'underline', marginRight: '1rem'}}>Repo</a>
-              <a href={project.deployLink} target="_blank" rel="noopener noreferrer" style={{color: '#fff', textDecoration: 'underline'}}>Live</a>
+              <a href={project.repoLink} target="_blank" rel="noopener noreferrer" style={{color: '#fff', textDecoration: 'underline', marginRight: '1rem'}}><img className='deployandrepo' src={repoIcon} alt="repo"/></a>
+              
+              <a href={project.deployLink} target="_blank" rel="noopener noreferrer" style={{color: '#fff', textDecoration: 'underline'}}><img className='deployandrepo' src={deployIcon} alt="repo"/></a>
             </div>
           </div>
         ))}
