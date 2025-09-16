@@ -1,4 +1,12 @@
 const projectData = [
+        {
+        _id: '0',
+        title: 'Battle of Dominance',
+        image: 'https://i.imgur.com/upfcDDq.png',
+        textContent: 'Solo project. Full-Stack video game website deployed on Render. Built using React, Node.js, Express, MongoDB and Mongoose.',
+        repoLink: 'https://github.com/Valleyleaf/BoD',
+        deployLink: 'https://battleofdominance.onrender.com/',
+    },
     {
         _id: '1',
         title: 'moodMusic.com',
