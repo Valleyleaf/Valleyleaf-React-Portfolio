@@ -6,7 +6,7 @@ const categoryBar = [
   { name: 'About', path: '/about' },
   { name: 'Projects', path: '/projects' },
   // { name: 'Stack', path: '/stack' },
-  { name: 'Contact', path: '/contact' }
+  // { name: 'Contact', path: '/contact' }
 ];
 
 export default function Navigation() {
