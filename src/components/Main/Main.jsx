@@ -13,7 +13,7 @@ import SwitchBoard from '../SwitchBoard/SwitchBoard.jsx'
         <div className='fade-in'>
           {solutionStack()}
         </div>
-        {SwitchBoard()}
+        {/* {SwitchBoard()} */}
         {/* <div id='Portfolio' className='flexColumn center-content fade-in '>
           {portFolio()}
         </div> */}
