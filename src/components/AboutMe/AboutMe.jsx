@@ -1,6 +1,6 @@
 import profilePicture from '../../assets/img/ProfilePicture.jpg'
 import './aboutme.css'
-import './aboutMe.json'
+import aboutMeJson from './aboutMe.json'
 
 
   export default function About(){
