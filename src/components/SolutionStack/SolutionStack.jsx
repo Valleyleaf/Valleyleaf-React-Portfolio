@@ -25,16 +25,16 @@ function solutionStack(){
   };
 
         return (
-          <div className='solutionStackContainer'>
+          <section id='stackRef' className='solutionStackContainer'>
               <h2 className='fade-in SolutionText'>Languages</h2>
               <div className='solutionFlexRow'>
                 {FErenderItems()}
               </div>
               <h2 className='fade-in SolutionText'>Solutions & Frameworks</h2>
               <div className='solutionFlexRow'>
-              {BErenderItems()}
+                {BErenderItems()}
               </div>
-          </div>
+          </section>
         );
       }
 

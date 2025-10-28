@@ -1,28 +1,32 @@
 import React from 'react';
-import { useLocation, Link } from 'react-router-dom';
 import './navbar.css';
 
 const categoryBar = [
-  { name: 'About', path: '/about' },
-  { name: 'Projects', path: '/projects' },
-  // { name: 'Stack', path: '/stack' },
-  // { name: 'Contact', path: '/contact' }
+  { name: 'About', id: 'aboutMeRef' },
+  { name: 'Projects', id: 'portfolioRef' },
+  { name: 'Stack', id: 'stackRef' },
+  { name: 'Contact', id: 'contactRef' }
 ];
 
 export default function Navigation() {
-  const location = useLocation();
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   return (
-    <div className='Navigation'>
-      {categoryBar.map((category, index) => {
-        const isActive = location.pathname === category.path;
-        return (
-          <Link key={index} to={category.path} className={`nav-Button${isActive ? ' nav-active' : ''}`}>
-            {category.name}
-          </Link>
-        );
-      })}
-    </div>
+    <nav className="Navigation">
+      {categoryBar.map(({ name, id }) => (
+        <button
+          key={id}
+          className="nav-Button"
+          onClick={() => scrollToSection(id)}
+        >
+          {name}
+        </button>
+      ))}
+    </nav>
   );
 }
-
