@@ -3,8 +3,8 @@ import './navbar.css';
 
 const categoryBar = [
   { name: 'About', id: 'aboutMeRef' },
-  { name: 'Projects', id: 'portfolioRef' },
   { name: 'Stack', id: 'stackRef' },
+  { name: 'Projects', id: 'portfolioRef' },
   { name: 'Contact', id: 'contactRef' }
 ];
 
