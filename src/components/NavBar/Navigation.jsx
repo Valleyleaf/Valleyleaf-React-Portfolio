@@ -21,7 +21,7 @@ export default function Navigation() {
       {categoryBar.map(({ name, id }) => (
         <button
           key={id}
-          className="button-49"
+          className="button-54"
           onClick={() => scrollToSection(id)}
           alt={name}
         >
