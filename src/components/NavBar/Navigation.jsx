@@ -23,6 +23,7 @@ export default function Navigation() {
           key={id}
           className="button-49"
           onClick={() => scrollToSection(id)}
+          alt={name}
         >
           {name}
         </button>

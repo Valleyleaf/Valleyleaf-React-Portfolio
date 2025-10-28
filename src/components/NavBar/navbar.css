@@ -57,16 +57,17 @@
   
 .button-49,
 .button-49:after {
-  width: 150px;
-  height: 76px;
+  width: 75px;
+  height: 33px;
+  padding-left: 20px;
   line-height: 78px;
   font-size: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  font-family: "Bungee", sans-serif;
+  background: linear-gradient(45deg, transparent 5%, var(--arcRed) 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #00E6F6;
+  box-shadow: 6px 0px 0px var(--arcYellow);
   outline: transparent;
   position: relative;
   user-select: none;
