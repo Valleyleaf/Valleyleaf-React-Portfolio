@@ -8,7 +8,7 @@ import ContactForm from './ContactForm';
 export default function Contact(){
   return (
     <>
-      <div className='contactMe'>
+      <div id='contactRef' className='contactMe'>
         <div className='flexRow'>
           <h2 className='contactText'>Contact Me</h2>
         </div>
