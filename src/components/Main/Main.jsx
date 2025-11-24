@@ -16,9 +16,9 @@ import Contact from '../Contact/Contact.jsx';
           <h2 className="projectTitle">Projects</h2>
           {PortfolioMain()}
         </div>
-        <div className='fade-in'>
+        {/* <div className='fade-in'>
           {Contact()}
-        </div>
+        </div> */}
       </div>
     </>
   );
