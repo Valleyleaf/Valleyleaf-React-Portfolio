@@ -39,7 +39,7 @@
   font-family: "Bungee", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #000000;
+  color: var(--arcBG2);
   text-shadow: 4px 3px 0 #00000065;
 }
 
@@ -47,7 +47,7 @@
   font-family: "Bungee", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #000000;
+  color: var(--arcBG2);
   text-shadow: 4px 3px 0 #00000065;
 }
 
