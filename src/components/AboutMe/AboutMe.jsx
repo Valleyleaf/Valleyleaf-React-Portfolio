@@ -14,10 +14,9 @@ import BannerImage from '../../assets/img/Banner.png'
           >
             <div className='aboutMeTextContainer fade-in'>
               <h2 className='aboutMetitle'>{aboutMeJson.aboutme.header}</h2>
-              <p>{aboutMeJson.aboutme.description}</p>
+              <p className='aboutMeDescription'>{aboutMeJson.aboutme.description}</p>
               {/* <button>Interested in working with me?</button> */}
             </div>
-            <img className='profile-img' src={profilePicture} alt="ProfileImage"/>
           </div>
         </section>
     </>
