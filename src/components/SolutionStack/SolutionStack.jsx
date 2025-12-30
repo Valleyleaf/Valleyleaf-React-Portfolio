@@ -1,7 +1,7 @@
 import React from 'react';
 import {FrontEndSkillData} from '../../utils/FrontEndstackContent'
 import {BackEndSkillData} from '../../utils/BackEndstackContent'
-
+import {OtherEndSkillData} from '../../utils/OtherEndstackContent'
 import './solutionstack.css'
 
 function solutionStack(){
@@ -24,6 +24,10 @@ function solutionStack(){
     return renderItems(BackEndSkillData);
   };
 
+  const OErenderItems = () => {
+    return renderItems(OtherEndSkillData);
+  };
+
         return (
           <section id='stackRef' className='solutionStackContainer'>
               <h2 className='fade-in SolutionText'>Languages</h2>
@@ -33,6 +37,10 @@ function solutionStack(){
               <h2 className='fade-in SolutionText'>Solutions & Frameworks</h2>
               <div className='solutionFlexRow'>
                 {BErenderItems()}
+              </div>
+              <h2 className='fade-in SolutionText'>Other Fun things</h2>
+              <div className='solutionFlexRow'>
+                {OErenderItems()}
               </div>
           </section>
         );
