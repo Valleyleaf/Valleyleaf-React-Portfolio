@@ -1,7 +1,7 @@
 import React from 'react';
 import {FrontEndSkillData} from '../../utils/FrontEndstackContent'
 import {BackEndSkillData} from '../../utils/BackEndstackContent'
-import {OtherEndSkillData} from '../../utils/OtherEndstackContent'
+import {OtherEndSkillData} from '../../utils/otherEndstackContent'
 import './solutionstack.css'
 
 function solutionStack(){
