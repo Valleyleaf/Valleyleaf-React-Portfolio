@@ -1,9 +1,8 @@
 
-import TVLoader from './TVLoader';
 import deployIcon from '../../assets/img/link-alt-1-svgrepo-com.svg';
 import repoIcon from '../../assets/img/inbox-alt-1-svgrepo-com.svg';
 import './projects.css';
-import projectsData from '../../assets/json/projects.json';
+import projectsData from '../../utils/projects.json';
 
 
 function Projects() {
