@@ -7,9 +7,20 @@ import projectsData from '../../utils/projects.json';
 
 function Projects() {
   return (
-    <section className="projectsMain">
+    <section id='portfolioRef' className="projectsMain">
+      <div className='flexColumn center-content'>
+        <div className='flexRow center-content'>
+          <div className='topper'>
+            <div className='topper-lines-container'>
+              <div className='topper-lines'></div>
+            </div>
+          </div>
+            <h2 className='project-main-title'>My Projects</h2>
+        </div>
+      </div>
+
       <div className="projects-list">
-        {projectsData.map((project) => (
+        {projectsData.Projects.map((project) => (
           <div
             key={project._id}
             className="project-item"
@@ -17,16 +28,6 @@ function Projects() {
               backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.0) 80%), url(${project.image})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              borderRadius: '12px',
-              border: '5px solid var(--arcBG3)',
-              padding: '1rem',
-              margin: '1rem',
-              color: '#fff',
-              minHeight: '450px',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'flex-end',
-              boxShadow: '0 4px 16px rgba(0,0,0,0.2)'
             }}
           >
             <h2 className='projectTitle'>{project.title}</h2>

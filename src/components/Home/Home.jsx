@@ -12,7 +12,6 @@ import Projects from '../Projects/Projects.jsx'
           <SolutionStack/>
         </div>
         <div className="fade-in">
-          <h2 className="projectTitle">Projects</h2>
           <Projects/>
         </div>
       </div>
