@@ -5,7 +5,7 @@ import './projects.css';
 import projectsData from '../../utils/projects.json';
 
 
-function Projects() {
+export default function Projects() {
   return (
     <section id='portfolioRef' className="projectsMain">
       <div className='flexColumn center-content'>
@@ -44,4 +44,3 @@ function Projects() {
   );
 }
 
-export default Projects;

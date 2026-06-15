@@ -2,7 +2,7 @@ import React from 'react';
 import StackContent from '../../utils/StackContent.json';
 import './solutionstack.css';
 
-function SolutionStack() {
+export default function SolutionStack() {
 
   return (
     <section id='stackRef' className='solutionStackContainer'>
@@ -23,5 +23,3 @@ function SolutionStack() {
     </section>
   );
 }
-
-export default SolutionStack;

@@ -3,18 +3,14 @@ import SolutionStack from '../SolutionStack/SolutionStack.jsx'
 import AboutSection from '../AboutMe/AboutMe.jsx'
 import Projects from '../Projects/Projects.jsx'
 
-  export default function Main(){
+export default function Main(){
   return (
     <> 
-      <div>
+      <main className="fade-in">
           <AboutSection/>
-        <div className='fade-in'>
-          <SolutionStack/>
-        </div>
-        <div className="fade-in">
           <Projects/>
-        </div>
-      </div>
+          <SolutionStack/>
+      </main>
     </>
   );
 };
