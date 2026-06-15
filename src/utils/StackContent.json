@@ -1,74 +1,90 @@
+ 
+[
     {
-        "FrontEndStack": [
-        {
-            "id": "1",
-            "icon": "https://www.svgrepo.com/show/452228/html-5.svg",
-            "title": "HTML",
-            "alt": "HTMLicon"
-        },
-        {
-            "id": "2",
-            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
-            "title": "CSS",
-            "alt": "CSSicon"
-        },
-        {
-            "id": "3",
-            "icon": "https://www.svgrepo.com/show/452045/js.svg",
-            "title": "Javascript",
-            "alt": "Javascripticon"
-        },
-        {
-            "id": "4",
-            "icon": "https://www.svgrepo.com/show/452091/python.svg",
-            "title": "Python",
-            "alt": "PythonIcon"
-        }
-    ],
-        "backendStack": [
-        {
-            "_id": "1",
-            "icon": "https://www.svgrepo.com/show/354099/mysql.svg",
-            "title": "mySQL",
-            "alt": "SQLicon"
-        },
-        {
-            "_id": "2",
-            "icon": "https://www.svgrepo.com/show/353724/express.svg",
-            "title": "Express.js",
-            "alt": "Expressicon"
-        },
-        {
-            "_id": "3",
-            "icon": "https://www.svgrepo.com/show/354090/mongodb.svg",
-            "title": "MongoDB",
-            "alt": "MongoDBIcon"
-        },
-        {
-            "_id": "4",
-            "icon": "https://www.svgrepo.com/show/376337/node-js.svg",
-            "title": "Node.js",
-            "alt": "NodeIcon"
-        },
-        {
-            "_id": "5",
-            "icon": "https://www.svgrepo.com/show/354112/nextjs.svg",
-            "title": "Next.js",
-            "alt": "NextIcon"
-        },
-        {
-            "_id": "6",
-            "icon": "https://www.svgrepo.com/show/452092/react.svg",
-            "title": "React",
-            "alt": "ReactIcon"
-        }
-    ],
-        "OtherEndStack": [
-        {
-            "id": "1",
-            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
-            "title": "Docker",
-            "alt": "Dockericon"
-        }
-    ]
-}
+        "category": "FrontEndStack",
+        "items": [
+            {
+                "id": "1",
+                "icon": "https://www.svgrepo.com/show/452228/html-5.svg",
+                "title": "HTML",
+                "alt": "HTMLicon"
+            },
+            {
+                "id": "2",
+                "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+                "title": "CSS",
+                "alt": "CSSicon"
+            },
+            {
+                "id": "3",
+                "icon": "https://www.svgrepo.com/show/452045/js.svg",
+                "title": "Javascript",
+                "alt": "Javascripticon"
+            },
+            {
+                "id": "4",
+                "icon": "https://www.svgrepo.com/show/452091/python.svg",
+                "title": "Python",
+                "alt": "PythonIcon"
+            }
+        ]
+    },
+    {
+        "category": "backendStack",
+        "items": [
+            {
+                "_id": "1",
+                "icon": "https://www.svgrepo.com/show/354099/mysql.svg",
+                "title": "mySQL",
+                "alt": "SQLicon"
+            },
+            {
+                "_id": "2",
+                "icon": "https://www.svgrepo.com/show/353724/express.svg",
+                "title": "Express.js",
+                "alt": "Expressicon"
+            },
+            {
+                "_id": "3",
+                "icon": "https://www.svgrepo.com/show/354090/mongodb.svg",
+                "title": "MongoDB",
+                "alt": "MongoDBIcon"
+            },
+            {
+                "_id": "4",
+                "icon": "https://www.svgrepo.com/show/376337/node-js.svg",
+                "title": "Node.js",
+                "alt": "NodeIcon"
+            },
+            {
+                "_id": "5",
+                "icon": "https://www.svgrepo.com/show/354112/nextjs.svg",
+                "title": "Next.js",
+                "alt": "NextIcon"
+            },
+            {
+                "_id": "6",
+                "icon": "https://www.svgrepo.com/show/452092/react.svg",
+                "title": "React",
+                "alt": "ReactIcon"
+            }
+        ]
+    },
+    {
+        "category": "OtherEndStack",
+        "items": [
+            {
+                "id": "1",
+                "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+                "title": "Docker",
+                "alt": "Dockericon"
+            },
+            {
+                "id": "2",
+                "icon": "https://www.svgrepo.com/show/354143/openshift.svg",
+                "title": "OpenShift",
+                "alt": "OpenShifticon"
+            }
+        ]
+    }
+]
