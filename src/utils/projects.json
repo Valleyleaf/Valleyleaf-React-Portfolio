@@ -2,9 +2,9 @@
     "Projects":[
         {
             "_id": "0",
-            "title": "Battle of Dominance",
+            "title": "Video Game Website",
             "image": "https://i.imgur.com/upfcDDq.png",
-            "textContent": "Solo project. Full-Stack video game website deployed on Render. Built using React, Node.js, Express, MongoDB and Mongoose.",
+            "textContent": "Full-Stack video game website deployed on Render. Built using React, Node.js, Express and Mongoose. Backend RESTAPI connects to MongoDB database to store character information and game data.",
             "repoLink": "https://github.com/Valleyleaf/BoD",
             "deployLink": "https://battleofdominance.onrender.com/"
         },
@@ -44,7 +44,7 @@
             "_id": "5",
             "title": "mySQL E-commerce Database",
             "image": "https://i.imgur.com/g4sA83b.png",
-            "textContent": "Structured database through mySQL for a E-commerce. For learning purposes only.",
+            "textContent": "Structured database through mySQL for a E-commerce.",
             "repoLink": "https://github.com/Valleyleaf/Object-Relational-Mapping",
             "deployLink": "https://github.com/Valleyleaf/Object-Relational-Mapping"
         },
