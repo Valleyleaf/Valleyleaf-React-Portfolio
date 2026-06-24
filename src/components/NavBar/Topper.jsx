@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+import './navbar.css';
 import topperLogo from '../../assets/img/logoSVG.svg';
 
 
