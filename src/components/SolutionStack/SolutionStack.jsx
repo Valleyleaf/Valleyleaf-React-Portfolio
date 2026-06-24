@@ -1,51 +1,28 @@
 import React from 'react';
-import {FrontEndSkillData} from '../../utils/FrontEndstackContent'
-import {BackEndSkillData} from '../../utils/BackEndstackContent'
-import {OtherEndSkillData} from '../../utils/otherEndstackContent'
-import './solutionstack.css'
+import StackContent from '../../utils/StackContent.json';
+import './solutionstack.css';
+import topperLogo from '../../assets/img/logoSVG.svg'
 
-function solutionStack(){
-  const renderItems = (data) => {
-    return data.map((skill, _id) => (
-      <div 
-      key={_id} 
-      className='stackContainer fade-in'>
-        <img className="stackImage" src={skill.icon} alt={skill.alt}/>
-        <h5 className='skillText'>{skill.title}</h5>
+export default function SolutionStack() {
+
+  return (
+    <section id='stackRef' className='solutionStackContainer'>
+      <div className='stackHeader'>
+        <img src={topperLogo} alt="logo" className='topperLogo'/>
+        <h2 className='stackTitle'>My ToolKit</h2>
       </div>
-    ));
-  };
-  
-  const FErenderItems = () => {
-    return renderItems(FrontEndSkillData);
-  };
-  
-  const BErenderItems = () => {
-    return renderItems(BackEndSkillData);
-  };
-
-  const OErenderItems = () => {
-    return renderItems(OtherEndSkillData);
-  };
-
-        return (
-          <section id='stackRef' className='solutionStackContainer'>
-              <h2 className='fade-in SolutionText'>Languages</h2>
-              <div className='solutionFlexRow'>
-                {FErenderItems()}
+      {Array.isArray(StackContent) && StackContent.map((stack) => (
+        <div key={stack.category} className='solutionFlexRow'>
+          {Array.isArray(stack.items) && stack.items.map((item) => (
+            <div key={item.id}>
+              <div className='stackContainer'>
+                <img className='stackImage' src={item.icon} alt={item.alt} />
+                <p className='SolutionText'>{item.title}</p>
               </div>
-              <h2 className='fade-in SolutionText'>Solutions & Frameworks</h2>
-              <div className='solutionFlexRow'>
-                {BErenderItems()}
-              </div>
-              <h2 className='fade-in SolutionText'>Other Fun things</h2>
-              <div className='solutionFlexRow'>
-                {OErenderItems()}
-              </div>
-          </section>
-        );
-      }
-
-//Above can technically be broken down into a single function and re-rendered twice but I don't want to do that.
-
-export default solutionStack;
+            </div>
+          ))}
+        </div>
+      ))}
+    </section>
+  );
+}

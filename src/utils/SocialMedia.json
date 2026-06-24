@@ -1,0 +1,22 @@
+{
+        "socialmediaLinks": [
+            {
+                "_id": "0",
+                "title": "LinkedIn",
+                "image": "../../assets/img/linkedin-fill-svgrepo-com.svg",
+                "link": "https://www.linkedin.com/in/aston-andersson-dahllof-b4310ab5/"
+            },
+            {
+                "_id": "1",
+                "title": "GitHub",
+                "image": "../../assets/img/github-fill-svgrepo-com.svg",
+                "link": "https://github.com/Valleyleaf"
+            },
+            {
+                "_id": "2",
+                "title": "Twitter",
+                "image": "../../assets/img/twitter-fill-svgrepo-com.svg",
+                "link": "https://twitter.com/ValleyleafSys"
+                }
+        ]
+}

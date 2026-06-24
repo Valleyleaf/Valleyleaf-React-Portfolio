@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './topper.css';
-
+import './NavBar.css';
+import topperLogo from '../../assets/img/logoSVG.svg';
 
 
 export default function Topper(){
@@ -8,12 +8,7 @@ export default function Topper(){
       <Link className='topper-link' to="/">
       <div className='flexColumn center-content'>
         <div className='flexRow center-content'>
-          <div className='topper'>
-            <div className='topper-lines-container'>
-              <div className='topper-lines'></div>
-            </div>
-          </div>
-          {/* Above is the logo. I should probably just turn it into a SVG but here we are.  */}
+            <img className='topperLogo' src={topperLogo} alt="logo" />
             <h2 className='firstName'>ASTON ANDERSSON DAHLLOF</h2>
         </div>
         <p className='title'>Full-Stack Web Developer</p>

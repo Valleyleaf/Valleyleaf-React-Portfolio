@@ -2,10 +2,9 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
-import Main from './components/Main/Main.jsx'
-import Contact from './components/Contact/Contact.jsx'
-import Projects from './components/Projects/Projects.jsx'
-import Stack from './components/Stack/Stack.jsx'
+import Home from './components/Home/Home.jsx'
+import Footer from './components/Footer/Footer.jsx'
+// import Projects from './components/Projects/Projects.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,24 +13,16 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Main />,
+        element: <Home />,
       },
-            {
+      {
         path: 'About',
-        element: <Main />,
+        element: <Home />,
       },
       {
-        path: 'projects',
-        element: <Projects />,
-      },
-      {
-        path: 'stack',
-        element: <Stack />,
-      },
-      {
-        path: 'contact',
-        element: <Contact />,
-      },
+        path: 'Footer',
+        element: <Footer/>
+      }
     ],
   },
 ]);

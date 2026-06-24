@@ -1,10 +1,10 @@
 import React from 'react';
-import './navbar.css';
+import './NavBar.css';
 
 const categoryBar = [
   { name: 'About', id: 'aboutMeRef' },
-  { name: 'Stack', id: 'stackRef' },
-  { name: 'Projects', id: 'portfolioRef' }
+  { name: 'Projects', id: 'portfolioRef' },
+  { name: 'Toolkit', id: 'stackRef' }
   // { name: 'Contact', id: 'contactRef' }
 ];
 
